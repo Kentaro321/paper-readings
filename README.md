@@ -14,14 +14,15 @@ Automatically visualize your paper reading log below:
 |---|---|
 | LLM | 7 |
 | TTS | 3 |
+| Multimodal (T/S) | 2 |
 | Dataset (Speech) | 1 |
-| Multimodal (T/S) | 1 |
 | Speech | 1 |
 | THG | 1 |
-| **Total** | **14** |
+| **Total** | **15** |
 
 **Recently read**
 
+- [OpusLM: A Family of Open Unified Speech Language Models](https://arxiv.org/abs/2506.17611) — *Multimodal (T/S)* (2025-08-28)
 - [Scalable Spontaneous Speech Dataset (SSSD): Crowdsourcing Data Collection to Promote Dialogue Research](https://www.isca-archive.org/interspeech_2025/sheikh25_interspeech.pdf) — *Dataset (Speech)* (2025-08-27)
 - [Qwen3: Think Deeper, Act Faster](https://qwenlm.github.io/blog/qwen3/) — *LLM* (2025-04-30)
 - [ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning](https://arxiv.org/abs/2412.03104) — *LLM* (2025-04-28)
@@ -31,7 +32,6 @@ Automatically visualize your paper reading log below:
 - [ALMTokenizer: A Low-bitrate and Semantic-rich Audio Codec Tokenizer for Audio Language Modeling](https://arxiv.org/abs/2504.10344) — *TTS* (2025-04-16)
 - [Backward Lens: Projecting Language Model Gradients into the Vocabulary Space](https://arxiv.org/abs/2402.12865) — *LLM* (2025-04-15)
 - [A Streamable Neural Audio Codec with Residual Scalar-Vector Quantization for Real-Time Communication](https://arxiv.org/abs/2504.06561) — *TTS* (2025-04-14)
-- [Understanding R1-Zero-Like Training: A Critical Perspective](https://arxiv.org/abs/2503.20783) — *LLM* (2025-04-11)
 <!--CHART_END-->
 
 ## How to add a new paper
