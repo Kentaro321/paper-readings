@@ -1,3 +1,12 @@
+- title: "OpusLM: A Family of Open Unified Speech Language Models"
+  category: "Multimodal (T/S)"
+  date: "2025-08-28"
+  link: "https://arxiv.org/abs/2506.17611"
+  note: >
+    モデル、学習・推論コード、データを全て公開した1.3B/7Bの音声言語モデルを公開
+    モデルはsemantic token x 1, acoustic token x 8を一度に予測するマルチストリームな構造
+    ASR, TTS, NLPで高い性能を示すが、135Mや360Mでは大幅な性能劣化が見られ、モデルサイズの重要性を示唆
+
 - title: "Scalable Spontaneous Speech Dataset (SSSD): Crowdsourcing Data Collection to Promote Dialogue Research"
   category: "Dataset (Speech)"
   date: "2025-08-27"
