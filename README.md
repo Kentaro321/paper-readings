@@ -3,23 +3,34 @@
 Automatically visualize your paper reading log below:
 
 <!--CHART_START-->
-![Category chart](assets/category_counts.svg)
+![By category](assets/category_stylish.svg)
+
+![Activity heatmap](assets/activity_heatmap.svg)
 
 
 **Breakdown**
 
 | Category | Count |
 |---|---|
-| ASR | 1 |
-| LLM | 1 |
-| TTS | 1 |
-| **Total** | **3** |
+| LLM | 7 |
+| TTS | 3 |
+| Multimodal (T/S) | 1 |
+| Speech | 1 |
+| THG | 1 |
+| **Total** | **13** |
 
 **Recently read**
 
-- [Chain-of-Thought Reasoning Elicits...](https://arxiv.org/abs/xxxx.xxxx) — *LLM* (2023-05-10)
-- [SpeechT5: Unified-Modal Encoder-Decoder...](https://arxiv.org/abs/xxxx.xxxx) — *ASR* (2022-02-14)
-- [VITS: Conditional Variational...](https://arxiv.org/abs/xxxx.xxxx) — *TTS* (2021-06-01)
+- [Qwen3: Think Deeper, Act Faster](https://qwenlm.github.io/blog/qwen3/) — *LLM* (2025-04-30)
+- [ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning](https://arxiv.org/abs/2412.03104) — *LLM* (2025-04-28)
+- [Context-aware Dynamic Pruning for Speech Foundation Models](https://openreview.net/forum?id=u2QdCiOgwA) — *Speech* (2025-04-23)
+- [An Evolved Universal Transformer Memory](https://arxiv.org/abs/2410.13166) — *LLM* (2025-04-22)
+- [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/abs/2306.00978) — *LLM* (2025-04-18)
+- [ALMTokenizer: A Low-bitrate and Semantic-rich Audio Codec Tokenizer for Audio Language Modeling](https://arxiv.org/abs/2504.10344) — *TTS* (2025-04-16)
+- [Backward Lens: Projecting Language Model Gradients into the Vocabulary Space](https://arxiv.org/abs/2402.12865) — *LLM* (2025-04-15)
+- [A Streamable Neural Audio Codec with Residual Scalar-Vector Quantization for Real-Time Communication](https://arxiv.org/abs/2504.06561) — *TTS* (2025-04-14)
+- [Understanding R1-Zero-Like Training: A Critical Perspective](https://arxiv.org/abs/2503.20783) — *LLM* (2025-04-11)
+- [VocalNet: Speech LLM with Multi-Token Prediction for Faster and High-Quality Generation](https://arxiv.org/abs/2504.04060) — *Multimodal (T/S)* (2025-04-10)
 <!--CHART_END-->
 
 ## How to add a new paper
