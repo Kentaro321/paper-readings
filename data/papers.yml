@@ -1,3 +1,9 @@
+- title: "Scalable Spontaneous Speech Dataset (SSSD): Crowdsourcing Data Collection to Promote Dialogue Research"
+  category: "Dataset (Speech)"
+  date: "2025-08-27"
+  link: "https://www.isca-archive.org/interspeech_2025/sheikh25_interspeech.pdf"
+  note: "クラウドソーシングで2話者の自発的対話を収集した700時間超のデータセットを公開"
+
 - title: "Qwen3: Think Deeper, Act Faster"
   category: "LLM"
   date: "2025-04-30"
