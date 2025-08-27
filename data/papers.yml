@@ -1,14 +1,66 @@
-- title: "Chain-of-Thought Reasoning Elicits..."
+- title: "Qwen3: Think Deeper, Act Faster"
   category: "LLM"
-  date: "2023-05-10"
-  link: "https://arxiv.org/abs/xxxx.xxxx"
+  date: "2025-04-30"
+  link: "https://qwenlm.github.io/blog/qwen3/"
 
-- title: "VITS: Conditional Variational..."
+- title: "ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning"
+  category: "LLM"
+  date: "2025-04-28"
+  link: "https://arxiv.org/abs/2412.03104"
+
+- title: "Context-aware Dynamic Pruning for Speech Foundation Models"
+  category: "Speech"
+  tags: ["ASR", "TTS"]
+  date: "2025-04-23"
+  link: "https://openreview.net/forum?id=u2QdCiOgwA"
+
+- title: "An Evolved Universal Transformer Memory"
+  category: "LLM"
+  date: "2025-04-22"
+  link: "https://arxiv.org/abs/2410.13166"
+
+- title: "AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration"
+  category: "LLM"
+  date: "2025-04-18"
+  link: "https://arxiv.org/abs/2306.00978"
+
+- title: "ALMTokenizer: A Low-bitrate and Semantic-rich Audio Codec Tokenizer for Audio Language Modeling"
   category: "TTS"
-  date: "2021-06-01"
-  link: "https://arxiv.org/abs/xxxx.xxxx"
+  date: "2025-04-16"
+  link: "https://arxiv.org/abs/2504.10344"
 
-- title: "SpeechT5: Unified-Modal Encoder-Decoder..."
-  category: "ASR"
-  date: "2022-02-14"
-  link: "https://arxiv.org/abs/xxxx.xxxx"
+- title: "Backward Lens: Projecting Language Model Gradients into the Vocabulary Space"
+  category: "LLM"
+  date: "2025-04-15"
+  link: "https://arxiv.org/abs/2402.12865"
+
+- title: "A Streamable Neural Audio Codec with Residual Scalar-Vector Quantization for Real-Time Communication"
+  category: "TTS"
+  date: "2025-04-14"
+  link: "https://arxiv.org/abs/2504.06561"
+
+- title: "Understanding R1-Zero-Like Training: A Critical Perspective"
+  category: "LLM"
+  date: "2025-04-11"
+  link: "https://arxiv.org/abs/2503.20783"
+
+- title: "VocalNet: Speech LLM with Multi-Token Prediction for Faster and High-Quality Generation"
+  category: "Multimodal (T/S)"
+  tags: ["LLM", "TTS"]
+  date: "2025-04-10"
+  link: "https://arxiv.org/abs/2504.04060"
+
+- title: "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation"
+  category: "LLM"
+  date: "2025-04-07"
+  link: "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+
+- title: "MegaTTS 3: Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis"
+  category: "TTS"
+  date: "2025-04-03"
+  link: "https://arxiv.org/abs/2502.18924"
+
+- title: "MoCha: Towards Movie-Grade Talking Character Synthesis"
+  category: "THG"
+  date: "2025-04-01"
+  link: "https://arxiv.org/abs/2503.23307"
