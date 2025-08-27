@@ -1,0 +1,36 @@
+name: Update README chart
+
+on:
+  push:
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - ".github/workflows/update-readme.yml"
+  schedule:
+    - cron: "0 0 * * *" # regenerate every day
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Sync env & run
+        run: |
+          uv python install 3.12
+          uv sync
+          uv run python scripts/build_readme.py
+
+      - name: Commit & push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update chart & README"
+          branch: ${{ github.ref_name }}
