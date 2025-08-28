@@ -1,3 +1,12 @@
+- title: "WavReward: Spoken Dialogue Models With Generalist Reward Evaluators"
+  category: "Multimodal (T/S)"
+  date: "2025-08-28"
+  link: "https://arxiv.org/abs/2505.09558"
+  note: >
+    音声対話モデルを強化学習するためのデータセットChatReward-30Kと、それを用いてQwen2.5-Omni-7B-Thinkを強化学習した報酬モデルWavRewardを提案
+    データセットは応答の適切さだけでなく、話し方、話者性、感情等の音声特有の側面も考慮して1, 3, 5の3段階でスコアリング
+    音声対話のスコアリングにおいてGPT-4o-audioを超える性能を達成
+
 - title: "LIST: Language-Independent Speech Token for Multilingual Speech Synthesis with Language Models"
   category: "TTS"
   date: "2025-08-28"
