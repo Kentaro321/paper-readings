@@ -1,4 +1,5 @@
 import datetime
+import os
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -12,6 +13,32 @@ README = ROOT / "README.md"
 ASSETS = ROOT / "assets"
 MARK_START = "<!--CHART_START-->"
 MARK_END = "<!--CHART_END-->"
+
+# Prefer standard library zoneinfo (Python 3.9+). If unavailable or TZ invalid,
+# gracefully fall back to the system local date.
+try:  # Python >=3.9
+    from zoneinfo import ZoneInfo  # type: ignore
+except Exception:  # pragma: no cover - older Python
+    ZoneInfo = None  # type: ignore
+
+
+def today_in_tz() -> datetime.date:
+    """
+    Return today's date in the configured timezone.
+
+    - Uses env var `PAPERS_TZ` if set (e.g., "Asia/Tokyo").
+    - Otherwise uses `TZ` if set (common on Linux/macOS).
+    - Falls back to system local date if zoneinfo or TZ is unavailable.
+    """
+    tz_name = os.environ.get("PAPERS_TZ") or os.environ.get("TZ")
+    if tz_name and ZoneInfo is not None:
+        try:
+            tz = ZoneInfo(tz_name)
+            return datetime.datetime.now(tz).date()
+        except Exception:
+            pass
+    # Fallback: system local date (GitHub Hosted runners default to UTC)
+    return datetime.date.today()
 
 
 def load_papers():
@@ -67,7 +94,9 @@ def parse_date(date_str: str):
 def make_calendar_heatmap(papers, outpath: Path):
     ASSETS.mkdir(parents=True, exist_ok=True)
 
-    today = datetime.date.today()
+    # Use timezone-aware "today" so the heatmap reflects the desired local day
+    # (e.g., Asia/Tokyo) instead of the runner's system timezone.
+    today = today_in_tz()
     start = today - datetime.timedelta(days=365)
 
     def parse_date(s):

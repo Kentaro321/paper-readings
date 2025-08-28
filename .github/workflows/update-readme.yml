@@ -24,6 +24,8 @@ jobs:
           echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: Sync env & run
+        env:
+          PAPERS_TZ: Asia/Tokyo
         run: |
           uv python install 3.12
           uv sync
