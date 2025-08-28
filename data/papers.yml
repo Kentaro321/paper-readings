@@ -1,3 +1,12 @@
+- title: "LIST: Language-Independent Speech Token for Multilingual Speech Synthesis with Language Models"
+  category: "TTS"
+  date: "2025-08-28"
+  link: "https://www.isca-archive.org/interspeech_2025/liu25o_interspeech.pdf"
+  note: >
+    ASRで学習される音声トークナイザーに対し、ASRのターゲットをIPAにすることで言語非依存な音声トークンを獲得する手法を提案
+    音声トークンからメルスペクトログラムを生成するflow matching部分は声質変換された音声から抽出された音声トークンを入力として学習することで話者非依存な音声トークンを獲得
+    TTSによる評価では、ASRのターゲットがテキスト（BPE）の場合と比較して、英語以外の全言語のCERを改善
+
 - title: "OpusLM: A Family of Open Unified Speech Language Models"
   category: "Multimodal (T/S)"
   date: "2025-08-28"
