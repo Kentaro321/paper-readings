@@ -39,6 +39,21 @@
   link: "https://www.isca-archive.org/interspeech_2025/sheikh25_interspeech.pdf"
   note: "クラウドソーシングで2話者の自発的対話を収集した700時間超のデータセットを公開"
 
+- title: "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training"
+  category: "TTS"
+  date: "2025-05-28"
+  link: "https://arxiv.org/abs/2505.17589"
+
+- title: "Understanding R1-Zero-Like Training: A Critical Perspective"
+  category: "LLM"
+  date: "2025-05-27"
+  link: "https://arxiv.org/abs/2503.20783"
+
+- title: "How Do Large Language Models Acquire Factual Knowledge During Pretraining?"
+  category: "LLM"
+  date: "2025-05-16"
+  link: "https://arxiv.org/abs/2406.11813"
+
 - title: "Qwen3: Think Deeper, Act Faster"
   category: "LLM"
   date: "2025-04-30"

@@ -12,13 +12,13 @@ Automatically visualize your paper reading log below:
 
 | Category | Count |
 |---|---|
-| LLM | 8 |
-| TTS | 4 |
+| LLM | 10 |
+| TTS | 5 |
 | Multimodal (T/S) | 3 |
 | Dataset (Speech) | 1 |
 | Speech | 1 |
 | THG | 1 |
-| **Total** | **18** |
+| **Total** | **21** |
 
 **Recently read**
 
@@ -27,11 +27,11 @@ Automatically visualize your paper reading log below:
 - [LIST: Language-Independent Speech Token for Multilingual Speech Synthesis with Language Models](https://www.isca-archive.org/interspeech_2025/liu25o_interspeech.pdf) — *TTS* (2025-08-28)
 - [OpusLM: A Family of Open Unified Speech Language Models](https://arxiv.org/abs/2506.17611) — *Multimodal (T/S)* (2025-08-28)
 - [Scalable Spontaneous Speech Dataset (SSSD): Crowdsourcing Data Collection to Promote Dialogue Research](https://www.isca-archive.org/interspeech_2025/sheikh25_interspeech.pdf) — *Dataset (Speech)* (2025-08-27)
+- [CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training](https://arxiv.org/abs/2505.17589) — *TTS* (2025-05-28)
+- [Understanding R1-Zero-Like Training: A Critical Perspective](https://arxiv.org/abs/2503.20783) — *LLM* (2025-05-27)
+- [How Do Large Language Models Acquire Factual Knowledge During Pretraining?](https://arxiv.org/abs/2406.11813) — *LLM* (2025-05-16)
 - [Qwen3: Think Deeper, Act Faster](https://qwenlm.github.io/blog/qwen3/) — *LLM* (2025-04-30)
 - [ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning](https://arxiv.org/abs/2412.03104) — *LLM* (2025-04-28)
-- [Context-aware Dynamic Pruning for Speech Foundation Models](https://openreview.net/forum?id=u2QdCiOgwA) — *Speech* (2025-04-23)
-- [An Evolved Universal Transformer Memory](https://arxiv.org/abs/2410.13166) — *LLM* (2025-04-22)
-- [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/abs/2306.00978) — *LLM* (2025-04-18)
 <!--CHART_END-->
 
 ## How to add a new paper
