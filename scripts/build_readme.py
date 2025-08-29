@@ -3,12 +3,11 @@ import os
 from collections import Counter, defaultdict
 from pathlib import Path
 
-import matplotlib.patheffects as pe
 import matplotlib.pyplot as plt
+import mplcyberpunk
 import numpy as np
 import yaml
 from matplotlib.patches import FancyBboxPatch
-from matplotlib import colors
 
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
@@ -49,6 +48,8 @@ def load_papers():
 
 
 def make_bar_chart_stylish(counts, outpath: Path):
+    plt.style.use("cyberpunk")
+
     ASSETS.mkdir(parents=True, exist_ok=True)
     items = sorted(counts.items(), key=lambda kv: kv[1], reverse=True)
     cats = [k for k, _ in items]
@@ -56,12 +57,8 @@ def make_bar_chart_stylish(counts, outpath: Path):
 
     fig, ax = plt.subplots(figsize=(8, 4), dpi=200)
 
-    ax.set_facecolor("#f7f8fa")
-    fig.patch.set_facecolor("#ffffff")
-
-    bars = ax.barh(cats, vals, height=0.6, linewidth=0, color="#4C78A8")
-    for b in bars:
-        b.set_path_effects([pe.withStroke(linewidth=3, foreground="white", alpha=0.9)])
+    bars = ax.barh(cats, vals, height=0.6, linewidth=0)
+    mplcyberpunk.add_bar_gradient(bars=bars, horizontal=True)
 
     for y, v in enumerate(vals):
         ax.text(
@@ -71,12 +68,10 @@ def make_bar_chart_stylish(counts, outpath: Path):
             va="center",
             ha="left",
             fontsize=11,
-            color="#2f3b52",
-            path_effects=[pe.withStroke(linewidth=3, foreground="white", alpha=0.85)],
         )
 
     ax.invert_yaxis()
-    ax.grid(axis="x", color="#dfe3e8", linewidth=1, alpha=0.8)
+    ax.grid(axis="x", linewidth=1, alpha=0.8)
     ax.set_axisbelow(True)
     ax.set_xlabel("Count", labelpad=8)
     ax.set_title("Papers by Category", pad=12, fontsize=14, weight="bold")
@@ -91,6 +86,25 @@ def parse_date(date_str: str):
         return datetime.date.fromisoformat(date_str)
     except Exception:
         return None
+
+
+def custom_cmap(value):
+    value = int(max(0, min(value, 5)))
+    match value:
+        case 0:
+            return "#888888"
+        case 1:
+            return "#1c526b"
+        case 2:
+            return "#177b90"
+        case 3:
+            return "#12a5b5"
+        case 4:
+            return "#0dceda"
+        case 5:
+            return "#08f7fe"
+        case _:
+            return "#ffffff"
 
 
 def make_calendar_heatmap(papers, outpath: Path):
@@ -136,12 +150,6 @@ def make_calendar_heatmap(papers, outpath: Path):
         d += datetime.timedelta(days=7)
 
     fig, ax = plt.subplots(figsize=(8, 2.0), dpi=200)
-    fig.patch.set_facecolor("#ffffff")
-    ax.set_facecolor("#ffffff")
-
-
-    norm = colors.Normalize(vmin=0, vmax=5)
-    cmap = plt.get_cmap("YlGn")
 
     cell_pad = 0.15  # gap around each square (in cell units)
     rounding = 0.25  # rounded corner radius (in cell units)
@@ -152,7 +160,7 @@ def make_calendar_heatmap(papers, outpath: Path):
             if np.isnan(val):
                 continue  # outside range: skip drawing
             # 0-count days use a light gray like GitHub; >0 use colormap
-            face = "#ebedf0" if val == 0 else cmap(norm(val))
+            face = custom_cmap(val)
             # Place a slightly smaller rounded rectangle to create gutters
             x0 = col + cell_pad
             y0 = row + cell_pad
@@ -174,9 +182,10 @@ def make_calendar_heatmap(papers, outpath: Path):
     ax.set_aspect("equal")
 
     ax.set_yticks([1.5, 3.5, 5.5])
-    ax.set_yticklabels(["Mon", "Wed", "Fri"], fontsize=8, color="#4b5563")
+    ax.set_yticklabels(["Mon", "Wed", "Fri"], fontsize=8, color="#eeeeee")
     ax.set_xticks([])
     ax.tick_params(bottom=False, left=False)
+    ax.grid(False)
     # Remove outer frame (spines)
     for spine in ax.spines.values():
         spine.set_visible(False)
@@ -194,11 +203,14 @@ def make_calendar_heatmap(papers, outpath: Path):
             last_month = mon
 
     for xpos, lab in zip(month_positions, month_labels):
-        ax.text(xpos, -0.35, lab, ha="center", va="bottom", fontsize=8, color="#4b5563")
+        ax.text(xpos, -0.35, lab, ha="center", va="bottom", fontsize=8, color="#eeeeee")
 
     n_papers = sum(per_day.values())
     ax.set_title(
-        f"{n_papers} papers read in the last 12 months", fontsize=12, pad=20, weight="bold"
+        f"{n_papers} papers read in the last 12 months",
+        fontsize=12,
+        pad=20,
+        weight="bold",
     )
 
     plt.tight_layout()

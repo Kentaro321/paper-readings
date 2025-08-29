@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 2
 requires-python = ">=3.12"
 
 [[package]]
@@ -245,6 +245,19 @@ wheels = [
 ]
 
 [[package]]
+name = "mplcyberpunk"
+version = "0.7.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/21/53/9cf3da89c28374b92a2cb9b975fd1031858e0eaee31edd762e3a4619ecb7/mplcyberpunk-0.7.6.tar.gz", hash = "sha256:797cb36b5e1e178e7a3da5f4f215e469ef13935fd8c99d1cd20112e90bba7e22", size = 1605851, upload-time = "2025-02-26T13:36:33.246Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/13/8f/14ede5882332b013db2479f32b0678ff4bf4f648c5e8bce20b9f97d646bc/mplcyberpunk-0.7.6-py3-none-any.whl", hash = "sha256:5884f7add690a418695ef2f598257fedef89758c17884448518a307470590b42", size = 6527, upload-time = "2025-02-26T13:36:31.938Z" },
+]
+
+[[package]]
 name = "numpy"
 version = "2.3.2"
 source = { registry = "https://pypi.org/simple" }
@@ -322,12 +335,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "matplotlib" },
+    { name = "mplcyberpunk" },
     { name = "pyyaml" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.5" },
+    { name = "mplcyberpunk", specifier = ">=0.7.6" },
     { name = "pyyaml", specifier = ">=6.0.2" },
 ]
 
