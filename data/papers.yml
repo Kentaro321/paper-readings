@@ -138,3 +138,193 @@
   category: "THG"
   date: "2025-04-01"
   link: "https://arxiv.org/abs/2503.23307"
+
+- title: "Scaling Transformers for Low-Bitrate High-Quality Speech Coding"
+  category: "TTS"
+  date: "2025-03-31"
+  link: "https://arxiv.org/abs/2411.19842"
+
+- title: "Qwen2.5-Omni Technical Report"
+  category: "Multimodal (T/S/I/V)"
+  date: "2025-03-27"
+  link: "https://github.com/QwenLM/Qwen2.5-Omni/blob/main/assets/Qwen2.5_Omni.pdf"
+
+- title: "STFTCodec: High-Fidelity Audio Compression through Time-Frequency Domain Representation"
+  category: "TTS"
+  date: "2025-03-26"
+  link: "https://arxiv.org/abs/2503.16989"
+
+- title: "Llasa: Scaling Train-Time and Inference-Time Compute for Llama-based Speech Synthesis"
+  category: "TTS"
+  date: "2025-03-25"
+  link: "https://arxiv.org/abs/2502.04128"
+
+- title: "SemantiCodec: An Ultra Low Bitrate Semantic Audio Codec for General Sound"
+  category: "TTS"
+  date: "2025-03-24"
+  link: "https://arxiv.org/abs/2502.04128"
+
+- title: "Gemma 3 Technical Report"
+  category: "LLM"
+  date: "2025-03-14"
+  link: "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
+
+- title: "UniMax: Fairer and more Effective Language Sampling for Large-Scale Multilingual Pretraining"
+  category: "LLM"
+  date: "2025-03-13"
+  link: "https://arxiv.org/abs/2304.09151"
+
+- title: "ESPnet-SDS: Unified Toolkit and Demo for Spoken Dialogue Systems"
+  category: "Multimodal (T/S)"
+  date: "2025-03-12"
+  link: "https://arxiv.org/abs/2503.08533"
+
+- title: "FlowDec: A flow-based full-band general audio codec with high perceptual quality"
+  category: "TTS"
+  date: "2025-03-11"
+  link: "https://arxiv.org/abs/2503.01485"
+
+- title: "Good practices for evaluation of synthesized speech"
+  category: "TTS"
+  date: "2025-03-10"
+  link: "https://arxiv.org/abs/2503.03250"
+
+- title: "Talking Turns: Benchmarking Audio Foundation Models on Turn-Taking Dynamics"
+  category: "Multimodal (T/S)"
+  date: "2025-03-06"
+  link: "https://arxiv.org/abs/2503.01174"
+
+- title: "Chain of Draft: Thinking Faster by Writing Less"
+  category: "LLM"
+  date: "2025-03-04"
+  link: "https://arxiv.org/abs/2501.15907"
+
+- title: "ART: Anonymous Region Transformer for Variable Multi-Layer Transparent Image Generation"
+  category: "TTI"
+  date: "2025-02-27"
+  link: "https://arxiv.org/abs/2502.18364"
+
+- title: "Torch.manual_seed(3407) is all you need: On the influence of random seeds in deep learning architectures for computer vision"
+  category: "ML"
+  date: "2025-02-26"
+  link: "https://arxiv.org/abs/2109.08203"
+
+- title: "KAD: No More FAD! An Effective and Efficient Evaluation Metric for Audio Generation"
+  category: "ML"
+  date: "2025-02-25"
+  link: "https://arxiv.org/abs/2406.05298"
+
+- title: "Spectral Codecs: Spectrogram-Based Audio Codecs for High Quality Speech Synthesis"
+  category: "TTS"
+  date: "2025-02-20"
+  link: "https://arxiv.org/abs/2406.05298"
+
+- title: "Emo-DPO: Controllable Emotional Speech Synthesis through Direct Preference Optimization"
+  category: "TTS"
+  date: "2025-02-19"
+  link: "https://arxiv.org/abs/2409.10157"
+
+- title: "SpeechAlign: Aligning Speech Generation to Human Preferences"
+  category: "TTS"
+  date: "2025-02-18"
+  link: "https://arxiv.org/abs/2404.05600"
+
+- title: "Low Frame-rate Speech Codec: a Codec Designed for Fast High-quality Speech LLM Training and Inference"
+  category: "TTS"
+  date: "2025-02-17"
+  link: "https://arxiv.org/abs/2410.21951"
+
+- title: "Fast and High-Quality Auto-Regressive Speech Synthesis via Speculative Decoding"
+  category: "TTS"
+  date: "2025-02-13"
+  link: "https://arxiv.org/abs/2410.21951"
+
+- title: "Meta Audiobox Aesthetics: Unified Automatic Quality Assessment for Speech, Music, and Sound"
+  category: "Audio"
+  date: "2025-02-12"
+  link: "https://arxiv.org/abs/2502.05139"
+
+- title: "s1: Simple test-time scaling"
+  category: "LLM"
+  date: "2025-02-10"
+  link: "https://arxiv.org/abs/2501.19393"
+
+- title: "High-Fidelity Simultaneous Speech-To-Speech Translation"
+  category: "ST"
+  date: "2025-02-07"
+  link: "https://arxiv.org/abs/2502.03382"
+
+- title: "Wavelet-based Positional Representation for Long Context"
+  category: "LLM"
+  date: "2025-02-06"
+  link: "https://arxiv.org/abs/2502.02004"
+
+- title: "Investigating the Impact of Incremental Processing and Voice Activity Projection on Spoken Dialogue Systems"
+  category: "Multimodal (T/S)"
+  date: "2025-02-05"
+  link: "https://aclanthology.org/2025.coling-main.249/"
+
+- title: "BASE TTS: Lessons from building a billion-parameter Text-to-Speech model on 100K hours of data"
+  category: "TTS"
+  date: "2025-02-04"
+  link: "https://arxiv.org/abs/2402.08093"
+
+- title: "Finite Scalar Quantization: VQ-VAE Made Simple"
+  category: "ML"
+  date: "2025-02-03"
+  link: "https://arxiv.org/abs/2309.15505"
+
+- title: "Sigmoid Loss for Language Image Pre-Training"
+  category: "Multimodal (T/I)"
+  date: "2025-01-31"
+  link: "https://arxiv.org/abs/2303.15343"
+
+- title: "TAID: Temporally Adaptive Interpolated Distillation for Efficient Knowledge Transfer in Language Models"
+  category: "LLM"
+  date: "2025-01-30"
+  link: "https://arxiv.org/abs/2501.16937"
+
+- title: "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
+  category: "LLM"
+  date: "2025-01-29"
+  link: "https://arxiv.org/abs/2501.12948"
+
+- title: "Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling"
+  category: "Multimodal (T/I)"
+  date: "2025-01-28"
+  link: "https://github.com/deepseek-ai/Janus/blob/main/janus_pro_tech_report.pdf"
+
+- title: "CosyVoice 2: Scalable Streaming Speech Synthesis with Large Language Models"
+  category: "TTS"
+  date: "2025-01-27"
+  link: "https://arxiv.org/abs/2412.10117"
+
+- title: "MinMo: A Multimodal Large Language Model for Seamless Voice Interaction"
+  category: "LLM"
+  date: "2025-01-23"
+  link: "https://arxiv.org/abs/2501.06282"
+
+- title: "YaRN: Efficient Context Window Extension of Large Language Models"
+  category: "LLM"
+  date: "2025-01-22"
+  link: "https://arxiv.org/abs/2309.00071"
+
+- title: "DeepSeek-V3 Technical Report"
+  category: "LLM"
+  date: "2025-01-10"
+  link: "https://arxiv.org/abs/2412.19437"
+
+- title: "Phi-4 Technical Report"
+  category: "LLM"
+  date: "2025-01-09"
+  link: "https://arxiv.org/abs/2412.08905"
+
+- title: "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching"
+  category: "TTS"
+  date: "2025-01-08"
+  link: "https://arxiv.org/abs/2410.06885"
+
+- title: "StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models"
+  category: "TTS"
+  date: "2025-01-07"
+  link: "https://arxiv.org/abs/2306.07691"
