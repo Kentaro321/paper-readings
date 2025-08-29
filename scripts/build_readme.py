@@ -3,11 +3,13 @@ import os
 from collections import Counter, defaultdict
 from pathlib import Path
 
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import mplcyberpunk
 import numpy as np
 import yaml
 from matplotlib.patches import FancyBboxPatch
+import re
 
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
@@ -42,6 +44,20 @@ def today_in_tz() -> datetime.date:
     return datetime.date.today()
 
 
+# Matplotlib: enforce deterministic SVGs and consistent fonts across environments.
+# - DejaVu Sans is bundled with Matplotlib, avoiding host font differences
+# - Convert SVG text to paths and fix SVG hashsalt for reproducible ids
+mpl.rcParams.update(
+    {
+        "font.family": "DejaVu Sans",
+        "font.sans-serif": ["DejaVu Sans"],
+        "axes.unicode_minus": False,
+        "svg.fonttype": "path",  # outline text -> no runtime font dependency
+        "svg.hashsalt": "paper-readings-fixed-hash",  # stable element ids
+    }
+)
+
+
 def load_papers():
     with open(ROOT / "data" / "papers.yml", "r", encoding="utf-8") as f:
         return yaml.safe_load(f) or []
@@ -49,6 +65,13 @@ def load_papers():
 
 def make_bar_chart_stylish(counts, outpath: Path):
     plt.style.use("cyberpunk")
+    # Re-apply font settings after style, in case style overrides fonts
+    mpl.rcParams.update(
+        {
+            "font.family": "DejaVu Sans",
+            "font.sans-serif": ["DejaVu Sans"],
+        }
+    )
 
     ASSETS.mkdir(parents=True, exist_ok=True)
     items = sorted(counts.items(), key=lambda kv: kv[1], reverse=True)
@@ -79,6 +102,7 @@ def make_bar_chart_stylish(counts, outpath: Path):
     plt.tight_layout()
     fig.savefig(outpath, format=outpath.suffix.lstrip("."), bbox_inches="tight")
     plt.close(fig)
+    _normalize_svg_metadata(outpath)
 
 
 def parse_date(date_str: str):
@@ -253,6 +277,23 @@ def make_calendar_heatmap(papers, outpath: Path):
     plt.tight_layout()
     fig.savefig(outpath, format=outpath.suffix.lstrip("."), bbox_inches="tight")
     plt.close(fig)
+    _normalize_svg_metadata(outpath)
+
+
+def _normalize_svg_metadata(svg_path: Path):
+    """Make SVG deterministic by removing volatile metadata like timestamps.
+
+    - Replace <dc:date>...</dc:date> with a fixed epoch.
+    """
+    try:
+        text = svg_path.read_text(encoding="utf-8")
+        text = re.sub(
+            r"<dc:date>.*?</dc:date>", "<dc:date>1970-01-01T00:00:00</dc:date>", text
+        )
+        svg_path.write_text(text, encoding="utf-8")
+    except Exception:
+        # Best-effort; ignore if anything goes wrong.
+        pass
 
 
 def render_table_md(counts, total):
