@@ -114,7 +114,7 @@ def make_calendar_heatmap(papers, outpath: Path):
     days_to_prev_sun = (start.weekday() + 1) % 7
     grid_start = start - datetime.timedelta(days=days_to_prev_sun)
 
-    n_weeks = 54
+    n_weeks = 53
     n_days = 7
 
     data = np.zeros((n_days, n_weeks), dtype=float)
@@ -127,17 +127,11 @@ def make_calendar_heatmap(papers, outpath: Path):
         for dow in range(n_days):  # 0:Sun ... 6:Sat
             dd = d + datetime.timedelta(days=dow)
             if start <= dd <= today:
-                data[dow, w] = per_day.get(dd, 0)
+                data[dow, w] = per_day.get(dd, np.nan)
                 in_range_mask[dow, w] = True
             else:
                 data[dow, w] = np.nan
         d += datetime.timedelta(days=7)
-
-    valid_vals = data[np.isfinite(data)]
-    if valid_vals.size == 0:
-        vmax = 1
-    else:
-        vmax = max(1, float(np.percentile(valid_vals, 95)))
 
     fig, ax = plt.subplots(figsize=(8, 2.0), dpi=200)
     fig.patch.set_facecolor("#ffffff")
@@ -150,9 +144,9 @@ def make_calendar_heatmap(papers, outpath: Path):
         x,
         y,
         data,
-        cmap="Greens",
+        cmap="YlGn",
         vmin=0,
-        vmax=vmax,
+        vmax=5,
         edgecolors="#d0d7de",
         linewidth=0.5,
         antialiased=False,
@@ -162,8 +156,8 @@ def make_calendar_heatmap(papers, outpath: Path):
     ax.set_aspect("equal")
     ax.invert_yaxis()
 
-    ax.set_yticks([0.5, 2.5, 4.5, 6.5])
-    ax.set_yticklabels(["Sun", "Tue", "Thu", "Sat"], fontsize=8)
+    ax.set_yticks([1.5, 3.5, 5.5])
+    ax.set_yticklabels(["Mon", "Wed", "Fri"], fontsize=8)
     ax.set_xticks([])
     ax.tick_params(bottom=False, left=False)
 
@@ -262,6 +256,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
-    main()
     main()
