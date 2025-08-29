@@ -7,6 +7,8 @@ import matplotlib.patheffects as pe
 import matplotlib.pyplot as plt
 import numpy as np
 import yaml
+from matplotlib.patches import FancyBboxPatch
+from matplotlib import colors
 
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
@@ -127,7 +129,7 @@ def make_calendar_heatmap(papers, outpath: Path):
         for dow in range(n_days):  # 0:Sun ... 6:Sat
             dd = d + datetime.timedelta(days=dow)
             if start <= dd <= today:
-                data[dow, w] = per_day.get(dd, np.nan)
+                data[dow, w] = per_day.get(dd, 0)
                 in_range_mask[dow, w] = True
             else:
                 data[dow, w] = np.nan
@@ -137,29 +139,47 @@ def make_calendar_heatmap(papers, outpath: Path):
     fig.patch.set_facecolor("#ffffff")
     ax.set_facecolor("#ffffff")
 
-    x = np.arange(n_weeks + 1)
-    y = np.arange(n_days + 1)
 
-    ax.pcolormesh(
-        x,
-        y,
-        data,
-        cmap="YlGn",
-        vmin=0,
-        vmax=5,
-        edgecolors="#d0d7de",
-        linewidth=0.5,
-        antialiased=False,
-        shading="flat",
-    )
+    norm = colors.Normalize(vmin=0, vmax=5)
+    cmap = plt.get_cmap("YlGn")
 
+    cell_pad = 0.15  # gap around each square (in cell units)
+    rounding = 0.25  # rounded corner radius (in cell units)
+
+    for row in range(n_days):
+        for col in range(n_weeks):
+            val = data[row, col]
+            if np.isnan(val):
+                continue  # outside range: skip drawing
+            # 0-count days use a light gray like GitHub; >0 use colormap
+            face = "#ebedf0" if val == 0 else cmap(norm(val))
+            # Place a slightly smaller rounded rectangle to create gutters
+            x0 = col + cell_pad
+            y0 = row + cell_pad
+            w = 1 - 2 * cell_pad
+            h = 1 - 2 * cell_pad
+            patch = FancyBboxPatch(
+                (x0, y0),
+                w,
+                h,
+                boxstyle=f"round,pad=0,rounding_size={rounding}",
+                linewidth=0,  # no stroke like GitHub
+                facecolor=face,
+                antialiased=True,
+            )
+            ax.add_patch(patch)
+
+    ax.set_xlim(0, n_weeks)
+    ax.set_ylim(n_days, 0)  # invert y-axis
     ax.set_aspect("equal")
-    ax.invert_yaxis()
 
     ax.set_yticks([1.5, 3.5, 5.5])
-    ax.set_yticklabels(["Mon", "Wed", "Fri"], fontsize=8)
+    ax.set_yticklabels(["Mon", "Wed", "Fri"], fontsize=8, color="#4b5563")
     ax.set_xticks([])
     ax.tick_params(bottom=False, left=False)
+    # Remove outer frame (spines)
+    for spine in ax.spines.values():
+        spine.set_visible(False)
 
     month_positions = []
     month_labels = []
@@ -176,8 +196,9 @@ def make_calendar_heatmap(papers, outpath: Path):
     for xpos, lab in zip(month_positions, month_labels):
         ax.text(xpos, -0.35, lab, ha="center", va="bottom", fontsize=8, color="#4b5563")
 
+    n_papers = sum(per_day.values())
     ax.set_title(
-        "Reading Activity (last 12 months)", fontsize=12, pad=20, weight="bold"
+        f"{n_papers} papers read in the last 12 months", fontsize=12, pad=20, weight="bold"
     )
 
     plt.tight_layout()
