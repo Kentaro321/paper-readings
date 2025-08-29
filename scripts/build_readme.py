@@ -153,6 +153,8 @@ def make_calendar_heatmap(papers, outpath: Path):
 
     cell_pad = 0.15  # gap around each square (in cell units)
     rounding = 0.25  # rounded corner radius (in cell units)
+    w = 1 - 2 * cell_pad
+    h = 1 - 2 * cell_pad
 
     for row in range(n_days):
         for col in range(n_weeks):
@@ -164,8 +166,6 @@ def make_calendar_heatmap(papers, outpath: Path):
             # Place a slightly smaller rounded rectangle to create gutters
             x0 = col + cell_pad
             y0 = row + cell_pad
-            w = 1 - 2 * cell_pad
-            h = 1 - 2 * cell_pad
             patch = FancyBboxPatch(
                 (x0, y0),
                 w,
@@ -177,8 +177,45 @@ def make_calendar_heatmap(papers, outpath: Path):
             )
             ax.add_patch(patch)
 
+    # legends
+    x_legend = x0 - 2
+    y_legend = y0 + 2
+    for v in range(5, -1, -1):
+        patch = FancyBboxPatch(
+            (x_legend, y_legend),
+            w,
+            h,
+            boxstyle=f"round,pad=0,rounding_size={rounding}",
+            linewidth=0,  # no stroke like GitHub
+            facecolor=custom_cmap(v),
+            antialiased=True,
+        )
+        ax.add_patch(patch)
+        x_legend -= 1
+
+    ax.text(
+        0.97,
+        0.05,
+        "More",
+        transform=ax.transAxes,
+        ha="center",
+        va="center",
+        fontsize=8,
+        color="#eeeeee",
+    )
+    ax.text(
+        0.805,
+        0.05,
+        "Less",
+        transform=ax.transAxes,
+        ha="center",
+        va="center",
+        fontsize=8,
+        color="#eeeeee",
+    )
+
     ax.set_xlim(0, n_weeks)
-    ax.set_ylim(n_days, 0)  # invert y-axis
+    ax.set_ylim(n_days + 2, 0)  # invert y-axis
     ax.set_aspect("equal")
 
     ax.set_yticks([1.5, 3.5, 5.5])
