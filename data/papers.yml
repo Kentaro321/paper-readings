@@ -1,3 +1,21 @@
+- title: "Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities"
+  category: "Multimodal (T/S)"
+  date: "2025-08-29"
+  link: "https://arxiv.org/abs/2503.04721"
+  note: >
+    ポーズ、相槌、ターンテイキング、遮りといった双方向音声対話の特徴を捉えるためのデータセットおよび評価手法を提案
+    データセットはCandor (850時間, ポーズ・ターンテイキング評価用), ICC (28分, 相槌評価用), 合成データ (337サンプル, ポーズ・遮り評価用) から成る
+    cascade型のFreeze-Omniはs2s型のdGSLM, Moshiと比較してユーザー発話の遮りが少なく応答も適切だが、ターンの切り替わりが遅く相槌も少なめと評価された
+
+- title: "VoxDialogue: Can Spoken Dialogue Systems Understand Information Beyond Words?"
+  category: "Multimodal (T/S)"
+  date: "2025-08-29"
+  link: "https://openreview.net/forum?id=vbmSSIhKAM"
+  note: >
+    音声対話モデルが文脈だけでなく、話速・音量・強調・背景音といった音声特有の側面を考慮できているかを評価するための、4,500件のマルチターン対話データを提案
+    ASRベースのシステム (FunAudioLLM) は文脈に沿った応答ができていた一方で、音声の特徴の把握が必要な対話ではASRフリーなシステム (Qwen2-Audio等) に軍配
+    WavRewardの前身となるような研究のよう（著者の所属も浙江大学で共通）
+
 - title: "Predicting the Order of Upcoming Tokens Improves Language Modeling"
   category: "LLM"
   date: "2025-08-29"
