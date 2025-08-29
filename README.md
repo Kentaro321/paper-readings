@@ -12,9 +12,9 @@ Automatically visualize your paper reading log below:
 
 | Category | Count |
 |---|---|
-| LLM | 7 |
+| LLM | 8 |
 | TTS | 4 |
-| Multimodal (T/S) | 3 |
+| Multimodal (T/S) | 2 |
 | Dataset (Speech) | 1 |
 | Speech | 1 |
 | THG | 1 |
@@ -22,7 +22,7 @@ Automatically visualize your paper reading log below:
 
 **Recently read**
 
-- [WavReward: Spoken Dialogue Models With Generalist Reward Evaluators](https://arxiv.org/abs/2505.09558) — *Multimodal (T/S)* (2025-08-28)
+- [Predicting the Order of Upcoming Tokens Improves Language Modeling](https://arxiv.org/abs/2508.19228) — *LLM* (2025-08-29)
 - [LIST: Language-Independent Speech Token for Multilingual Speech Synthesis with Language Models](https://www.isca-archive.org/interspeech_2025/liu25o_interspeech.pdf) — *TTS* (2025-08-28)
 - [OpusLM: A Family of Open Unified Speech Language Models](https://arxiv.org/abs/2506.17611) — *Multimodal (T/S)* (2025-08-28)
 - [Scalable Spontaneous Speech Dataset (SSSD): Crowdsourcing Data Collection to Promote Dialogue Research](https://www.isca-archive.org/interspeech_2025/sheikh25_interspeech.pdf) — *Dataset (Speech)* (2025-08-27)
