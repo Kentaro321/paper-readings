@@ -1,3 +1,20 @@
+- title: "Prompt-Guided Turn-Taking Prediction"
+  category: "Speech"
+  date: "2025-08-30"
+  link: "https://arxiv.org/abs/2506.21191"
+  note: >
+    VAPモデルのSAの前後にテキストプロンプトの埋め込みを結合することで、「リズムよく返答する」「話し出す前にポーズを入れる」といったターンテイキングのテキスト制御を実現
+
+- title: "Freeze-Omni: A Smart and Low Latency Speech-to-speech Dialogue Model with Frozen LLM"
+  category: "Multimodal (T/S)"
+  date: "2025-08-30"
+  link: "https://arxiv.org/abs/2411.00774"
+  note: >
+    LLMのパラメータを固定して音声エンコーダ・音声デコーダ・ターンテイキング推定モジュールを学習した音声対話モデルを提案
+    音声入力は (1)音声認識でエンコーダ学習 (2)Adapter/LLMを結合して音声認識で学習 (3)マルチターンQAで学習 の3段階
+    音声出力は (1)TiCodec (40Hz, 1024コード) 学習 (2)LLMのembeddingから音声トークンを予測するよう学習 (3)LLMの中間特徴量を考慮して音声トークンを予測するよう学習 の3段階
+    SpeechGPT, Spectron, Moshi, GLM-4-Voiceよりも高品質な応答を~1.2秒で生成可能
+
 - title: "Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities"
   category: "Multimodal (T/S)"
   date: "2025-08-29"
