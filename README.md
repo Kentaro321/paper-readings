@@ -14,20 +14,22 @@ Automatically visualize your paper reading log below:
 |---|---|
 | LLM | 21 |
 | TTS | 20 |
-| Multimodal (T/S) | 8 |
+| Multimodal (T/S) | 9 |
 | ML | 3 |
 | Multimodal (T/I) | 2 |
+| Speech | 2 |
 | Audio | 1 |
 | Dataset (Speech) | 1 |
 | Multimodal (T/S/I/V) | 1 |
-| Speech | 1 |
 | ST | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **61** |
+| **Total** | **63** |
 
 **Recently read**
 
+- [Prompt-Guided Turn-Taking Prediction](https://arxiv.org/abs/2506.21191) — *Speech* (2025-08-30)
+- [Freeze-Omni: A Smart and Low Latency Speech-to-speech Dialogue Model with Frozen LLM](https://arxiv.org/abs/2411.00774) — *Multimodal (T/S)* (2025-08-30)
 - [Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities](https://arxiv.org/abs/2503.04721) — *Multimodal (T/S)* (2025-08-29)
 - [VoxDialogue: Can Spoken Dialogue Systems Understand Information Beyond Words?](https://openreview.net/forum?id=vbmSSIhKAM) — *Multimodal (T/S)* (2025-08-29)
 - [Predicting the Order of Upcoming Tokens Improves Language Modeling](https://arxiv.org/abs/2508.19228) — *LLM* (2025-08-29)
@@ -36,8 +38,6 @@ Automatically visualize your paper reading log below:
 - [OpusLM: A Family of Open Unified Speech Language Models](https://arxiv.org/abs/2506.17611) — *Multimodal (T/S)* (2025-08-28)
 - [Scalable Spontaneous Speech Dataset (SSSD): Crowdsourcing Data Collection to Promote Dialogue Research](https://www.isca-archive.org/interspeech_2025/sheikh25_interspeech.pdf) — *Dataset (Speech)* (2025-08-27)
 - [CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training](https://arxiv.org/abs/2505.17589) — *TTS* (2025-05-28)
-- [Understanding R1-Zero-Like Training: A Critical Perspective](https://arxiv.org/abs/2503.20783) — *LLM* (2025-05-27)
-- [How Do Large Language Models Acquire Factual Knowledge During Pretraining?](https://arxiv.org/abs/2406.11813) — *LLM* (2025-05-16)
 <!--CHART_END-->
 
 ## How to add a new paper
