@@ -137,7 +137,7 @@ def make_calendar_heatmap(papers, outpath: Path):
     # Use timezone-aware "today" so the heatmap reflects the desired local day
     # (e.g., Asia/Tokyo) instead of the runner's system timezone.
     today = today_in_tz()
-    start = today - datetime.timedelta(days=365)
+    start = today - datetime.timedelta(days=364)
 
     def parse_date(s):
         try:
