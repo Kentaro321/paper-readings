@@ -1,3 +1,12 @@
+- title: "SimPO: Simple Preference Optimization with a Reference-Free Reward"
+  category: "LLM"
+  date: "2025-08-30"
+  link: "https://arxiv.org/abs/2405.14734"
+  note: >
+    DPOは人間の嗜好を反映する強化学習手法として広く用いられているが、参照モデルと現在のモデルの両方で対数尤度を計算する必要があった
+    SimPOは参照モデルを用いず、系列長による正規化と良い回答・悪い回答間のマージンを導入することでより効率的な学習を実現
+    Mistral, Llama 3, Gemma2を用いた実験ではDPO以上の性能を達成
+
 - title: "Prompt-Guided Turn-Taking Prediction"
   category: "Speech"
   date: "2025-08-30"
@@ -74,6 +83,11 @@
   link: "https://www.isca-archive.org/interspeech_2025/sheikh25_interspeech.pdf"
   note: "クラウドソーシングで2話者の自発的対話を収集した700時間超のデータセットを公開"
 
+- title: "Towards a Japanese Full-duplex Spoken Dialogue System"
+  category: "Multimodal (T/S)"
+  date: "2025-06-30"
+  link: "https://arxiv.org/abs/2506.02979"
+
 - title: "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training"
   category: "TTS"
   date: "2025-05-28"
@@ -88,6 +102,11 @@
   category: "LLM"
   date: "2025-05-16"
   link: "https://arxiv.org/abs/2406.11813"
+
+- title: "GLM-4-Voice: Towards Intelligent and Human-Like End-to-End Spoken Chatbot"
+  category: "Multimodal (T/S)"
+  date: "2025-05-15"
+  link: "https://arxiv.org/abs/2412.02612"
 
 - title: "Qwen3: Think Deeper, Act Faster"
   category: "LLM"
@@ -345,3 +364,8 @@
   category: "TTS"
   date: "2025-01-07"
   link: "https://arxiv.org/abs/2306.07691"
+
+- title: "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models"
+  category: "LLM"
+  date: "2025-01-06"
+  link: "https://arxiv.org/abs/2402.03300"
