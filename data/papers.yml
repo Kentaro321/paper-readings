@@ -1,3 +1,11 @@
+- title: "TaDiCodec: Text-aware Diffusion Speech Tokenizer for Speech Language Modeling"
+  category: "TTS"
+  date: "2025-08-31"
+  link: "https://arxiv.org/abs/2508.16790"
+  note: >
+    デコーダにテキスト情報を与えることで、6.25Hzと超低ビットレートながら高い音声再構成品質を実現
+    エンコーダ・デコーダともdiffusion transformerベースで、後段でメルスペクトログラム→波形への変換も必要なため、リアルタイム応用に課題があるかも
+
 - title: "SimPO: Simple Preference Optimization with a Reference-Free Reward"
   category: "LLM"
   date: "2025-08-30"
