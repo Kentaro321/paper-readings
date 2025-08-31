@@ -13,7 +13,7 @@ Automatically visualize your paper reading log below:
 | Category | Count |
 |---|---|
 | LLM | 23 |
-| TTS | 20 |
+| TTS | 21 |
 | Multimodal (T/S) | 11 |
 | ML | 3 |
 | Multimodal (T/I) | 2 |
@@ -24,10 +24,11 @@ Automatically visualize your paper reading log below:
 | ST | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **67** |
+| **Total** | **68** |
 
 **Recently read**
 
+- [TaDiCodec: Text-aware Diffusion Speech Tokenizer for Speech Language Modeling](https://arxiv.org/abs/2508.16790) — *TTS* (2025-08-31)
 - [SimPO: Simple Preference Optimization with a Reference-Free Reward](https://arxiv.org/abs/2405.14734) — *LLM* (2025-08-30)
 - [Prompt-Guided Turn-Taking Prediction](https://arxiv.org/abs/2506.21191) — *Speech* (2025-08-30)
 - [Freeze-Omni: A Smart and Low Latency Speech-to-speech Dialogue Model with Frozen LLM](https://arxiv.org/abs/2411.00774) — *Multimodal (T/S)* (2025-08-30)
@@ -37,7 +38,6 @@ Automatically visualize your paper reading log below:
 - [WavReward: Spoken Dialogue Models With Generalist Reward Evaluators](https://arxiv.org/abs/2505.09558) — *Multimodal (T/S)* (2025-08-28)
 - [LIST: Language-Independent Speech Token for Multilingual Speech Synthesis with Language Models](https://www.isca-archive.org/interspeech_2025/liu25o_interspeech.pdf) — *TTS* (2025-08-28)
 - [OpusLM: A Family of Open Unified Speech Language Models](https://arxiv.org/abs/2506.17611) — *Multimodal (T/S)* (2025-08-28)
-- [Scalable Spontaneous Speech Dataset (SSSD): Crowdsourcing Data Collection to Promote Dialogue Research](https://www.isca-archive.org/interspeech_2025/sheikh25_interspeech.pdf) — *Dataset (Speech)* (2025-08-27)
 <!--CHART_END-->
 
 ## How to add a new paper
