@@ -19,15 +19,18 @@ Automatically visualize your paper reading log below:
 | Dataset (Speech) | 2 |
 | Multimodal (T/I) | 2 |
 | Speech | 2 |
+| ASR | 1 |
 | Audio | 1 |
 | Multimodal (T/S/I/V) | 1 |
 | ST | 1 |
+| Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **72** |
+| **Total** | **74** |
 
 **Recently read**
 
+- [On the Theoretical Limitations of Embedding-Based Retrieval](https://arxiv.org/abs/2508.21038) — *Text Embedding* (2025-09-01)
 - [TaDiCodec: Text-aware Diffusion Speech Tokenizer for Speech Language Modeling](https://arxiv.org/abs/2508.16790) — *TTS* (2025-08-31)
 - [SimPO: Simple Preference Optimization with a Reference-Free Reward](https://arxiv.org/abs/2405.14734) — *LLM* (2025-08-30)
 - [Prompt-Guided Turn-Taking Prediction](https://arxiv.org/abs/2506.21191) — *Speech* (2025-08-30)
@@ -37,7 +40,6 @@ Automatically visualize your paper reading log below:
 - [Predicting the Order of Upcoming Tokens Improves Language Modeling](https://arxiv.org/abs/2508.19228) — *LLM* (2025-08-29)
 - [WavReward: Spoken Dialogue Models With Generalist Reward Evaluators](https://arxiv.org/abs/2505.09558) — *Multimodal (T/S)* (2025-08-28)
 - [LIST: Language-Independent Speech Token for Multilingual Speech Synthesis with Language Models](https://www.isca-archive.org/interspeech_2025/liu25o_interspeech.pdf) — *TTS* (2025-08-28)
-- [OpusLM: A Family of Open Unified Speech Language Models](https://arxiv.org/abs/2506.17611) — *Multimodal (T/S)* (2025-08-28)
 <!--CHART_END-->
 
 ## How to add a new paper
