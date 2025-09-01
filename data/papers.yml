@@ -91,10 +91,30 @@
   link: "https://www.isca-archive.org/interspeech_2025/sheikh25_interspeech.pdf"
   note: "クラウドソーシングで2話者の自発的対話を収集した700時間超のデータセットを公開"
 
+- title: "Is Synthetic Data Truly Effective for Training Speech Language Models?"
+  category: "Multimodal (T/S)"
+  date: "2025-08-20"
+  link: "https://www.isca-archive.org/interspeech_2025/mizumoto25_interspeech.pdf"
+
+- title: "AC/DC: LLM-based Audio Comprehension via Dialogue Continuation"
+  category: "Multimodal (T/S)"
+  date: "2025-08-19"
+  link: "https://www.isca-archive.org/interspeech_2025/fujita25b_interspeech.pdf"
+
+- title: "Group Sequence Policy Optimization"
+  category: "LLM"
+  date: "2025-07-31"
+  link: "https://arxiv.org/abs/2507.18071"
+
 - title: "Towards a Japanese Full-duplex Spoken Dialogue System"
   category: "Multimodal (T/S)"
   date: "2025-06-30"
   link: "https://arxiv.org/abs/2506.02979"
+
+- title: "HiFiTTS-2: A Large-Scale High Bandwidth Speech Dataset"
+  category: "Dataset (Speech)"
+  date: "2025-06-05"
+  link: "https://arxiv.org/abs/2506.04152"
 
 - title: "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training"
   category: "TTS"
