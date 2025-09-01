@@ -12,19 +12,19 @@ Automatically visualize your paper reading log below:
 
 | Category | Count |
 |---|---|
-| LLM | 23 |
+| LLM | 24 |
 | TTS | 21 |
-| Multimodal (T/S) | 11 |
+| Multimodal (T/S) | 13 |
 | ML | 3 |
+| Dataset (Speech) | 2 |
 | Multimodal (T/I) | 2 |
 | Speech | 2 |
 | Audio | 1 |
-| Dataset (Speech) | 1 |
 | Multimodal (T/S/I/V) | 1 |
 | ST | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **68** |
+| **Total** | **72** |
 
 **Recently read**
 
