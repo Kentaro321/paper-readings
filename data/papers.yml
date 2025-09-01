@@ -1,3 +1,11 @@
+- title: "On the Theoretical Limitations of Embedding-Based Retrieval"
+  category: "Text Embedding"
+  date: "2025-09-01"
+  link: "https://arxiv.org/abs/2508.21038"
+  note: >
+    テキスト埋め込みに基づく情報検索では、埋め込みの次元によって表現できる組み合わせの数が制限され、表現不可能な検索タスクが存在することを理論的に示した
+    また上記の検証のために現実的で自由度が高い検索タスクからなるLIMITデータセットを提案し、最新の埋め込みを利用しても性能が上げられないことを確認した
+
 - title: "TaDiCodec: Text-aware Diffusion Speech Tokenizer for Speech Language Modeling"
   category: "TTS"
   date: "2025-08-31"
@@ -110,6 +118,11 @@
   category: "Multimodal (T/S)"
   date: "2025-06-30"
   link: "https://arxiv.org/abs/2506.02979"
+
+- title: "OWSM-Biasing: Contextualizing Open Whisper-Style Speech Models for Automatic Speech Recognition with Dynamic Vocabulary"
+  category: "ASR"
+  date: "2025-06-15"
+  link: "https://arxiv.org/abs/2506.09448"
 
 - title: "HiFiTTS-2: A Large-Scale High Bandwidth Speech Dataset"
   category: "Dataset (Speech)"
