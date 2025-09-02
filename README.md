@@ -12,9 +12,9 @@ Automatically visualize your paper reading log below:
 
 | Category | Count |
 |---|---|
-| LLM | 24 |
+| LLM | 25 |
 | TTS | 21 |
-| Multimodal (T/S) | 13 |
+| Multimodal (T/S) | 14 |
 | ML | 3 |
 | Dataset (Speech) | 2 |
 | Multimodal (T/I) | 2 |
@@ -26,10 +26,12 @@ Automatically visualize your paper reading log below:
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **74** |
+| **Total** | **76** |
 
 **Recently read**
 
+- [OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation](https://arxiv.org/abs/2410.17799) — *Multimodal (T/S)* (2025-09-02)
+- [rStar2-Agent: Agentic Reasoning Technical Report](https://arxiv.org/abs/2508.20722) — *LLM* (2025-09-02)
 - [On the Theoretical Limitations of Embedding-Based Retrieval](https://arxiv.org/abs/2508.21038) — *Text Embedding* (2025-09-01)
 - [TaDiCodec: Text-aware Diffusion Speech Tokenizer for Speech Language Modeling](https://arxiv.org/abs/2508.16790) — *TTS* (2025-08-31)
 - [SimPO: Simple Preference Optimization with a Reference-Free Reward](https://arxiv.org/abs/2405.14734) — *LLM* (2025-08-30)
@@ -38,8 +40,6 @@ Automatically visualize your paper reading log below:
 - [Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities](https://arxiv.org/abs/2503.04721) — *Multimodal (T/S)* (2025-08-29)
 - [VoxDialogue: Can Spoken Dialogue Systems Understand Information Beyond Words?](https://openreview.net/forum?id=vbmSSIhKAM) — *Multimodal (T/S)* (2025-08-29)
 - [Predicting the Order of Upcoming Tokens Improves Language Modeling](https://arxiv.org/abs/2508.19228) — *LLM* (2025-08-29)
-- [WavReward: Spoken Dialogue Models With Generalist Reward Evaluators](https://arxiv.org/abs/2505.09558) — *Multimodal (T/S)* (2025-08-28)
-- [LIST: Language-Independent Speech Token for Multilingual Speech Synthesis with Language Models](https://www.isca-archive.org/interspeech_2025/liu25o_interspeech.pdf) — *TTS* (2025-08-28)
 <!--CHART_END-->
 
 ## How to add a new paper
