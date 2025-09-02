@@ -1,3 +1,24 @@
+- title: "OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation"
+  category: "Multimodal (T/S)"
+  date: "2025-09-02"
+  link: "https://arxiv.org/abs/2410.17799"
+  note: >
+    Qwen2.5-0.5Bをfull-duplexな音声対話モデルに拡張したOmniFlattenを提案
+    学習は (1)約10万時間のASR/TTSで音声モダリティに適応 (2)SpeechGPTのようにhalf-duplex型学習 (3)ユーザー音声10トークンからシステムテキスト2トークンとシステム音声10トークンを生成するfull-duplex型学習 の3段階
+    実験ではカリキュラム学習の有効性、Moshiよりも高い応答品質を確認したが、ベースモデルと比較した場合の品質低下、システムテキストを介さない場合にはさらなる品質低下も見られた
+    平均応答時間はMoshiよりもさらに速い模様（システム側553ms→193ms、ユーザ側753ms→287ms）
+    CosyVoiceの音声トークナイザーを用いているとあるがこれはnon-causalっぽいので、学習段階(1)(2)と(3)の不整合が問題にならないのか気になる
+
+- title: "rStar2-Agent: Agentic Reasoning Technical Report"
+  category: "LLM"
+  date: "2025-09-02"
+  link: "https://arxiv.org/abs/2508.20722"
+  note: >
+    外部ツール（Python）の呼び出しを含めたエージェント的な強化学習により、14Bパラメータのモデルで671BパラメータのDeepseek-R1を上回る数学能力を達成
+    従来数学やコーディング分野で用いられていた出力の正誤で報酬を与える方法では、誤ったツール呼び出しを抑制できなかった
+    これに対し、初めにバッチサイズ以上の応答を生成し、(1)正答できた応答は最善の1サンプルを選択 (2)誤った応答はランダムに残りのバッチを埋めるよう選択するResample on Correct (RoC)を提案
+    強化学習は(1)8Kコンテキストでの簡潔な応答生成 (2)12Kコンテキストに拡張した応答生成 (3)難しい問題に絞っての学習 の3段階で実施し、計510ステップで完了
+
 - title: "On the Theoretical Limitations of Embedding-Based Retrieval"
   category: "Text Embedding"
   date: "2025-09-01"
