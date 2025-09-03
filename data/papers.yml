@@ -1,3 +1,13 @@
+- title: "FastVLM: Efficient Vision Encoding for Vision Language Models"
+  category: "Multimodal (T/I)"
+  date: "2025-09-03"
+  link: "https://arxiv.org/abs/2412.13303"
+  note: >
+    FastViTを改良したFastViTHDとQwen2-0.5B/1.5B/7Bと組み合わせたVLMを提案
+    FastViTHDはダウンサンプリング層を追加しトークン数を1/4に削減しつつ、DWConvベースのプーリング層を追加することで高解像な特徴も保持
+    画像トークン数の削減により画像のエンコード、LLMのprefillにかかる時間を削減し、TTFTを大幅に短縮
+    デモではiPhone上でリアルタイムにVLMが動作する様子も見られる
+
 - title: "OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation"
   category: "Multimodal (T/S)"
   date: "2025-09-02"
