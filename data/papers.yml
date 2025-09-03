@@ -6,6 +6,7 @@
     汎用的な音の離散表現獲得のためのSoundStreamの後継NACとして、48kHzのステレオ波形を25Hz64コードブック（最大）で表現するSpectroStreamを提案
     Encoder, Decoderは100Hzのメルスペクトログラムを入出力とした2D Convベースのstreaming可能な構造で、QuantizerはRVQを使用
     同一のビットレートでDACよりも高いViSQOLおよび主観評価スコアを獲得しており、特に低ビットレート（~3kbps）での改善が顕著
+    https://huggingface.co/google/magenta-realtime で学習済みモデルが公開されている
 
 - title: "FastVLM: Efficient Vision Encoding for Vision Language Models"
   category: "Multimodal (T/I)"
