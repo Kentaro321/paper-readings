@@ -1,3 +1,14 @@
+- title: "CLEAR: Continuous Latent Autoregressive Modeling for High-quality and Low-latency Speech Synthesis"
+  category: "TTS"
+  date: "2025-09-04"
+  link: "https://arxiv.org/abs/2508.19098"
+  note: >
+    離散音声トークンを用いたAR型TTSは高品質だが長い系列を予測する必要があり、推論速度に課題がある
+    本研究では、wav-VAEで抽出される連続潜在空間における自己回帰モデルCLEARを提案し、系列長を削減することでこの問題に対処
+    連続潜在空間を得るためのwav-VAEは1秒間の16kHzの音声を7.8個x1024次元のベクトルに圧縮/復元するため、高い推論効率を実現
+    ARモデルはTransformerの後段に各トークンに対して独立に動作するRectified Flow Headを結合することで連続潜在空間の予測精度を向上
+    LibriHeavyを用いて学習し従来のAR型TTSと同等の品質を達成しつつRTFを改善、streamingでは遅延96msを達成
+
 - title: "SpectroStream: A Versatile Neural Codec for General Audio"
   category: "NAC"
   date: "2025-09-03"
