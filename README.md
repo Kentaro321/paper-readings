@@ -14,7 +14,7 @@ Automatically visualize your paper reading log below:
 |---|---|
 | LLM | 25 |
 | Multimodal (T/S) | 14 |
-| TTS | 13 |
+| TTS | 14 |
 | NAC | 9 |
 | ML | 3 |
 | Multimodal (T/I) | 3 |
@@ -27,10 +27,11 @@ Automatically visualize your paper reading log below:
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **78** |
+| **Total** | **79** |
 
 **Recently read**
 
+- [CLEAR: Continuous Latent Autoregressive Modeling for High-quality and Low-latency Speech Synthesis](https://arxiv.org/abs/2508.19098) — *TTS* (2025-09-04)
 - [SpectroStream: A Versatile Neural Codec for General Audio](https://arxiv.org/abs/2508.05207) — *NAC* (2025-09-03)
 - [FastVLM: Efficient Vision Encoding for Vision Language Models](https://arxiv.org/abs/2412.13303) — *Multimodal (T/I)* (2025-09-03)
 - [OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation](https://arxiv.org/abs/2410.17799) — *Multimodal (T/S)* (2025-09-02)
@@ -40,7 +41,6 @@ Automatically visualize your paper reading log below:
 - [SimPO: Simple Preference Optimization with a Reference-Free Reward](https://arxiv.org/abs/2405.14734) — *LLM* (2025-08-30)
 - [Prompt-Guided Turn-Taking Prediction](https://arxiv.org/abs/2506.21191) — *Speech* (2025-08-30)
 - [Freeze-Omni: A Smart and Low Latency Speech-to-speech Dialogue Model with Frozen LLM](https://arxiv.org/abs/2411.00774) — *Multimodal (T/S)* (2025-08-30)
-- [Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities](https://arxiv.org/abs/2503.04721) — *Multimodal (T/S)* (2025-08-29)
 <!--CHART_END-->
 
 ## How to add a new paper
