@@ -1,3 +1,12 @@
+- title: "SpectroStream: A Versatile Neural Codec for General Audio"
+  category: "NAC"
+  date: "2025-09-03"
+  link: "https://arxiv.org/abs/2508.05207"
+  note: >
+    汎用的な音の離散表現獲得のためのSoundStreamの後継NACとして、48kHzのステレオ波形を25Hz64コードブック（最大）で表現するSpectroStreamを提案
+    Encoder, Decoderは100Hzのメルスペクトログラムを入出力とした2D Convベースのstreaming可能な構造で、QuantizerはRVQを使用
+    同一のビットレートでDACよりも高いViSQOLおよび主観評価スコアを獲得しており、特に低ビットレート（~3kbps）での改善が顕著
+
 - title: "FastVLM: Efficient Vision Encoding for Vision Language Models"
   category: "Multimodal (T/I)"
   date: "2025-09-03"
@@ -38,7 +47,7 @@
     また上記の検証のために現実的で自由度が高い検索タスクからなるLIMITデータセットを提案し、最新の埋め込みを利用しても性能が上げられないことを確認した
 
 - title: "TaDiCodec: Text-aware Diffusion Speech Tokenizer for Speech Language Modeling"
-  category: "TTS"
+  category: "NAC"
   date: "2025-08-31"
   link: "https://arxiv.org/abs/2508.16790"
   note: >
@@ -207,7 +216,7 @@
   link: "https://arxiv.org/abs/2306.00978"
 
 - title: "ALMTokenizer: A Low-bitrate and Semantic-rich Audio Codec Tokenizer for Audio Language Modeling"
-  category: "TTS"
+  category: "NAC"
   date: "2025-04-16"
   link: "https://arxiv.org/abs/2504.10344"
 
@@ -217,7 +226,7 @@
   link: "https://arxiv.org/abs/2402.12865"
 
 - title: "A Streamable Neural Audio Codec with Residual Scalar-Vector Quantization for Real-Time Communication"
-  category: "TTS"
+  category: "NAC"
   date: "2025-04-14"
   link: "https://arxiv.org/abs/2504.06561"
 
@@ -258,7 +267,7 @@
   link: "https://github.com/QwenLM/Qwen2.5-Omni/blob/main/assets/Qwen2.5_Omni.pdf"
 
 - title: "STFTCodec: High-Fidelity Audio Compression through Time-Frequency Domain Representation"
-  category: "TTS"
+  category: "NAC"
   date: "2025-03-26"
   link: "https://arxiv.org/abs/2503.16989"
 
@@ -268,7 +277,7 @@
   link: "https://arxiv.org/abs/2502.04128"
 
 - title: "SemantiCodec: An Ultra Low Bitrate Semantic Audio Codec for General Sound"
-  category: "TTS"
+  category: "NAC"
   date: "2025-03-24"
   link: "https://arxiv.org/abs/2502.04128"
 
@@ -288,7 +297,7 @@
   link: "https://arxiv.org/abs/2503.08533"
 
 - title: "FlowDec: A flow-based full-band general audio codec with high perceptual quality"
-  category: "TTS"
+  category: "NAC"
   date: "2025-03-11"
   link: "https://arxiv.org/abs/2503.01485"
 
@@ -323,7 +332,7 @@
   link: "https://arxiv.org/abs/2406.05298"
 
 - title: "Spectral Codecs: Spectrogram-Based Audio Codecs for High Quality Speech Synthesis"
-  category: "TTS"
+  category: "NAC"
   date: "2025-02-20"
   link: "https://arxiv.org/abs/2406.05298"
 
@@ -338,7 +347,7 @@
   link: "https://arxiv.org/abs/2404.05600"
 
 - title: "Low Frame-rate Speech Codec: a Codec Designed for Fast High-quality Speech LLM Training and Inference"
-  category: "TTS"
+  category: "NAC"
   date: "2025-02-17"
   link: "https://arxiv.org/abs/2410.21951"
 
