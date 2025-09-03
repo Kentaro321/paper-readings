@@ -16,8 +16,8 @@ Automatically visualize your paper reading log below:
 | TTS | 21 |
 | Multimodal (T/S) | 14 |
 | ML | 3 |
+| Multimodal (T/I) | 3 |
 | Dataset (Speech) | 2 |
-| Multimodal (T/I) | 2 |
 | Speech | 2 |
 | ASR | 1 |
 | Audio | 1 |
@@ -26,10 +26,11 @@ Automatically visualize your paper reading log below:
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **76** |
+| **Total** | **77** |
 
 **Recently read**
 
+- [FastVLM: Efficient Vision Encoding for Vision Language Models](https://arxiv.org/abs/2412.13303) — *Multimodal (T/I)* (2025-09-03)
 - [OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation](https://arxiv.org/abs/2410.17799) — *Multimodal (T/S)* (2025-09-02)
 - [rStar2-Agent: Agentic Reasoning Technical Report](https://arxiv.org/abs/2508.20722) — *LLM* (2025-09-02)
 - [On the Theoretical Limitations of Embedding-Based Retrieval](https://arxiv.org/abs/2508.21038) — *Text Embedding* (2025-09-01)
@@ -39,7 +40,6 @@ Automatically visualize your paper reading log below:
 - [Freeze-Omni: A Smart and Low Latency Speech-to-speech Dialogue Model with Frozen LLM](https://arxiv.org/abs/2411.00774) — *Multimodal (T/S)* (2025-08-30)
 - [Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities](https://arxiv.org/abs/2503.04721) — *Multimodal (T/S)* (2025-08-29)
 - [VoxDialogue: Can Spoken Dialogue Systems Understand Information Beyond Words?](https://openreview.net/forum?id=vbmSSIhKAM) — *Multimodal (T/S)* (2025-08-29)
-- [Predicting the Order of Upcoming Tokens Improves Language Modeling](https://arxiv.org/abs/2508.19228) — *LLM* (2025-08-29)
 <!--CHART_END-->
 
 ## How to add a new paper
