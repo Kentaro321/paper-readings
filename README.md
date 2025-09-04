@@ -1,6 +1,6 @@
 # 📚 Paper Reading Log
 
-Automatically visualize your paper reading log below:
+Track and visualize your paper reading with auto-updated charts.
 
 <!--CHART_START-->
 ![By category](assets/category_stylish.svg)
