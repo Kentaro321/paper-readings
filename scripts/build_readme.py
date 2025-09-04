@@ -139,12 +139,6 @@ def make_calendar_heatmap(papers, outpath: Path):
     today = today_in_tz()
     start = today - datetime.timedelta(days=364)
 
-    def parse_date(s):
-        try:
-            return datetime.date.fromisoformat(s)
-        except Exception:
-            return None
-
     per_day = defaultdict(int)
     for p in papers:
         d = parse_date(p.get("date", ""))

@@ -6,11 +6,15 @@ on:
       - "data/**"
       - "scripts/**"
       - ".github/workflows/update-readme.yml"
+    paths-ignore:
+      - "data/papers.json"
   pull_request:
     paths:
       - "data/**"
       - "scripts/**"
       - ".github/workflows/update-readme.yml"
+    paths-ignore:
+      - "data/papers.json"
   schedule:
     - cron: "0 0 * * *" # regenerate every day
   workflow_dispatch: {}
@@ -51,6 +55,7 @@ jobs:
 
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
+        if: github.event_name != 'pull_request'
         with:
           commit_message: "chore: update chart & README"
           branch: ${{ github.ref_name }}
