@@ -77,4 +77,4 @@ uv run scripts/export_json.py
 ## License
 
 - Code: MIT (`LICENSE`)
-- Content (notes, `data/papers.yml`, generated charts in `assets/`): CC BY 4.0 (`LICENSE-DATA`).
+- Content (notes, `data/papers.yml`, generated charts in `assets/`): CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/

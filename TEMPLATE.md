@@ -32,5 +32,4 @@ uv run scripts/validate_papers.py
 ## License
 
 - Code: MIT (see `LICENSE`)
-- Content (your notes/data/charts): CC BY 4.0 (see `LICENSE-DATA`)
-
+- Content (your notes/data/charts): CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
