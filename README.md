@@ -19,15 +19,15 @@ Track and visualize your paper reading with auto-updated charts.
 | ML | 3 |
 | Multimodal (T/I) | 3 |
 | Dataset (Speech) | 2 |
+| Multimodal (T/S/I/V) | 2 |
 | Speech | 2 |
 | ASR | 1 |
 | Audio | 1 |
-| Multimodal (T/S/I/V) | 1 |
 | ST | 1 |
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **79** |
+| **Total** | **80** |
 
 **Recently read**
 
