@@ -12,12 +12,12 @@ Track and visualize your paper reading with auto-updated charts.
 
 | Category | Count |
 |---|---|
-| LLM | 28 |
+| LLM | 29 |
+| TTS | 19 |
 | Multimodal (T/S) | 18 |
-| TTS | 16 |
 | NAC | 11 |
+| Dataset (Speech) | 4 |
 | ML | 4 |
-| Dataset (Speech) | 3 |
 | Multimodal (T/I) | 3 |
 | Speech | 3 |
 | ASR | 2 |
@@ -29,7 +29,7 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **98** |
+| **Total** | **103** |
 
 **Recently read**
 
