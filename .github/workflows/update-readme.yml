@@ -3,18 +3,14 @@ name: Update README chart
 on:
   push:
     paths:
-      - "data/**"
+      - "data/papers.yml"
       - "scripts/**"
       - ".github/workflows/update-readme.yml"
-    paths-ignore:
-      - "data/papers.json"
   pull_request:
     paths:
-      - "data/**"
+      - "data/papers.yml"
       - "scripts/**"
       - ".github/workflows/update-readme.yml"
-    paths-ignore:
-      - "data/papers.json"
   schedule:
     - cron: "0 0 * * *" # regenerate every day
   workflow_dispatch: {}
