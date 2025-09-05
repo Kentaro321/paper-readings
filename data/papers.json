@@ -589,16 +589,46 @@
     "link": "https://arxiv.org/abs/2410.11190"
   },
   {
+    "title": "HALL-E: Hierarchical Neural Codec Language Model for Minute-Long Zero-Shot Text-to-Speech Synthesis",
+    "category": "TTS",
+    "date": "2024-10-12",
+    "link": "https://arxiv.org/abs/2410.04380"
+  },
+  {
+    "title": "J-CHAT: Japanese Large-scale Spoken Dialogue Corpus for Spoken Dialogue Language Modeling",
+    "category": "Dataset (Speech)",
+    "date": "2024-10-11",
+    "link": "https://arxiv.org/abs/2407.15828"
+  },
+  {
+    "title": "Beyond Turn-Based Interfaces: Synchronous LLMs as Full-Duplex Dialogue Agents",
+    "category": "LLM",
+    "date": "2024-10-10",
+    "link": "https://arxiv.org/abs/2409.15594"
+  },
+  {
     "title": "Moshi: a speech-text foundation model for real-time dialogue",
     "category": "Multimodal (T/S)",
     "date": "2024-09-20",
     "link": "https://arxiv.org/abs/2410.00037"
   },
   {
+    "title": "Super Monotonic Alignment Search",
+    "category": "TTS",
+    "date": "2024-09-17",
+    "link": "https://arxiv.org/abs/2409.07704"
+  },
+  {
     "title": "LLaMA-Omni: Seamless Speech Interaction with Large Language Models",
     "category": "Multimodal (T/S)",
     "date": "2024-09-16",
     "link": "https://arxiv.org/abs/2409.06666"
+  },
+  {
+    "title": "FireRedTTS: A Foundation Text-To-Speech Framework for Industry-Level Generative Speech Applications",
+    "category": "TTS",
+    "date": "2024-09-11",
+    "link": "https://arxiv.org/abs/2409.03283"
   },
   {
     "title": "Mini-Omni: Language Models Can Hear, Talk While Thinking in Streaming",
