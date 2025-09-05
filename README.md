@@ -18,9 +18,9 @@ Track and visualize your paper reading with auto-updated charts.
 | NAC | 11 |
 | Dataset (Speech) | 4 |
 | ML | 4 |
+| ASR | 3 |
 | Multimodal (T/I) | 3 |
 | Speech | 3 |
-| ASR | 2 |
 | Multimodal (T/S/I/V) | 2 |
 | VC | 2 |
 | Audio | 1 |
@@ -29,10 +29,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **103** |
+| **Total** | **104** |
 
 **Recently read**
 
+- [Generative Annotation for ASR Named Entity Correction](https://www.arxiv.org/abs/2508.20700) — *ASR* (2025-09-05)
 - [CLEAR: Continuous Latent Autoregressive Modeling for High-quality and Low-latency Speech Synthesis](https://arxiv.org/abs/2508.19098) — *TTS* (2025-09-04)
 - [SpectroStream: A Versatile Neural Codec for General Audio](https://arxiv.org/abs/2508.05207) — *NAC* (2025-09-03)
 - [FastVLM: Efficient Vision Encoding for Vision Language Models](https://arxiv.org/abs/2412.13303) — *Multimodal (T/I)* (2025-09-03)
@@ -42,7 +43,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [TaDiCodec: Text-aware Diffusion Speech Tokenizer for Speech Language Modeling](https://arxiv.org/abs/2508.16790) — *NAC* (2025-08-31)
 - [SimPO: Simple Preference Optimization with a Reference-Free Reward](https://arxiv.org/abs/2405.14734) — *LLM* (2025-08-30)
 - [Prompt-Guided Turn-Taking Prediction](https://arxiv.org/abs/2506.21191) — *Speech* (2025-08-30)
-- [Freeze-Omni: A Smart and Low Latency Speech-to-speech Dialogue Model with Frozen LLM](https://arxiv.org/abs/2411.00774) — *Multimodal (T/S)* (2025-08-30)
 <!--CHART_END-->
 
 ## How to add a new paper
