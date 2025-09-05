@@ -1,3 +1,13 @@
+- title: "Generative Annotation for ASR Named Entity Correction"
+  category: "ASR"
+  date: "2025-09-05"
+  link: "https://www.arxiv.org/abs/2508.20700"
+  note: >
+    ASRの固有名詞誤認識を訂正する手法として、従来は (固有名詞, 音素列) のペアを用いた編集距離ベースの手法 (Phonetic-level Edit Distance: PED) が用いられてきた
+    PEDベースの手法は認識結果が目標の固有名詞と大きく異なる場合、PEDも大きくなって編集が困難であった (例: midjourney→米德仲尼 のようなケース)
+    本研究では音声特徴量ベースの固有名詞検索とAttention Encoder-Decoderによる生成的な誤り訂正を組み合わせることで、誤認識結果が表記上遠い場合でも頑健な修正を実現
+    現状は検索にself-attentionを使っており固有名詞数が増えると遅延が問題になるため、将来的にvector search等に置換できるとよさそうとのこと
+
 - title: "CLEAR: Continuous Latent Autoregressive Modeling for High-quality and Low-latency Speech Synthesis"
   category: "TTS"
   date: "2025-09-04"
