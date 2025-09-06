@@ -1,3 +1,13 @@
+- title: "Failing Forward: Improving Generative Error Correction for ASR with Synthetic Data and Retrieval Augmentation"
+  category: "ASR"
+  date: "2025-09-06"
+  link: "https://aclanthology.org/2025.findings-acl.125.pdf"
+  note: >
+    固有名詞のリストから認識結果と関連度の高いエントリを検索し、ASRの生成的誤り訂正に適用した最初の研究
+    さらに、OODデータを用いてASRの誤りパターンを用意して誤り訂正用LLMをLoRAチューニングすることで、ID/OOD両方で一貫して認識率を改善
+    固有名詞検索は「音声認識結果(文)」と「各固有名詞(単語)」のSentenceBERT埋め込み間の類似度に基づいており、英語では動くようだが他言語では課題があるかも
+    また誤り訂正LLMのベースモデルとしてLlama-2-Instruct (7B)を使っているのでオーバーヘッドは大きそう
+
 - title: "Generative Annotation for ASR Named Entity Correction"
   category: "ASR"
   date: "2025-09-05"
