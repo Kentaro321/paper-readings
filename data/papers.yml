@@ -1,3 +1,32 @@
+- title: "LLM-Enhanced Dialogue Management for Full-Duplex Spoken Dialogue Systems"
+  category: "Multimodal (T/S)"
+  date: "2025-09-07"
+  link: "https://arxiv.org/abs/2502.14145"
+  note: >
+    full-duplexな音声対話のため、0.5BのLMを対話管理特化に微調整したSemantic-VADを提案
+    Semantic-VADは事前にAEC, VAD, ASRで処理された書き起こしを受け取り、システム側の4状態 (発話開始、発話継続、傾聴開始、傾聴継続) を予測
+    発話開始/継続が予測された場合のみ応答生成用LLMを駆動することで全体の計算量を削減
+    実験ではDuplexConv, RTTL-DGと比較して対話管理精度を大きく改善
+
+- title: "Reinforcement Learning Enhanced Full-Duplex Spoken Dialogue Language Models for Conversational Interactions"
+  category: "Multimodal (T/S)"
+  date: "2025-09-07"
+  link: "https://openreview.net/pdf?id=QbLbXz8Idp"
+  note: >
+    full-duplexな音声対話モデルを定量的に評価可能な報酬で強化学習するOnline Reinforcement with Interactive Speech Evaluation (ORISE)を提案
+    ベースとなる音声対話モデルはTinyLlama-1.1BをPSLM的に拡張したもので、(1)ユーザー音声埋め込み (2)システムテキスト (3)システム音声トークンを受け取り、(2)(3)を出力する構造
+    ORISEは(1)VADで検出されたユーザー・システムターン数の一致度 (2)割り込み/相槌の処理の適切さ (3)システムテキストと音声の一致度 の3つの報酬の和を最大化するように強化学習
+    モデルは主にTTSベースの擬似音声対話データで学習され、ユーザー側の相槌を挿入することで割り込み/相槌の両方を適切に処理可能に
+    Moshiと比較して応答品質を大きく改善したがGTとの品質差はまだ大きいため、LLMを音声対話に適用する過程での知識保持が課題
+
+- title: "MixedG2P-T5: G2P-free Speech Synthesis for Mixed-script texts using Speech Self-Supervised Learning and Language Model"
+  category: "TTS"
+  date: "2025-09-07"
+  link: "https://www.arxiv.org/abs/2509.01391"
+  note: >
+    (1)T5でraw textからspeech unit列を予測 (2)FastSpeech 2でメルスペクトログラムを予測 (3)ボコーダで波形生成 の3段階でG2PフリーなTTSを実現
+    論文中では日本語のみでの実験だが多言語への拡張も展望として挙げられており、その場合はテキストトークナイザーをBPE等に変更する必要があるとのこと
+
 - title: "Failing Forward: Improving Generative Error Correction for ASR with Synthetic Data and Retrieval Augmentation"
   category: "ASR"
   date: "2025-09-06"
