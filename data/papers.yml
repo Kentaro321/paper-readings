@@ -1,3 +1,22 @@
+- title: "Koel-TTS: Enhancing LLM based Speech Generation with Preference Alignment and Classifier Free Guidance"
+  category: "TTS"
+  date: "2025-09-08"
+  link: "https://arxiv.org/abs/2502.05236"
+  note: >
+    LFSCの音声トークン（21.5Hz, 8コードブック）に基づくEncoder-Decoder型のTTS, Koel-TTSを提案
+    音声プロンプトを(1)デコーダにprefixする (2)話者特徴量をエンコーダ出力に加算する (3)音声エンコーダを別に用意してcross-attention の3通りで与えて実験し、(1)のzero-shot性能が最も高いことを確認
+    さらに、難読文章を含む6万件弱のデータを用いたDPO/RPOと、推論時のclassifier-free guidanceにより、WER, SSIM, Squim-MOSを改善
+
+- title: "NanoCodec: Towards High-Quality Ultra Fast Speech LLM Inference"
+  category: "NAC"
+  date: "2025-09-08"
+  link: "https://arxiv.org/abs/2508.05835"
+  note: >
+    LFSCを改良・軽量化したCNNベースのNAC, NanoCodecを提案し、Encoder/Decoderの因果性、フレームレート、ビットレートなどが品質に与える影響を分析
+    (1)Encoderのcausal化は大きく劣化するが、Decoderはそうでもない (2)25Hzと12.5Hzでは近い品質だが、6.25Hzは大きく劣化 (3)ビットレートは品質（特にCER）に直結 などの知見
+    Koel-TTSに適用した実験では、21.5Hzの条件で同ビットレートのLFSCと同等のMOS、より良いCER, TTFAを達成
+    12.5Hzの条件ではCER. RTFがさらに改善したものの、未知話者に対する話者類似性が劣化
+
 - title: "LLM-Enhanced Dialogue Management for Full-Duplex Spoken Dialogue Systems"
   category: "Multimodal (T/S)"
   date: "2025-09-07"
