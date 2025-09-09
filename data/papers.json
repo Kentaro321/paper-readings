@@ -1,5 +1,12 @@
 [
   {
+    "title": "AudioBench: A Universal Benchmark for Audio Large Language Models",
+    "category": "Multimodal (T/S)",
+    "date": "2025-09-09",
+    "link": "https://aclanthology.org/2025.naacl-long.218v2.pdf",
+    "note": "Audio LLMの評価のための8タスク26データセットからなる統一的なベンチマークを提案 タスクは音声内容理解（ASR, SQA, Speech Instruction）、パラ言語理解（Accent/Gender/Emotion Recognition）、音環境理解（Audio Captioning, Audio-Scene QA）を含む SALMONN, Qwen-Audio, WavLLM, Qwen2-Audio (Audio LLMs) とWhisper+Llama-3-8B-Instruct (cascade) を比較した実験では、Audio LLMsが長い音声のASRに弱く、パラ言語・音環境理解に強い傾向\n"
+  },
+  {
     "title": "Koel-TTS: Enhancing LLM based Speech Generation with Preference Alignment and Classifier Free Guidance",
     "category": "TTS",
     "date": "2025-09-08",
