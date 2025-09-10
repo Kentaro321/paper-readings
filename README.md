@@ -13,7 +13,7 @@ Track and visualize your paper reading with auto-updated charts.
 | Category | Count |
 |---|---|
 | LLM | 29 |
-| Multimodal (T/S) | 21 |
+| Multimodal (T/S) | 22 |
 | TTS | 21 |
 | NAC | 12 |
 | ASR | 4 |
@@ -29,10 +29,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **111** |
+| **Total** | **112** |
 
 **Recently read**
 
+- [Step-Audio 2 Technical Report](https://arxiv.org/abs/2507.16632) — *Multimodal (T/S)* (2025-09-10)
 - [AudioBench: A Universal Benchmark for Audio Large Language Models](https://aclanthology.org/2025.naacl-long.218v2.pdf) — *Multimodal (T/S)* (2025-09-09)
 - [Koel-TTS: Enhancing LLM based Speech Generation with Preference Alignment and Classifier Free Guidance](https://arxiv.org/abs/2502.05236) — *TTS* (2025-09-08)
 - [NanoCodec: Towards High-Quality Ultra Fast Speech LLM Inference](https://arxiv.org/abs/2508.05835) — *NAC* (2025-09-08)
@@ -42,7 +43,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Failing Forward: Improving Generative Error Correction for ASR with Synthetic Data and Retrieval Augmentation](https://aclanthology.org/2025.findings-acl.125.pdf) — *ASR* (2025-09-06)
 - [Generative Annotation for ASR Named Entity Correction](https://www.arxiv.org/abs/2508.20700) — *ASR* (2025-09-05)
 - [CLEAR: Continuous Latent Autoregressive Modeling for High-quality and Low-latency Speech Synthesis](https://arxiv.org/abs/2508.19098) — *TTS* (2025-09-04)
-- [SpectroStream: A Versatile Neural Codec for General Audio](https://arxiv.org/abs/2508.05207) — *NAC* (2025-09-03)
 <!--CHART_END-->
 
 ## How to add a new paper

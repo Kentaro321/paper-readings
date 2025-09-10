@@ -1,5 +1,12 @@
 [
   {
+    "title": "Step-Audio 2 Technical Report",
+    "category": "Multimodal (T/S)",
+    "date": "2025-09-10",
+    "link": "https://arxiv.org/abs/2507.16632",
+    "note": "音声・音理解に強く音声応答も可能な大規模音声言語モデルStep-Audio 2の技術報告 本家のモデルサイズや構造の詳細は非公開だが、近い性能を達成した公開モデルStep-Audio 2 miniはQwen2-Audioの音声エンコーダ、Qwen2.5-7BのLLM、CosyVoice 2のS3 Tokenizer, CFM, HiFTNetを採用\n"
+  },
+  {
     "title": "AudioBench: A Universal Benchmark for Audio Large Language Models",
     "category": "Multimodal (T/S)",
     "date": "2025-09-09",
