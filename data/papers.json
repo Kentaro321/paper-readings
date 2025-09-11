@@ -1,5 +1,12 @@
 [
   {
+    "title": "Continuous Audio Language Models",
+    "category": "Multimodal (T/S)",
+    "date": "2025-09-11",
+    "link": "https://www.arxiv.org/abs/2509.06926",
+    "note": "VAEの連続的な潜在表現をTransformerで予測する形のContinuous Audio Language Models (CALM)を提案し、音声生成・楽曲生成での有効性を示した研究 Transformerの出力zからConsistency Headを用いて1ステップで連続潜在表現xを予測する構造で、MoshiのRQ Transformerと比較して高速に動作（サンプラーで12倍、全体で1.3倍の高速化） 学習時はzの生成がボトルネックになることから、一つのzに対して複数のノイズレベルで損失を計算することで学習の効率化・安定化を実現 楽曲生成ではさらに(1)Transformerの入力にノイズ付加 (2)過去数ステップのコンテキストを捉える小さなTransformerの併用が有効 backbone Transformerで直接潜在表現を予測すると性能が下がるのかについては触れられていなかったが、MAR, CLEARなどの研究でも同様の構造が採用されているので連続表現の学習においては有効か\n"
+  },
+  {
     "title": "Step-Audio 2 Technical Report",
     "category": "Multimodal (T/S)",
     "date": "2025-09-10",
