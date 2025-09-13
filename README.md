@@ -13,7 +13,7 @@ Track and visualize your paper reading with auto-updated charts.
 | Category | Count |
 |---|---|
 | LLM | 29 |
-| Multimodal (T/S) | 23 |
+| Multimodal (T/S) | 25 |
 | TTS | 21 |
 | NAC | 12 |
 | ASR | 4 |
@@ -22,17 +22,20 @@ Track and visualize your paper reading with auto-updated charts.
 | Multimodal (T/I) | 3 |
 | Speech | 3 |
 | Multimodal (T/S/I/V) | 2 |
+| ST | 2 |
 | VC | 2 |
 | Audio | 1 |
 | Multimodal (T/S/I) | 1 |
-| ST | 1 |
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **113** |
+| **Total** | **116** |
 
 **Recently read**
 
+- [EchoX: Towards Mitigating Acoustic-Semantic Gap via Echo Training for Speech-to-Speech LLMs](https://www.arxiv.org/abs/2509.09174) — *Multimodal (T/S)* (2025-09-13)
+- [Leveraging Unit Language Guidance to Advance Speech Modeling in Textless Speech-to-Speech Translation](https://aclanthology.org/2025.findings-acl.75.pdf) — *ST* (2025-09-13)
+- [Soundwave: Less is More for Speech-Text Alignment in LLMs](https://aclanthology.org/2025.acl-long.917.pdf) — *Multimodal (T/S)* (2025-09-13)
 - [Continuous Audio Language Models](https://www.arxiv.org/abs/2509.06926) — *Multimodal (T/S)* (2025-09-11)
 - [Step-Audio 2 Technical Report](https://arxiv.org/abs/2507.16632) — *Multimodal (T/S)* (2025-09-10)
 - [AudioBench: A Universal Benchmark for Audio Large Language Models](https://aclanthology.org/2025.naacl-long.218v2.pdf) — *Multimodal (T/S)* (2025-09-09)
@@ -40,9 +43,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [NanoCodec: Towards High-Quality Ultra Fast Speech LLM Inference](https://arxiv.org/abs/2508.05835) — *NAC* (2025-09-08)
 - [LLM-Enhanced Dialogue Management for Full-Duplex Spoken Dialogue Systems](https://arxiv.org/abs/2502.14145) — *Multimodal (T/S)* (2025-09-07)
 - [Reinforcement Learning Enhanced Full-Duplex Spoken Dialogue Language Models for Conversational Interactions](https://openreview.net/pdf?id=QbLbXz8Idp) — *Multimodal (T/S)* (2025-09-07)
-- [MixedG2P-T5: G2P-free Speech Synthesis for Mixed-script texts using Speech Self-Supervised Learning and Language Model](https://www.arxiv.org/abs/2509.01391) — *TTS* (2025-09-07)
-- [Failing Forward: Improving Generative Error Correction for ASR with Synthetic Data and Retrieval Augmentation](https://aclanthology.org/2025.findings-acl.125.pdf) — *ASR* (2025-09-06)
-- [Generative Annotation for ASR Named Entity Correction](https://www.arxiv.org/abs/2508.20700) — *ASR* (2025-09-05)
 <!--CHART_END-->
 
 ## How to add a new paper
