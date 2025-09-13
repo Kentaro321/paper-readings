@@ -1,3 +1,30 @@
+- title: "EchoX: Towards Mitigating Acoustic-Semantic Gap via Echo Training for Speech-to-Speech LLMs"
+  category: "Multimodal (T/S)"
+  date: "2025-09-13"
+  link: "https://www.arxiv.org/abs/2509.09174"
+  note: >
+    従来のspeech-to-speech LLMにおける音声トークンをターゲットとした学習では、意味的には近いが音響的には遠い出力を適切にモデル化できず、テキスト能力の劣化が顕著であった
+    echoXは、LLMの最終層の特徴量からgreedy decodingによって得られる擬似テキスト応答をもとにターゲットのunit language系列を作成し、これを予測するようにecho decoderを学習
+    実験では3B, 8Bのモデルを6千時間程度でデータで学習し先行研究と同等以上の性能を達成し、さらに提案する学習方法がQA正答率の維持に有効であることを確認
+
+- title: "Leveraging Unit Language Guidance to Advance Speech Modeling in Textless Speech-to-Speech Translation"
+  category: "ST"
+  date: "2025-09-13"
+  link: "https://aclanthology.org/2025.findings-acl.75.pdf"
+  note: >
+    動的計画法に基づいて複数の音声ユニットをまとめたunit languageを利用してtextless STを行い、従来のASR+MT+TTSのパイプラインと並ぶ翻訳精度を達成
+    話者や収録環境に依存しないnorm unitを音声ユニットとして用い、各音声ユニットの出現確率はコーパス内の出現頻度に基づいて計算
+    学習時には中間表現から変換元言語・変換先言語のunit language系列を予測する補助損失を用いる
+
+- title: "Soundwave: Less is More for Speech-Text Alignment in LLMs"
+  category: "Multimodal (T/S)"
+  date: "2025-09-13"
+  link: "https://aclanthology.org/2025.acl-long.917.pdf"
+  note: >
+    音声言語モデルの音声エンコーダ、Adapterの後段に系列方向の情報集約を行うShrinking Adapterを導入することで、1万時間弱のデータでQwen2-Audioと並ぶ性能を達成
+    学習は (1)CTCベースのASRでAlignment Adapter学習 (2)ASR, STでAlignment Adapter, Shrinking Adapter, LoRA学習 (3)Adapterを固定して多様なタスクでLoRA学習 の3段階
+    Shrinking AdapterはCTCのピークのみを抽出し、その系列をクエリとしたcross-attentionにより抽出された系列との和を出力する構造
+
 - title: "Continuous Audio Language Models"
   category: "Multimodal (T/S)"
   date: "2025-09-11"
