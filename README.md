@@ -16,9 +16,9 @@ Track and visualize your paper reading with auto-updated charts.
 | Multimodal (T/S) | 25 |
 | TTS | 21 |
 | NAC | 12 |
+| ML | 5 |
 | ASR | 4 |
 | Dataset (Speech) | 4 |
-| ML | 4 |
 | Multimodal (T/I) | 3 |
 | Speech | 3 |
 | Multimodal (T/S/I/V) | 2 |
@@ -29,10 +29,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **116** |
+| **Total** | **117** |
 
 **Recently read**
 
+- [Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models](https://arxiv.org/abs/2410.11081) — *ML* (2025-09-14)
 - [EchoX: Towards Mitigating Acoustic-Semantic Gap via Echo Training for Speech-to-Speech LLMs](https://www.arxiv.org/abs/2509.09174) — *Multimodal (T/S)* (2025-09-13)
 - [Leveraging Unit Language Guidance to Advance Speech Modeling in Textless Speech-to-Speech Translation](https://aclanthology.org/2025.findings-acl.75.pdf) — *ST* (2025-09-13)
 - [Soundwave: Less is More for Speech-Text Alignment in LLMs](https://aclanthology.org/2025.acl-long.917.pdf) — *Multimodal (T/S)* (2025-09-13)
@@ -42,7 +43,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Koel-TTS: Enhancing LLM based Speech Generation with Preference Alignment and Classifier Free Guidance](https://arxiv.org/abs/2502.05236) — *TTS* (2025-09-08)
 - [NanoCodec: Towards High-Quality Ultra Fast Speech LLM Inference](https://arxiv.org/abs/2508.05835) — *NAC* (2025-09-08)
 - [LLM-Enhanced Dialogue Management for Full-Duplex Spoken Dialogue Systems](https://arxiv.org/abs/2502.14145) — *Multimodal (T/S)* (2025-09-07)
-- [Reinforcement Learning Enhanced Full-Duplex Spoken Dialogue Language Models for Conversational Interactions](https://openreview.net/pdf?id=QbLbXz8Idp) — *Multimodal (T/S)* (2025-09-07)
 <!--CHART_END-->
 
 ## How to add a new paper

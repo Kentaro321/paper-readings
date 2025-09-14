@@ -1,5 +1,12 @@
 [
   {
+    "title": "Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models",
+    "category": "ML",
+    "date": "2025-09-14",
+    "link": "https://arxiv.org/abs/2410.11081",
+    "note": "時間ステップの小さい離散時間CMや連続時間CMの学習が不安定で大規模化も困難であったことから、以下を提案 (1) Trigflowという三角関数に基づくスケジューリングによってモデルをシンプルかつ安定に (2) 学習を不安定にしているノイズスケジュール、時間埋め込み、正規化層を改良し、さらに正接正規化や適応的重みづけ等の工夫を導入 (3) 1.5Bパラメータのモデルを学習し、ImageNet 512x512の2ステップ生成で教師モデルとのFID差を10%に抑えた\n"
+  },
+  {
     "title": "EchoX: Towards Mitigating Acoustic-Semantic Gap via Echo Training for Speech-to-Speech LLMs",
     "category": "Multimodal (T/S)",
     "date": "2025-09-13",
