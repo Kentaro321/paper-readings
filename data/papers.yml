@@ -1,3 +1,11 @@
+- title: "Defeating Nondeterminism in LLM Inference"
+  category: "LLM"
+  date: "2025-09-15"
+  link: "https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/"
+  note: >
+    LLMの推論がgreedy decodingにおいても非決定的であった問題が、バッチ非依存だと考えられていたRMSNorm, 行列積、Attentionなどの計算がバッチ依存であったことに起因していることを発見
+    vLLM FlexAttention + torch.Libraryで決定論的な推論を実装し、実際に非決定性を排除できることを確認
+
 - title: "Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models"
   category: "ML"
   date: "2025-09-14"
