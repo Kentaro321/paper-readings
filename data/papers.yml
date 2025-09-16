@@ -1,3 +1,12 @@
+- title: "Improving diffusion inverse problem solving with decoupled noise annealing"
+  category: "Image"
+  date: "2025-09-16"
+  link: "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Improving_Diffusion_Inverse_Problem_Solving_with_Decoupled_Noise_Annealing_CVPR_2025_paper.pdf"
+  note: >
+    劣化した観測からの復元を行うPosterior Samplingに拡散モデルを適用した従来法では、各ステップごとに徐々にサンプルを修正するため、初期のサンプリングで生じた誤差を修正できない課題があった
+    本研究では毎回のステップで (1)x_0を逆拡散過程に従ってサンプルし (2)拡散過程に従ってx_tを生成し直すdecoupled noise annealingを提案し、誤差の修正を可能に
+    線形な逆問題（deblurring, inpainting, etc.）だけでなく、非線形な逆問題（phase retrieval, nonlinear deblurring, etc.）でも高い性能を示し、Latent Diffusion Modelでも有効性を確認
+
 - title: "Defeating Nondeterminism in LLM Inference"
   category: "LLM"
   date: "2025-09-15"
