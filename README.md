@@ -25,14 +25,16 @@ Track and visualize your paper reading with auto-updated charts.
 | ST | 2 |
 | VC | 2 |
 | Audio | 1 |
+| Image | 1 |
 | Multimodal (T/S/I) | 1 |
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **118** |
+| **Total** | **119** |
 
 **Recently read**
 
+- [Improving diffusion inverse problem solving with decoupled noise annealing](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Improving_Diffusion_Inverse_Problem_Solving_with_Decoupled_Noise_Annealing_CVPR_2025_paper.pdf) — *Image* (2025-09-16)
 - [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/) — *LLM* (2025-09-15)
 - [Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models](https://arxiv.org/abs/2410.11081) — *ML* (2025-09-14)
 - [EchoX: Towards Mitigating Acoustic-Semantic Gap via Echo Training for Speech-to-Speech LLMs](https://www.arxiv.org/abs/2509.09174) — *Multimodal (T/S)* (2025-09-13)
@@ -42,7 +44,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Step-Audio 2 Technical Report](https://arxiv.org/abs/2507.16632) — *Multimodal (T/S)* (2025-09-10)
 - [AudioBench: A Universal Benchmark for Audio Large Language Models](https://aclanthology.org/2025.naacl-long.218v2.pdf) — *Multimodal (T/S)* (2025-09-09)
 - [Koel-TTS: Enhancing LLM based Speech Generation with Preference Alignment and Classifier Free Guidance](https://arxiv.org/abs/2502.05236) — *TTS* (2025-09-08)
-- [NanoCodec: Towards High-Quality Ultra Fast Speech LLM Inference](https://arxiv.org/abs/2508.05835) — *NAC* (2025-09-08)
 <!--CHART_END-->
 
 ## How to add a new paper
