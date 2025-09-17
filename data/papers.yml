@@ -1,5 +1,6 @@
 - title: "Single-stream Policy Optimization"
   category: "LLM"
+  date: "2025-09-17"
   link: "https://arxiv.org/abs/2509.13232"
   note: >
     GRPOは複数サンプルの生成を要するため、全て正解/全て不正解の場合に学習信号が得られなかったり、一部サンプルで生成時間が長い（ツール呼び出し等）場合に全体のボトルネックになる課題があった
