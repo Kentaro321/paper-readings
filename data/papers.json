@@ -1,5 +1,12 @@
 [
   {
+    "title": "Single-stream Policy Optimization",
+    "category": "LLM",
+    "date": "2025-09-17",
+    "link": "https://arxiv.org/abs/2509.13232",
+    "note": "GRPOは複数サンプルの生成を要するため、全て正解/全て不正解の場合に学習信号が得られなかったり、一部サンプルで生成時間が長い（ツール呼び出し等）場合に全体のボトルネックになる課題があった Single-stream Policy Optimization (SPO) は1プロンプトにつき1サンプルのみ生成する代わりに、全プロンプトに対する過去の成功率を保持することで学習を安定化・効率化 また過去の成功率が50%に近いプロンプトを優先的に用いるPrioritized Prompt Samplingによって学習信号の質を向上 Qwen3-8Bを用いた実験では数学難問ベンチマーク (AIME 24/25, BRUMO 25 etc.) でGRPOよりも高い性能を達成 対話・コード生成・一般QAなど他領域での優位性は未検証で、手法の設計的に大規模なRLHFには向かない可能性もあり、GRPOを完全に置き換えるものではなさそう\n"
+  },
+  {
     "title": "Improving diffusion inverse problem solving with decoupled noise annealing",
     "category": "Image",
     "date": "2025-09-16",

@@ -12,7 +12,7 @@ Track and visualize your paper reading with auto-updated charts.
 
 | Category | Count |
 |---|---|
-| LLM | 30 |
+| LLM | 31 |
 | Multimodal (T/S) | 25 |
 | TTS | 21 |
 | NAC | 12 |
@@ -30,10 +30,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **119** |
+| **Total** | **120** |
 
 **Recently read**
 
+- [Single-stream Policy Optimization](https://arxiv.org/abs/2509.13232) — *LLM* (2025-09-17)
 - [Improving diffusion inverse problem solving with decoupled noise annealing](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Improving_Diffusion_Inverse_Problem_Solving_with_Decoupled_Noise_Annealing_CVPR_2025_paper.pdf) — *Image* (2025-09-16)
 - [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/) — *LLM* (2025-09-15)
 - [Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models](https://arxiv.org/abs/2410.11081) — *ML* (2025-09-14)
@@ -43,7 +44,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Continuous Audio Language Models](https://www.arxiv.org/abs/2509.06926) — *Multimodal (T/S)* (2025-09-11)
 - [Step-Audio 2 Technical Report](https://arxiv.org/abs/2507.16632) — *Multimodal (T/S)* (2025-09-10)
 - [AudioBench: A Universal Benchmark for Audio Large Language Models](https://aclanthology.org/2025.naacl-long.218v2.pdf) — *Multimodal (T/S)* (2025-09-09)
-- [Koel-TTS: Enhancing LLM based Speech Generation with Preference Alignment and Classifier Free Guidance](https://arxiv.org/abs/2502.05236) — *TTS* (2025-09-08)
 <!--CHART_END-->
 
 ## How to add a new paper
