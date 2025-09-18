@@ -27,13 +27,15 @@ Track and visualize your paper reading with auto-updated charts.
 | Audio | 1 |
 | Image | 1 |
 | Multimodal (T/S/I) | 1 |
+| NV | 1 |
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **120** |
+| **Total** | **121** |
 
 **Recently read**
 
+- [WaveFM: A High-Fidelity and Efficient Vocoder Based on Flow Matching](https://arxiv.org/abs/2503.16689) — *NV* (2025-09-18)
 - [Single-stream Policy Optimization](https://arxiv.org/abs/2509.13232) — *LLM* (2025-09-17)
 - [Improving diffusion inverse problem solving with decoupled noise annealing](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Improving_Diffusion_Inverse_Problem_Solving_with_Decoupled_Noise_Annealing_CVPR_2025_paper.pdf) — *Image* (2025-09-16)
 - [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/) — *LLM* (2025-09-15)
@@ -43,7 +45,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Soundwave: Less is More for Speech-Text Alignment in LLMs](https://aclanthology.org/2025.acl-long.917.pdf) — *Multimodal (T/S)* (2025-09-13)
 - [Continuous Audio Language Models](https://www.arxiv.org/abs/2509.06926) — *Multimodal (T/S)* (2025-09-11)
 - [Step-Audio 2 Technical Report](https://arxiv.org/abs/2507.16632) — *Multimodal (T/S)* (2025-09-10)
-- [AudioBench: A Universal Benchmark for Audio Large Language Models](https://aclanthology.org/2025.naacl-long.218v2.pdf) — *Multimodal (T/S)* (2025-09-09)
 <!--CHART_END-->
 
 ## How to add a new paper
