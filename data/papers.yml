@@ -1,3 +1,13 @@
+- title: "WaveFM: A High-Fidelity and Efficient Vocoder Based on Flow Matching"
+  category: "NV"
+  date: "2025-09-18"
+  link: "https://arxiv.org/abs/2503.16689"
+  note: >
+    フローマッチングを用いたニューラルボコーダWaveFMを提案
+    拡散モデルベース（PriorGrad等）で用いられるメルスペクトログラムの振幅に応じた事前分布は安定化のためにクリッピングが必要であったが、WaveFMでは不要となりより適切な事前分布を設定可能に
+    HiFi-GANのResBlockを取り入れたU-Netをフローマッチング損失+改良版MR-STFT損失+メルスペクトログラム損失で学習し、さらに1ステップで推論するためのConsistency Distillationも実施
+    LibriTTSでの実験では1ステップの推論でもHiFi-GAN V1や拡散モデルベースNVを上回る品質とHiFi-GAN V1に近いRTFを実現
+
 - title: "Single-stream Policy Optimization"
   category: "LLM"
   date: "2025-09-17"
