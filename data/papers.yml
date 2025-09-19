@@ -1,3 +1,13 @@
+- title: "LLM-I: LLMs are Naturally Interleaved Multimodal Creators"
+  category: "Multimodal (T/I)"
+  date: "2025-09-18"
+  link: "https://arxiv.org/abs/2509.13642"
+  note: >
+    LLMを用いて画像を含むコンテンツの生成を行う場合、従来のモデルは単一のツールしか利用できない課題があった
+    本研究ではインターネット画像検索、Pythonによる図表生成、画像生成、画像編集の4つのツールをテキストと織り交ぜながら利用可能なLLM-Iを提案
+    モデルは出力に含まれる画像数に関するルールベースの報酬と、LLMおよびMLLMによって計算される報酬を組み合わせて強化学習
+    複数ツールを動的に使い分けることにより、ベンチマークでは従来のunified multimodal LLMを上回る性能を達成
+
 - title: "WaveFM: A High-Fidelity and Efficient Vocoder Based on Flow Matching"
   category: "NV"
   date: "2025-09-18"
