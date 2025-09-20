@@ -1,6 +1,16 @@
+- title: "MiMo-Audio: Audio Language Models are Few-Shot Learners"
+  category: "Multimodal (T/S)"
+  date: "2025-09-20"
+  link: "https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf"
+  note: >
+    マルチモーダルな音声言語モデルを1億時間以上の音声データで学習することにより、タスク特化の微調整なしで音声QA、声質変換、音声翻訳等を実現できることを示した研究
+    音声トークナイザーはTransformerを中心とした1.2Bパラメータのモデルで、25Hz x 8コードブックで音声を表現、(1)音声トークンの獲得 (2)再構成品質向上 を主目的として2段階学習
+    言語モデル部分はMimo-7B-Baseを6層のPatch Encoder, 16層のPatch Decoderで拡張して音声トークンを6.25Hzで扱い、(1)音声理解 (2)音声理解・生成の2段階で事前学習
+    さらにASR, TTS, Audio 音理解, 音声対話, 指示追従TTS, テキスト対話等のフォーマットで微調整されたMimo-Audio-7B-Instructは、MMAU, MMAU-Pro, MMAR, MMSU, Big Bench Audio, MultiChallenge Audio等のベンチマークでSoTAを達成
+
 - title: "LLM-I: LLMs are Naturally Interleaved Multimodal Creators"
   category: "Multimodal (T/I)"
-  date: "2025-09-18"
+  date: "2025-09-19"
   link: "https://arxiv.org/abs/2509.13642"
   note: >
     LLMを用いて画像を含むコンテンツの生成を行う場合、従来のモデルは単一のツールしか利用できない課題があった
