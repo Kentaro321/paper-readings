@@ -1,3 +1,12 @@
+- title: "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention"
+  category: "LLM"
+  date: "2025-09-21"
+  link: "https://aclanthology.org/2025.acl-long.1126.pdf"
+  note: >
+    既存のsparse attention系手法は推論時にのみ適用されることが多く、学習を効率化できない、精度が低下する等の課題があった
+    Native Sparse Attention (NSA)は学習時と推論時の両方で統一的なsparse化を実現し、Full Attentionと同等以上の精度を保ちながら学習・推論を効率化
+    NSAのコアは (1)ブロックごとに圧縮するtoken compression (2)スコアの高いブロックを用いるtoken selection (3)直近のトークンを用いるsliding window を組み合わせた機構で、局所性と長距離依存の両方を捉える
+
 - title: "MiMo-Audio: Audio Language Models are Few-Shot Learners"
   category: "Multimodal (T/S)"
   date: "2025-09-20"
