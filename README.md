@@ -12,7 +12,7 @@ Track and visualize your paper reading with auto-updated charts.
 
 | Category | Count |
 |---|---|
-| LLM | 32 |
+| LLM | 33 |
 | Multimodal (T/S) | 26 |
 | TTS | 21 |
 | NAC | 12 |
@@ -31,10 +31,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **124** |
+| **Total** | **125** |
 
 **Recently read**
 
+- [A Theory of Response Sampling in LLMs: Part Descriptive and Part Prescriptive](https://aclanthology.org/2025.acl-long.1454.pdf) — *LLM* (2025-09-22)
 - [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://aclanthology.org/2025.acl-long.1126.pdf) — *LLM* (2025-09-21)
 - [MiMo-Audio: Audio Language Models are Few-Shot Learners](https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf) — *Multimodal (T/S)* (2025-09-20)
 - [LLM-I: LLMs are Naturally Interleaved Multimodal Creators](https://arxiv.org/abs/2509.13642) — *Multimodal (T/I)* (2025-09-19)
@@ -44,7 +45,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/) — *LLM* (2025-09-15)
 - [Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models](https://arxiv.org/abs/2410.11081) — *ML* (2025-09-14)
 - [EchoX: Towards Mitigating Acoustic-Semantic Gap via Echo Training for Speech-to-Speech LLMs](https://www.arxiv.org/abs/2509.09174) — *Multimodal (T/S)* (2025-09-13)
-- [Leveraging Unit Language Guidance to Advance Speech Modeling in Textless Speech-to-Speech Translation](https://aclanthology.org/2025.findings-acl.75.pdf) — *ST* (2025-09-13)
 <!--CHART_END-->
 
 ## How to add a new paper
