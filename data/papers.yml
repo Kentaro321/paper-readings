@@ -1,3 +1,11 @@
+- title: "A Theory of Response Sampling in LLMs: Part Descriptive and Part Prescriptive"
+  category: "LLM"
+  date: "2025-09-22"
+  link: "https://aclanthology.org/2025.acl-long.1454.pdf"
+  note: >
+    LLMからサンプルされる値は、本来の統計的な値 (descriptive) と比較して、理想的とされる値 (prescriptive) の方に偏ることを示した論文
+    15種類のLLMにさまざまなトピックに関する数量的な問いを投げかけ（例:1週間に飲まれる砂糖飲料の量は？）、平均値・理想値・純粋なサンプル値の3つを答えさせる実験により、上記の仮説の統計的有意性を確認
+
 - title: "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention"
   category: "LLM"
   date: "2025-09-21"
