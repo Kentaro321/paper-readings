@@ -1,3 +1,23 @@
+- title: "Llama-Mimi: Speech Language Models with Interleaved Semantic and Acoustic Tokens"
+  category: "Multimodal (T/S)"
+  date: "2025-09-23"
+  link: "https://arxiv.org/abs/2509.14882"
+  note: >
+    MimiのRVQ音声トークンをflattenしてTransformer Decoderで直接モデル化した音声言語モデルLlama-Mimiを提案
+    Mimiの1コードブック目はWavLMで蒸留されているためsemanticな情報も表現でき、系列長を抑えるため4コードブックを用いてモデル化（12.5Hz x 4 = 50 tokens/sec）
+    Llama 3 1.3B/8Bを約24万時間の英語音声でfull FTし、音響的なタスクではGSLM, TWISTを上回る性能を達成
+    一方で文脈的なタスクや生成され音声内容ではTWISTに及ばず、semantic/acousticのどちらを重視するかでトレードオフが存在
+
+- title: "Fairness through Difference Awareness: Measuring Desired Group Discrimination in LLMs"
+  category: "LLM"
+  date: "2025-09-23"
+  link: "https://aclanthology.org/2025.acl-long.341.pdf"
+  note: >
+    近年のLLMの文脈では、人種や性別等を無視して公平な扱いすることが重視されていたが（difference unawareness）、法律や保護特性の扱いなど特定の文脈では必要な差別化することが望ましい
+    本研究ではどのような文脈で差異を認めるべきか/無視するべきかを評価できるベンチマークと2つの評価指標DiffAware, CtxtAwareを提案
+    DiffAwareは「差を認めるべき文脈で適切に差を認められた割合」、CtxtAwareは「差を認めたもののうち差を認めるべき文脈であった割合」を表し、それぞれrecall, precisionに相当
+    9種類のモデルを用いた実験ではモデルの性能（MMLUスコアで代表）が上がるほどCtxtAwareは改善するが、DiffAwareは改善せず、文脈を考慮した適切な差別化の重要性を示唆している
+
 - title: "A Theory of Response Sampling in LLMs: Part Descriptive and Part Prescriptive"
   category: "LLM"
   date: "2025-09-22"
