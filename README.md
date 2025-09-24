@@ -20,7 +20,7 @@ Track and visualize your paper reading with auto-updated charts.
 | ASR | 4 |
 | Dataset (Speech) | 4 |
 | Multimodal (T/I) | 4 |
-| Speech | 3 |
+| Speech | 4 |
 | Multimodal (T/S/I/V) | 2 |
 | ST | 2 |
 | VC | 2 |
@@ -31,10 +31,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **127** |
+| **Total** | **128** |
 
 **Recently read**
 
+- [Sidon: Fast and Robust Open-Source Multilingual Speech Restoration for Large-scale Dataset Cleansing](https://arxiv.org/abs/2509.17052) — *Speech* (2025-09-24)
 - [Llama-Mimi: Speech Language Models with Interleaved Semantic and Acoustic Tokens](https://arxiv.org/abs/2509.14882) — *Multimodal (T/S)* (2025-09-23)
 - [Fairness through Difference Awareness: Measuring Desired Group Discrimination in LLMs](https://aclanthology.org/2025.acl-long.341.pdf) — *LLM* (2025-09-23)
 - [A Theory of Response Sampling in LLMs: Part Descriptive and Part Prescriptive](https://aclanthology.org/2025.acl-long.1454.pdf) — *LLM* (2025-09-22)
@@ -44,7 +45,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [WaveFM: A High-Fidelity and Efficient Vocoder Based on Flow Matching](https://arxiv.org/abs/2503.16689) — *NV* (2025-09-18)
 - [Single-stream Policy Optimization](https://arxiv.org/abs/2509.13232) — *LLM* (2025-09-17)
 - [Improving diffusion inverse problem solving with decoupled noise annealing](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Improving_Diffusion_Inverse_Problem_Solving_with_Decoupled_Noise_Annealing_CVPR_2025_paper.pdf) — *Image* (2025-09-16)
-- [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/) — *LLM* (2025-09-15)
 <!--CHART_END-->
 
 ## How to add a new paper

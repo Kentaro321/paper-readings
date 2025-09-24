@@ -1,5 +1,12 @@
 [
   {
+    "title": "Sidon: Fast and Robust Open-Source Multilingual Speech Restoration for Large-scale Dataset Cleansing",
+    "category": "Speech",
+    "date": "2025-09-24",
+    "link": "https://arxiv.org/abs/2509.17052",
+    "note": "LoRAチューニングされたw2v-BERT 2.0によるノイズ除去+特徴量抽出と、HiFi-GANによる波形生成を組み合わせた音声復元手法Sidonを提案 類似の構造（USM + WaveFit）を採用しているMiipher-2と比較してフルバンド復元・オープンソース・推論速度等の強みを持ち、品質でも同等以上を達成 Miipher-2では残響・雑音・コーデック劣化の3種類の劣化を用いているのに対し、Sidonではさらに帯域不足・クリッピング・パケットロスを加えた6種類の劣化を用いており、より多様な劣化に対して頑健\n"
+  },
+  {
     "title": "Llama-Mimi: Speech Language Models with Interleaved Semantic and Acoustic Tokens",
     "category": "Multimodal (T/S)",
     "date": "2025-09-23",
