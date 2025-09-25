@@ -1,3 +1,13 @@
+- title: "Language Models Resist Alignment: Evidence From Data Compression"
+  category: "LLM"
+  date: "2025-09-25"
+  link: "https://aclanthology.org/2025.acl-long.1141.pdf"
+  note: >
+    アラインメントされたLLMであっても少量の追加学習によって元の非アラインメント状態に戻せるという「LLMのアラインメントへの抵抗性」に着目し、言語モデルの持つテキスト圧縮の観点からその理由を分析
+    具体的には、各学習段階における学習データ量をバネ定数として、圧縮率（予測性能）の変化がフックの法則に従うこと発見（つまり、大規模データで学習された分布の予測性能は損なわれにくいが、少量データで学習されたアラインメント情報は損なわれやすい）
+    さらに、アラインメントに用いたデータ量が多いほど最初の応答は適切だが、逆アラインメントを行うと少量データでのアラインメント時以上に性能が低下する (rebound) ことを確認
+    現状のOSS LLMは最小限の追加学習により容易にアラインメントを解除できることが明らかとなったため、より頑健なアラインメント手法の開発が求められる
+
 - title: "Sidon: Fast and Robust Open-Source Multilingual Speech Restoration for Large-scale Dataset Cleansing"
   category: "Speech"
   date: "2025-09-24"
