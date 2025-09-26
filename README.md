@@ -14,7 +14,7 @@ Track and visualize your paper reading with auto-updated charts.
 |---|---|
 | LLM | 35 |
 | Multimodal (T/S) | 27 |
-| TTS | 21 |
+| TTS | 22 |
 | NAC | 12 |
 | ML | 5 |
 | ASR | 4 |
@@ -31,10 +31,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **129** |
+| **Total** | **130** |
 
 **Recently read**
 
+- [VoXtream: Full-Stream Text-to-Speech with Extremely Low Latency](https://www.arxiv.org/abs/2509.15969) — *TTS* (2025-09-26)
 - [Language Models Resist Alignment: Evidence From Data Compression](https://aclanthology.org/2025.acl-long.1141.pdf) — *LLM* (2025-09-25)
 - [Sidon: Fast and Robust Open-Source Multilingual Speech Restoration for Large-scale Dataset Cleansing](https://arxiv.org/abs/2509.17052) — *Speech* (2025-09-24)
 - [Llama-Mimi: Speech Language Models with Interleaved Semantic and Acoustic Tokens](https://arxiv.org/abs/2509.14882) — *Multimodal (T/S)* (2025-09-23)
@@ -44,7 +45,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [MiMo-Audio: Audio Language Models are Few-Shot Learners](https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf) — *Multimodal (T/S)* (2025-09-20)
 - [LLM-I: LLMs are Naturally Interleaved Multimodal Creators](https://arxiv.org/abs/2509.13642) — *Multimodal (T/I)* (2025-09-19)
 - [WaveFM: A High-Fidelity and Efficient Vocoder Based on Flow Matching](https://arxiv.org/abs/2503.16689) — *NV* (2025-09-18)
-- [Single-stream Policy Optimization](https://arxiv.org/abs/2509.13232) — *LLM* (2025-09-17)
 <!--CHART_END-->
 
 ## How to add a new paper
