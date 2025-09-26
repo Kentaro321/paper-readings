@@ -1,3 +1,13 @@
+- title: "VoXtream: Full-Stream Text-to-Speech with Extremely Low Latency"
+  category: "TTS"
+  date: "2025-09-26"
+  link: "https://www.arxiv.org/abs/2509.15969"
+  note: >
+    ストリーミング可能な音素入力を基にMimiの音声トークンを逐次生成する入出力ストリーミングTTS、VoXtreamを提案
+    モデルは(1) 音素を埋め込むPhoneme Transformer、(2) (1)の出力からMimiの1コードブック目と音素継続長を予測するTemporal Transformer、(3) (2)の出力からMimiの2~12コードブック目を予測するDepth Transformer の3つからなる
+    入出力ストリーミング条件ではCosyVoice 2を超える品質を達成し、first-packet latencyは102ms, RTFはtorch.compile下で0.17を達成
+    話者類似性がCosyVoice 2に及ばない点、G2PやMFAなどの外部依存、G2Pが将来のコンテキストに依存する点が課題か
+
 - title: "Language Models Resist Alignment: Evidence From Data Compression"
   category: "LLM"
   date: "2025-09-25"
