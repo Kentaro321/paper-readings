@@ -1,5 +1,12 @@
 [
   {
+    "title": "Qwen3-Omni Technical Report",
+    "category": "Multimodal (T/S/I/V)",
+    "date": "2025-09-27",
+    "link": "https://arxiv.org/abs/2509.17765",
+    "note": "Qwen2.5-Omniを改良し、テキスト・音声・画像・動画の全モダリティで同規模のモダリティ特化モデルと同等の性能を実現 大小2つのLLMを用いるThinker-Talker構造にMoEを導入し、音声生成は12.5Hz x 16コードブックを用いたストリーミング生成で理論上の遅延234msを達成 また音声エンコーダはWhisper large-v3をベースにしていたQwen2.5-Omniと異なり、650Mパラメータのエンコーダを2千万時間の音声データで一から教師あり学習\n"
+  },
+  {
     "title": "VoXtream: Full-Stream Text-to-Speech with Extremely Low Latency",
     "category": "TTS",
     "date": "2025-09-26",
