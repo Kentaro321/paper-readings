@@ -16,8 +16,8 @@ Track and visualize your paper reading with auto-updated charts.
 | Multimodal (T/S) | 27 |
 | TTS | 22 |
 | NAC | 12 |
+| ASR | 5 |
 | ML | 5 |
-| ASR | 4 |
 | Dataset (Speech) | 4 |
 | Multimodal (T/I) | 4 |
 | Speech | 4 |
@@ -31,10 +31,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **131** |
+| **Total** | **132** |
 
 **Recently read**
 
+- [Building Tailored Speech Recognizers for Japanese Speaking Assessment](https://arxiv.org/abs/2509.20655) — *ASR* (2025-09-28)
 - [Qwen3-Omni Technical Report](https://arxiv.org/abs/2509.17765) — *Multimodal (T/S/I/V)* (2025-09-27)
 - [VoXtream: Full-Stream Text-to-Speech with Extremely Low Latency](https://www.arxiv.org/abs/2509.15969) — *TTS* (2025-09-26)
 - [Language Models Resist Alignment: Evidence From Data Compression](https://aclanthology.org/2025.acl-long.1141.pdf) — *LLM* (2025-09-25)
@@ -44,7 +45,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [A Theory of Response Sampling in LLMs: Part Descriptive and Part Prescriptive](https://aclanthology.org/2025.acl-long.1454.pdf) — *LLM* (2025-09-22)
 - [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://aclanthology.org/2025.acl-long.1126.pdf) — *LLM* (2025-09-21)
 - [MiMo-Audio: Audio Language Models are Few-Shot Learners](https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf) — *Multimodal (T/S)* (2025-09-20)
-- [LLM-I: LLMs are Naturally Interleaved Multimodal Creators](https://arxiv.org/abs/2509.13642) — *Multimodal (T/I)* (2025-09-19)
 <!--CHART_END-->
 
 ## How to add a new paper
