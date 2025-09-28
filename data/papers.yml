@@ -1,3 +1,12 @@
+- title: "ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution"
+  category: "ML"
+  date: "2025-09-29"
+  link: "https://arxiv.org/abs/2509.19349"
+  note: >
+    LLMを進化的なプログラム探索に組み込む研究では、サンプル効率が悪く膨大な世代数が必要になる課題があった
+    ShinkaEvolveは (1) 親サンプリングにおける探索と活用の制御 (2) LLMを用いたコードの新規性に基づく棄却サンプリング (3) バンディット方式によるLLM選択戦略 の3つを組み合わせてサンプル効率を改善
+    実験では150サンプルで従来を上回るcircle packing解を発見するなど、サンプル効率と汎用性を両立する結果を確認
+
 - title: "Building Tailored Speech Recognizers for Japanese Speaking Assessment"
   category: "ASR"
   date: "2025-09-28"
