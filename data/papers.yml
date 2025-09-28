@@ -1,3 +1,13 @@
+- title: "Building Tailored Speech Recognizers for Japanese Speaking Assessment"
+  category: "ASR"
+  date: "2025-09-28"
+  link: "https://arxiv.org/abs/2509.20655"
+  note: >
+    音声からアクセント付き音素列を予測する日本語特化の音声認識システムを提案
+    Mimi Encoderを用いてストリーミングで抽出された音声特徴量を元にTransformerでテキスト、fo、phonetic alphabet (PA) の3つを同時に予測（マルチタスク学習）
+    音素情報のついた学習データが少なく（CSJ Core）、直接予測されたPAは精度が不十分なため、テキストと語彙群から推定されたPAとの間でlattice fusionを行い精度を改善
+    CSJ, JSUTでの評価でWhisperやMultiPAを大きく上回る性能を達成
+
 - title: "Qwen3-Omni Technical Report"
   category: "Multimodal (T/S/I/V)"
   date: "2025-09-27"
