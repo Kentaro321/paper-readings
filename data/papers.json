@@ -1,5 +1,12 @@
 [
   {
+    "title": "SPADE: Structured Pruning and Adaptive Distillation for Efficient LLM-TTS",
+    "category": "TTS",
+    "date": "2025-09-30",
+    "link": "https://arxiv.org/abs/2509.20802",
+    "note": "TransformerベースのTTSモデルに対して、重要度の低い層の削除と知識蒸留を組み合わせ、効率的なモデル圧縮を実現する手法SPADEを提案 従来プルーニングにおいて各層の重要性は入出力のcosine類似度で測られていたが、SPADEでは特定の層を削除した際のWERの低下から直接的に測ることで性能劣化を抑制 また、連続する複数層の削除にあたって、削除する最後の層の中間特徴量やアテンション重みとの誤差を最小化する知識蒸留を行うことで、後段への影響を抑えた CosyVoice 2に適用した実験ではわずかな性能劣化で40%のパラメータ削減・推論高速化を達成したが、LLaSAに適用した場合はやや性能劣化が大きく、全層の重要性が高い場合の適用に課題が残る 事前学習時の5%程度のデータで蒸留できるのは魅力的だが、削減後の規模のモデルを事前学習した場合とどちらが性能が良いかは気になる\n"
+  },
+  {
     "title": "ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
     "category": "ML",
     "date": "2025-09-29",
