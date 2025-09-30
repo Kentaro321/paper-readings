@@ -1,3 +1,12 @@
+- title: "Sora 2 System Card"
+  category: "Multimodal Generation"
+  date: "2025-10-01"
+  link: "https://cdn.openai.com/pdf/50d5973c-c4ff-4c2d-986f-c72b5d0ff069/sora_2_system_card.pdf"
+  note: >
+    高品質な動画と音を生成するOpenAIのモデルSora 2のシステムカード
+    物理法則やフォトリアル、音と映像の同期、テキスト追従、表現の幅を強化
+    システムカードの方は安全性に関する記述が多く、データセットの厳格なフィルタリング、利用時の入出力チェック、年齢制限、ウォーターマーク付与、レッドチームの監視等が言及されている
+
 - title: "SPADE: Structured Pruning and Adaptive Distillation for Efficient LLM-TTS"
   category: "TTS"
   date: "2025-09-30"
