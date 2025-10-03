@@ -1,3 +1,13 @@
+- title: "Knapsack RL: Unlocking Exploration of LLMs via Optimizing Budget Allocation"
+  category: "LLM"
+  date: "2025-10-03"
+  link: "https://arxiv.org/abs/2509.25849"
+  note: >
+    GRPOは簡単すぎる/難しすぎるタスク（あるプロンプトに対する全てのサンプルで正解/不正解が揃う場合）に対して学習信号が得られない課題がある
+    本研究ではまず成功確率pを用いて有効な学習信号を得るために必要なサンプル数を定式化し、p<0.01のようなケースでは平均で100サンプル以上が必要であることを示した
+    そこで、全計算資源をナップザックの容量、各プロンプトに対して配分する計算資源（=サンプル生成数）重さ、その問題が解けることによる利益を価値として、計算資源配分を動的に決定するKnapsack RLを提案
+    通常のGRP0と比較して特に数学を中心としたSTEM系ベンチマークで一貫して性能を改善し、学習中の有効な学習信号の割合も高く維持できることを実証
+
 - title: "Sora 2 System Card"
   category: "Multimodal Generation"
   date: "2025-10-01"
