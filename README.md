@@ -12,7 +12,7 @@ Track and visualize your paper reading with auto-updated charts.
 
 | Category | Count |
 |---|---|
-| LLM | 35 |
+| LLM | 36 |
 | Multimodal (T/S) | 27 |
 | TTS | 23 |
 | NAC | 12 |
@@ -32,10 +32,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **135** |
+| **Total** | **136** |
 
 **Recently read**
 
+- [Knapsack RL: Unlocking Exploration of LLMs via Optimizing Budget Allocation](https://arxiv.org/abs/2509.25849) — *LLM* (2025-10-03)
 - [Sora 2 System Card](https://cdn.openai.com/pdf/50d5973c-c4ff-4c2d-986f-c72b5d0ff069/sora_2_system_card.pdf) — *Multimodal Generation* (2025-10-01)
 - [SPADE: Structured Pruning and Adaptive Distillation for Efficient LLM-TTS](https://arxiv.org/abs/2509.20802) — *TTS* (2025-09-30)
 - [ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution](https://arxiv.org/abs/2509.19349) — *ML* (2025-09-29)
@@ -45,7 +46,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Language Models Resist Alignment: Evidence From Data Compression](https://aclanthology.org/2025.acl-long.1141.pdf) — *LLM* (2025-09-25)
 - [Sidon: Fast and Robust Open-Source Multilingual Speech Restoration for Large-scale Dataset Cleansing](https://arxiv.org/abs/2509.17052) — *Speech* (2025-09-24)
 - [Llama-Mimi: Speech Language Models with Interleaved Semantic and Acoustic Tokens](https://arxiv.org/abs/2509.14882) — *Multimodal (T/S)* (2025-09-23)
-- [Fairness through Difference Awareness: Measuring Desired Group Discrimination in LLMs](https://aclanthology.org/2025.acl-long.341.pdf) — *LLM* (2025-09-23)
 <!--CHART_END-->
 
 ## How to add a new paper
