@@ -1,5 +1,12 @@
 [
   {
+    "title": "ExGRPO: Learning to Reason from Experience",
+    "category": "LLM",
+    "date": "2025-10-06",
+    "link": "https://arxiv.org/abs/2510.02245",
+    "note": "既存のon-policy型RL手法（GRPO等）は、生成したサンプルを一度更新に利用したら破棄するため、再利用性や訓練安定性に制約があった 本研究ではexperience replayを導入したExGRPOを提案し、(1) 正解率 (中難易度を重視) (2) エントロピー (低いほど高品質な推論) をもとに経験を抽出することで効率的な学習を実現 1.5Bから8Bの様々なモデルで有効性を確認し、特に数学系ベンチマークで大きな改善を達成\n"
+  },
+  {
     "title": "Knapsack RL: Unlocking Exploration of LLMs via Optimizing Budget Allocation",
     "category": "LLM",
     "date": "2025-10-03",
