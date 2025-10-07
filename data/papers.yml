@@ -1,3 +1,12 @@
+- title: "Self-Improvement in Multimodal Large Language Models: A Survey"
+  category: "Multimodal (T/I)"
+  date: "2025-10-07"
+  link: "https://arxiv.org/abs/2510.02665"
+  note: >
+    VLMにおける自己改善（自動化された手法でデータ収集・前処理を行いモデルを改善する手法）に関するサーベイ
+    データ収集・データ前処理・モデル改善の3つの観点から既存手法を整理し、各段階での課題と今後の展望を議論
+    また指示学習、嗜好学習、RLVRに利用可能な合成データセットについても言及
+
 - title: "ExGRPO: Learning to Reason from Experience"
   category: "LLM"
   date: "2025-10-06"
