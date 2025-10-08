@@ -1,3 +1,14 @@
+- title: "KAME: Tandem Architecture for Enhancing Knowledge in Real-Time Speech-to-Speech Conversational AI"
+  category: "Multimodal (T/S)"
+  date: "2025-10-08"
+  link: "https://arxiv.org/abs/2510.02327"
+  note: >
+    Speech-to-speechの形で動作するフロントエンドLMにバックエンドLLMを統合したKnowledge-Access Model Extension: KAMEを提案
+    バックエンドLLMは部分的な書き起こしを元に応答を生成し、Moshi-likeなフロントエンドLMはその暫定的な応答も用いて応答音声を生成
+    フロントエンドLMの学習には、テキストQAデータセットにおける実際の応答をヒントとして合成された暫定的な応答を用いた
+    実験ではMoshiと同等の遅延でMT-Benchにおけるスコアを大幅に改善し、バックエンドLLMの知識活用の有効性を確認
+    一方で完全なカスケードシステムであるUnmuteと比較すると応答品質はやや劣っており、部分的な書き起こしに基づく応答生成の限界が示唆されている
+
 - title: "Self-Improvement in Multimodal Large Language Models: A Survey"
   category: "Multimodal (T/I)"
   date: "2025-10-07"
