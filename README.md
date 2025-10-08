@@ -13,7 +13,7 @@ Track and visualize your paper reading with auto-updated charts.
 | Category | Count |
 |---|---|
 | LLM | 37 |
-| Multimodal (T/S) | 27 |
+| Multimodal (T/S) | 28 |
 | TTS | 23 |
 | NAC | 12 |
 | ML | 6 |
@@ -32,10 +32,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **138** |
+| **Total** | **139** |
 
 **Recently read**
 
+- [KAME: Tandem Architecture for Enhancing Knowledge in Real-Time Speech-to-Speech Conversational AI](https://arxiv.org/abs/2510.02327) — *Multimodal (T/S)* (2025-10-08)
 - [Self-Improvement in Multimodal Large Language Models: A Survey](https://arxiv.org/abs/2510.02665) — *Multimodal (T/I)* (2025-10-07)
 - [ExGRPO: Learning to Reason from Experience](https://arxiv.org/abs/2510.02245) — *LLM* (2025-10-06)
 - [Knapsack RL: Unlocking Exploration of LLMs via Optimizing Budget Allocation](https://arxiv.org/abs/2509.25849) — *LLM* (2025-10-03)
@@ -45,7 +46,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Building Tailored Speech Recognizers for Japanese Speaking Assessment](https://arxiv.org/abs/2509.20655) — *ASR* (2025-09-28)
 - [Qwen3-Omni Technical Report](https://arxiv.org/abs/2509.17765) — *Multimodal (T/S/I/V)* (2025-09-27)
 - [VoXtream: Full-Stream Text-to-Speech with Extremely Low Latency](https://www.arxiv.org/abs/2509.15969) — *TTS* (2025-09-26)
-- [Language Models Resist Alignment: Evidence From Data Compression](https://aclanthology.org/2025.acl-long.1141.pdf) — *LLM* (2025-09-25)
 <!--CHART_END-->
 
 ## How to add a new paper
