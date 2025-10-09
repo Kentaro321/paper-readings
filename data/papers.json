@@ -1,5 +1,12 @@
 [
   {
+    "title": "Latent Speech-Text Transformer",
+    "category": "Multimodal (T/S)",
+    "date": "2025-10-09",
+    "link": "https://arxiv.org/abs/2510.06195",
+    "note": "テキストとHuBERTトークンの両方を扱えるSpirit-LM型の音声言語モデルに対し、音声トークンを動的にパッチング/展開する機構を導入したLSTを提案 (1) 固定長の静的パッチング (2) アラインメントベースの動的パッチング (3) (1)と(2)のランダム (4) (2)→(1)へのカリキュラム学習 の4通りを比較し、(4)が最も性能が良いことを確認 また、音声系列のパッチングを行わないベースラインと比較しても安定して性能が高く、特に音声入出力QAで有望\n"
+  },
+  {
     "title": "KAME: Tandem Architecture for Enhancing Knowledge in Real-Time Speech-to-Speech Conversational AI",
     "category": "Multimodal (T/S)",
     "date": "2025-10-08",
