@@ -16,7 +16,7 @@ Track and visualize your paper reading with auto-updated charts.
 | Multimodal (T/S) | 29 |
 | TTS | 23 |
 | NAC | 12 |
-| ML | 6 |
+| ML | 7 |
 | ASR | 5 |
 | Multimodal (T/I) | 5 |
 | Dataset (Speech) | 4 |
@@ -32,10 +32,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **140** |
+| **Total** | **141** |
 
 **Recently read**
 
+- [Less is More: Recursive Reasoning with Tiny Networks](https://arxiv.org/abs/2510.04871) — *ML* (2025-10-10)
 - [Latent Speech-Text Transformer](https://arxiv.org/abs/2510.06195) — *Multimodal (T/S)* (2025-10-09)
 - [KAME: Tandem Architecture for Enhancing Knowledge in Real-Time Speech-to-Speech Conversational AI](https://arxiv.org/abs/2510.02327) — *Multimodal (T/S)* (2025-10-08)
 - [Self-Improvement in Multimodal Large Language Models: A Survey](https://arxiv.org/abs/2510.02665) — *Multimodal (T/I)* (2025-10-07)
@@ -45,7 +46,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [SPADE: Structured Pruning and Adaptive Distillation for Efficient LLM-TTS](https://arxiv.org/abs/2509.20802) — *TTS* (2025-09-30)
 - [ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution](https://arxiv.org/abs/2509.19349) — *ML* (2025-09-29)
 - [Building Tailored Speech Recognizers for Japanese Speaking Assessment](https://arxiv.org/abs/2509.20655) — *ASR* (2025-09-28)
-- [Qwen3-Omni Technical Report](https://arxiv.org/abs/2509.17765) — *Multimodal (T/S/I/V)* (2025-09-27)
 <!--CHART_END-->
 
 ## How to add a new paper
