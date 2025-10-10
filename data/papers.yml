@@ -1,3 +1,12 @@
+- title: "Less is More: Recursive Reasoning with Tiny Networks"
+  category: "ML"
+  date: "2025-10-10"
+  link: "https://arxiv.org/abs/2510.04871"
+  note: >
+    Hierarchical Reasoning Modelは、駆動頻度の異なる2つの小さなネットワークを用いて高い推論能力を実現したが、勾配計算における過度な近似、脳との類似性に基づく複雑なモデル設計等の課題があった
+    本研究ではネットワークを1つに減らし、反復推論の流れも簡略化しつつ（高頻度でn回駆動→低頻度で1回駆動）、複雑な推論タスクにおける性能を改善
+    数独、迷路、ARC-AGI、ARC-AGI2の4つのベンチマークでo3-mini-highやGemini 2.5 Proを上回る性能を達成
+
 - title: "Latent Speech-Text Transformer"
   category: "Multimodal (T/S)"
   date: "2025-10-09"
