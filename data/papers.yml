@@ -1,3 +1,12 @@
+- title: "SHANKS: Simultaneous Hearing and Thinking for Spoken Language Models"
+  category: "Multimodal (T/S)"
+  date: "2025-10-11"
+  link: "https://arxiv.org/abs/2510.06917"
+  note: >
+    ユーザーの発話を4秒程度のチャンクで受け取りながら、各チャンクに対してreasoningを行い、ユーザーの発話終了すぐに応答を生成し始める音声対話モデルSHANKSを提案
+    これまであまり扱われてこなかった「ユーザーが長く話す」「ユーザーが誤った情報を発した場合、積極的に遮る」といった設計を採用し、数学の問題解決を援助するなどに応用
+    さらに、reasoningの中ではツール呼び出しも実行でき、ユーザーの発話中にツール呼び出し + 成功しなかったもののみ発話終了後に再呼び出し することで高い精度を達成
+
 - title: "Less is More: Recursive Reasoning with Tiny Networks"
   category: "ML"
   date: "2025-10-10"
