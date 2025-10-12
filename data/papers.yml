@@ -1,3 +1,12 @@
+- title: "Mamba-3: Improved Sequence Modeling using State Space Principles"
+  category: "LLM"
+  date: "2025-10-12"
+  link: "https://openreview.net/pdf?id=HwCvaJOiCj"
+  note: >
+    Mamba-2を性能やハードウェア効率の面で改良したMamba-3を提案
+    (1) オイラー法に基づく離散化を台形近似に変更することで誤差を抑制 (2) 状態を複素数で扱うSSMを導入しつつ、等価な実数値SSMに変換 (3) 入出力を多次元化することで演算強度を向上
+    実験では一貫してMamba-2を上回る性能を達成、一般的なタスクではTransformerをも上回るが、retrievalではやや劣る結果
+
 - title: "SHANKS: Simultaneous Hearing and Thinking for Spoken Language Models"
   category: "Multimodal (T/S)"
   date: "2025-10-11"
