@@ -12,7 +12,7 @@ Track and visualize your paper reading with auto-updated charts.
 
 | Category | Count |
 |---|---|
-| LLM | 37 |
+| LLM | 38 |
 | Multimodal (T/S) | 30 |
 | TTS | 23 |
 | NAC | 12 |
@@ -32,10 +32,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **142** |
+| **Total** | **143** |
 
 **Recently read**
 
+- [Mamba-3: Improved Sequence Modeling using State Space Principles](https://openreview.net/pdf?id=HwCvaJOiCj) — *LLM* (2025-10-12)
 - [SHANKS: Simultaneous Hearing and Thinking for Spoken Language Models](https://arxiv.org/abs/2510.06917) — *Multimodal (T/S)* (2025-10-11)
 - [Less is More: Recursive Reasoning with Tiny Networks](https://arxiv.org/abs/2510.04871) — *ML* (2025-10-10)
 - [Latent Speech-Text Transformer](https://arxiv.org/abs/2510.06195) — *Multimodal (T/S)* (2025-10-09)
@@ -45,7 +46,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Knapsack RL: Unlocking Exploration of LLMs via Optimizing Budget Allocation](https://arxiv.org/abs/2509.25849) — *LLM* (2025-10-03)
 - [Sora 2 System Card](https://cdn.openai.com/pdf/50d5973c-c4ff-4c2d-986f-c72b5d0ff069/sora_2_system_card.pdf) — *Multimodal Generation* (2025-10-01)
 - [SPADE: Structured Pruning and Adaptive Distillation for Efficient LLM-TTS](https://arxiv.org/abs/2509.20802) — *TTS* (2025-09-30)
-- [ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution](https://arxiv.org/abs/2509.19349) — *ML* (2025-09-29)
 <!--CHART_END-->
 
 ## How to add a new paper
