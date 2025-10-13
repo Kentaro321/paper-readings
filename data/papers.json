@@ -1,5 +1,12 @@
 [
   {
+    "title": "Byte Latent Transformer: Patches Scale Better Than Tokens",
+    "category": "LLM",
+    "date": "2025-10-13",
+    "link": "https://aclanthology.org/2025.acl-long.453.pdf",
+    "note": "初めてトークナイザーベースのLLMと匹敵するバイトベースLLMとしてByte Latent Transformer (BLT)を提案 入力バイト列は次バイトの予測の難しさ（エントロピー）を元に動的にパッチングされ、Latent Global Transformerがパッチ化された潜在表現に対して駆動 BLTは高いスケーリング特性を持ち、さらにトークナイザーベースのLLMが苦手とするノイジーな入力・G2P・文字理解タスクにも頑健\n"
+  },
+  {
     "title": "Mamba-3: Improved Sequence Modeling using State Space Principles",
     "category": "LLM",
     "date": "2025-10-12",
