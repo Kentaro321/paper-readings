@@ -1,5 +1,12 @@
 [
   {
+    "title": "Full-Duplex-Bench-v2: A Multi-Turn Evaluation Framework for Duplex Dialogue Systems with an Automated Examiner",
+    "category": "Multimodal (T/S)",
+    "date": "2025-10-14",
+    "link": "https://arxiv.org/abs/2510.07838",
+    "note": "gpt-realtimeを用いたfull-duplex音声対話システムの評価用ベンチマークFull-Duplex-Bench-v2を提案 本ベンチマークはマルチターン対話に焦点を当て、gpt-realtime側 (Examiner) がシステム側 (Evaluatee) に話しかけながら一連のタスクを完遂する形式を採用 タスクは日常会話、以前の情報の修正、指示語の追従、安全性の4つのカテゴリに分かれ、ターンテイキングの円滑さ、マルチターンでの指示追従、タスク固有の評価指標の3軸で評価 gpt-realtime, Moshi, Freeze-Omniを比較した実験ではgpt-realtimeが一貫して最も高性能であり、またExaminer側からの遮りや相槌を行わないslowな設定の方が全体的な性能が向上することも確認 タスクの多様化、音響情報の加味（感情や同調等）、多言語への対応などが今後の展望として挙げられている\n"
+  },
+  {
     "title": "Byte Latent Transformer: Patches Scale Better Than Tokens",
     "category": "LLM",
     "date": "2025-10-13",
