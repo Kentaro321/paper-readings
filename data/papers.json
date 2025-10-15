@@ -1,5 +1,12 @@
 [
   {
+    "title": "IndicSynth: A Large-Scale Multilingual Synthetic Speech Dataset for Low-Resource Indian Languages",
+    "category": "Dataset (Speech)",
+    "date": "2025-10-15",
+    "link": "https://aclanthology.org/2025.acl-long.1070.pdf",
+    "note": "声のなりすましを防ぐAudio Deepfake Detection (ADD) の研究は英語や中国語に偏っており、インドのような多言語・低リソースな環境では十分な精度でない この課題に対し、TTS (XTTS-v2) やVC (FreeVC24) を用いて約4000時間、12言語からなる合成音声データセットIndicSynthを作成 既存の言語識別モデルや話者認証モデルを用いた実験では、IndicSynthに含まれる合成音声が言語、話者ともに高い精度で模倣できていることを確認\n"
+  },
+  {
     "title": "Full-Duplex-Bench-v2: A Multi-Turn Evaluation Framework for Duplex Dialogue Systems with an Automated Examiner",
     "category": "Multimodal (T/S)",
     "date": "2025-10-14",
