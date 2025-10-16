@@ -20,7 +20,7 @@ Track and visualize your paper reading with auto-updated charts.
 | ASR | 5 |
 | Dataset (Speech) | 5 |
 | Multimodal (T/I) | 5 |
-| Speech | 4 |
+| Speech | 5 |
 | Multimodal (T/S/I/V) | 3 |
 | ST | 2 |
 | VC | 2 |
@@ -32,10 +32,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **146** |
+| **Total** | **147** |
 
 **Recently read**
 
+- [The taste of IPA: Towards open-vocabulary keyword spotting and forced alignment in any language](https://aclanthology.org/2024.naacl-long.43.pdf) — *Speech* (2025-10-16)
 - [IndicSynth: A Large-Scale Multilingual Synthetic Speech Dataset for Low-Resource Indian Languages](https://aclanthology.org/2025.acl-long.1070.pdf) — *Dataset (Speech)* (2025-10-15)
 - [Full-Duplex-Bench-v2: A Multi-Turn Evaluation Framework for Duplex Dialogue Systems with an Automated Examiner](https://arxiv.org/abs/2510.07838) — *Multimodal (T/S)* (2025-10-14)
 - [Byte Latent Transformer: Patches Scale Better Than Tokens](https://aclanthology.org/2025.acl-long.453.pdf) — *LLM* (2025-10-13)
@@ -45,7 +46,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Latent Speech-Text Transformer](https://arxiv.org/abs/2510.06195) — *Multimodal (T/S)* (2025-10-09)
 - [KAME: Tandem Architecture for Enhancing Knowledge in Real-Time Speech-to-Speech Conversational AI](https://arxiv.org/abs/2510.02327) — *Multimodal (T/S)* (2025-10-08)
 - [Self-Improvement in Multimodal Large Language Models: A Survey](https://arxiv.org/abs/2510.02665) — *Multimodal (T/I)* (2025-10-07)
-- [ExGRPO: Learning to Reason from Experience](https://arxiv.org/abs/2510.02245) — *LLM* (2025-10-06)
 <!--CHART_END-->
 
 ## How to add a new paper
