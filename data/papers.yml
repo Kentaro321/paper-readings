@@ -1,3 +1,14 @@
+- title: "ZIPA: A family of efficient models for multilingual phone recognition"
+  category: "Speech"
+  date: "2025-10-16"
+  link: "https://aclanthology.org/2025.acl-long.961.pdf"
+  note: >
+    ZipformerとCTCまたはRNN-Tを組み合わせたIPA認識モデルZIPAと、そのためのデータセットIPAPack++を提案
+    IPAPack++はCommon Voice, LibriSpeech, MLS, AIShell-1などを含む1万7千時間88言語の音声と、CharsiuG2PおよびEpitranによる自動IPAアノテーションからなるコーパスであり、IPAPackよりも統一された表現を採用
+    ZIPAはWhisper Encoderのような事前学習モジュールを用いる代わりにZipformerをスクラッチから学習することで軽量・高速化しつつ、CTC版はConsistency-Regularized CTCを用いることで精度を改善
+    実験では既存の音素認識モデルよりも高い精度を達成し、既知言語ではRNN-T版、未知言語ではCTC版が特に有効であることを確認
+    一方で学習データのIPAがG2P依存であることに起因し、実際に発話されたIPAよりもテキストに対応するIPAが優先される傾向にある (L2等で顕著) など、課題も指摘されている
+
 - title: "The taste of IPA: Towards open-vocabulary keyword spotting and forced alignment in any language"
   category: "Speech"
   date: "2025-10-16"
