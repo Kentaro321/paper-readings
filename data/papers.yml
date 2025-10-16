@@ -1,3 +1,12 @@
+- title: "The taste of IPA: Towards open-vocabulary keyword spotting and forced alignment in any language"
+  category: "Speech"
+  date: "2025-10-16"
+  link: "https://aclanthology.org/2024.naacl-long.43.pdf"
+  note: >
+    IPAを用いた多言語キーワードスポッティングCLAP-IPAおよび強制アライメント手法IPA-Alignerと、そのためのデータセットIPAPackを提案
+    IPAPackはFLEURS, Multilingual Spoken Words Corpus, DoReCoの3つのデータセットにIPAアノテーションを付与した115言語1000時間のコーパス
+    実験では特定言語特化のモデルには一部で劣るものの高い精度を達成し、特にテキストベースのモデルが苦手とする未知言語に対しても対応できることを確認
+
 - title: "IndicSynth: A Large-Scale Multilingual Synthetic Speech Dataset for Low-Resource Indian Languages"
   category: "Dataset (Speech)"
   date: "2025-10-15"
