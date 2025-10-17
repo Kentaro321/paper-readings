@@ -1,3 +1,12 @@
+- title: 'Do LLMs "Feel"? Emotion Circuits Discovery and Control'
+  category: "LLM"
+  date: "2025-10-17"
+  link: "https://arxiv.org/abs/2510.11328"
+  note: >
+    LLMの内部には感情を表現する特定のニューロンやアテンションヘッド（感情回路）が存在することを発見し、それを用いた高精度な感情制御手法を提案
+    従来のステアリングベクトルに基づく感情操作（中間層に感情ベクトルを加える）と比較して、回路ベースの手法は特に「驚き」の感情を中心により正確な制御を実現
+    実験では、回路操作によって意図した感情を約99.6％の確率で正確に表現でき、感情のニュアンスや表現力も向上することを確認
+
 - title: "ZIPA: A family of efficient models for multilingual phone recognition"
   category: "Speech"
   date: "2025-10-16"
