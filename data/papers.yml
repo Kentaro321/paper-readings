@@ -1,3 +1,13 @@
+- title: "LongCat-Audio-Codec: An Audio Tokenizer and Detokenizer Solution Designed for Speech Large Language Models"
+  category: "NAC"
+  date: "2025-10-19"
+  link: "https://github.com/meituan-longcat/LongCat-Audio-Codec/blob/main/tech_report.pdf"
+  note: >
+    低ビットレートで高い音質を実現する音声トークナイザーLongCat-Audio-Codecを提案
+    EncoderはTransformerベースのsemantic encoderの特徴量をk-meansクラスタリングして得るsemantic tokenと、畳み込みベースのacoustic encoderの特徴量にAdaptive Grouped RVQを適用して得るacoutic tokensを生成
+    Decoderはストリーミング可能なようLSTMとCausal Convで構成される
+    実験では同ビットレート帯の既存手法を上回る品質（特にWER）を達成し、Decoderのみを微調整することで特定話者に対する話者類似性をさらに改善できることも示した
+
 - title: "SpeechLLM-as-Judges: Towards General and Interpretable Speech Quality Evaluation"
   category: "Multimodal (T/S)"
   date: "2025-10-18"
