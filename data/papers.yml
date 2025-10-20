@@ -1,3 +1,11 @@
+- title: "Understanding the Modality Gap: An Empirical Study on the Speech-Text Alignment Mechanism of Large Speech Language Models"
+  category: "Multimodal (T/S)"
+  date: "2025-10-20"
+  link: "https://arxiv.org/abs/2510.12116"
+  note: >
+    Encoder-Adapter-LLM型の音声言語モデルにおいて、音声入力の場合にはテキスト入力の場合よりも応答品質が低下する「モダリティギャップ」が存在
+    このギャップはテキスト入力時/音声入力時の平均特徴量のコサイン類似度やユークリッド距離と相関があることを発見し、実際にテキスト入力時の特徴量に近づけるような介入を行うことで応答精度を改善できることを確認
+
 - title: "LongCat-Audio-Codec: An Audio Tokenizer and Detokenizer Solution Designed for Speech Large Language Models"
   category: "NAC"
   date: "2025-10-19"
