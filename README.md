@@ -13,7 +13,7 @@ Track and visualize your paper reading with auto-updated charts.
 | Category | Count |
 |---|---|
 | LLM | 40 |
-| Multimodal (T/S) | 32 |
+| Multimodal (T/S) | 33 |
 | TTS | 23 |
 | NAC | 13 |
 | ML | 7 |
@@ -32,10 +32,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **151** |
+| **Total** | **152** |
 
 **Recently read**
 
+- [Understanding the Modality Gap: An Empirical Study on the Speech-Text Alignment Mechanism of Large Speech Language Models](https://arxiv.org/abs/2510.12116) — *Multimodal (T/S)* (2025-10-20)
 - [LongCat-Audio-Codec: An Audio Tokenizer and Detokenizer Solution Designed for Speech Large Language Models](https://github.com/meituan-longcat/LongCat-Audio-Codec/blob/main/tech_report.pdf) — *NAC* (2025-10-19)
 - [SpeechLLM-as-Judges: Towards General and Interpretable Speech Quality Evaluation](https://arxiv.org/abs/2510.14664) — *Multimodal (T/S)* (2025-10-18)
 - [Do LLMs "Feel"? Emotion Circuits Discovery and Control](https://arxiv.org/abs/2510.11328) — *LLM* (2025-10-17)
@@ -45,7 +46,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Full-Duplex-Bench-v2: A Multi-Turn Evaluation Framework for Duplex Dialogue Systems with an Automated Examiner](https://arxiv.org/abs/2510.07838) — *Multimodal (T/S)* (2025-10-14)
 - [Byte Latent Transformer: Patches Scale Better Than Tokens](https://aclanthology.org/2025.acl-long.453.pdf) — *LLM* (2025-10-13)
 - [Mamba-3: Improved Sequence Modeling using State Space Principles](https://openreview.net/pdf?id=HwCvaJOiCj) — *LLM* (2025-10-12)
-- [SHANKS: Simultaneous Hearing and Thinking for Spoken Language Models](https://arxiv.org/abs/2510.06917) — *Multimodal (T/S)* (2025-10-11)
 <!--CHART_END-->
 
 ## How to add a new paper
