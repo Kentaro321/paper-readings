@@ -1,3 +1,13 @@
+- title: "DeepSeek-OCR: Contexts Optical Compression"
+  category: "Multimodal (T/I)"
+  date: "2025-10-22"
+  link: "https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf"
+  note: >
+    画像中のテキストとその位置を効率的にエンコードするDeepEncoderと、そこからテキストを復元するDeepSeek3B-MoE-A570MからなるDeepSeek-OCRを提案
+    解像度が非常に高い画像に対応するための動的な解像度を含め複数の解像度に対応し、テキストトークンの10倍の圧縮時で96%、20倍でも60%の復元精度を達成
+    図表をHTMLに変換するタスクや化学構造をSMILESに変換するタスクでも学習されており、多様な入力画像を処理可能
+    また、遠い過去のテキストをより粗い画像で表現することにより、人間の記憶のように「近い記憶は鮮明、遠い記憶は曖昧」に表現できることを示唆
+
 - title: "On the Language and Gender Biases in PSTN, VoIP and Neural Audio Codecs"
   category: "Speech"
   date: "2025-10-21"
