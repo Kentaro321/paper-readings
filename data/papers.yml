@@ -1,3 +1,13 @@
+- title: "On the Language and Gender Biases in PSTN, VoIP and Neural Audio Codecs"
+  category: "Speech"
+  date: "2025-10-21"
+  link: "https://www.isca-archive.org/interspeech_2025/altwlkany25_interspeech.pdf"
+  note: >
+    電話用の音声コーデック（PSTN, A-lawやμ-law）、VoIP用の音声コーデック（Opus）、ニューラル音声コーデック（Encodec, DAC）における言語・性別バイアスを評価
+    VoxForgeの17言語、約17万発話を各コーデックで圧縮・復元し、音質をViSQOLで評価
+    実験では、PSTNは性別間、NACは言語間のバイアスが大きく、またどのコーデックでも一貫して男性の方が高音質に復元される傾向があることを確認
+    ViSQOLのスコアが言語や性別等に依存する可能性については言及されておらず、圧縮・復元を介さない原音声に対する評価結果も見てみたい
+
 - title: "Understanding the Modality Gap: An Empirical Study on the Speech-Text Alignment Mechanism of Large Speech Language Models"
   category: "Multimodal (T/S)"
   date: "2025-10-20"
