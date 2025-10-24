@@ -1,5 +1,12 @@
 [
   {
+    "title": "Improving Multilingual Text-to-Speech with Mixture-of-Language-Experts and Accent Disentanglement",
+    "category": "TTS",
+    "date": "2025-10-24",
+    "link": "https://www.isca-archive.org/interspeech_2024/wu24f_interspeech.pdf",
+    "note": "VITS2ベースのTTSにMixture of Language Experts (MoLE) を導入し、多言語の性能を改善した研究 MoLEはText EncoderとFlow Blockに導入され、ST-MoEのz-lossと呼ばれる損失に基づきexpertの偏りを抑制 さらに、VICRegに基づく話者・アクセント埋め込みの分離や、YourTTSで提案されたSpeaker Consistency Lossを導入して品質改善 英語・中国語の2言語を用いた実験ではベースラインと比較してCER, 話者類似性、自然性などを一貫して改善\n"
+  },
+  {
     "title": "Extracting alignment data in open models",
     "category": "LLM",
     "date": "2025-10-23",
