@@ -1,5 +1,12 @@
 [
   {
+    "title": "SAC: Neural Speech Codec with Semantic-Acoustic Dual-Stream Quantization",
+    "category": "NAC",
+    "date": "2025-10-25",
+    "link": "https://www.arxiv.org/abs/2510.16841",
+    "note": "semantic/acousticな特徴を別々に抽出・量子化するNAC, SACを提案 semanticな特徴量は事前学習された音声トークナイザーで抽出され、その情報を補うようにEncodec-likeな学習可能エンコーダでacousticな特徴量を抽出 デコーダの入力特徴量を線形変換して得た特徴量と、事前学習された話者埋め込みモデルの特徴量との二乗誤差を最小化することで、話者性を大きく改善 英語・中国語を用いた実験では同ビットレート帯の他NACと比較してUTMOS, 話者類似性、WERの全てで優れ、semantic/acousticの分離性も高いことを確認\n"
+  },
+  {
     "title": "Improving Multilingual Text-to-Speech with Mixture-of-Language-Experts and Accent Disentanglement",
     "category": "TTS",
     "date": "2025-10-24",
