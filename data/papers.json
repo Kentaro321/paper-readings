@@ -1,5 +1,12 @@
 [
   {
+    "title": "Scaling Speech-Text Pre-training with Synthetic Interleaved Data",
+    "category": "Multimodal (T/S)",
+    "date": "2025-10-26",
+    "link": "https://arxiv.org/abs/2411.17607",
+    "note": "大規模なテキストデータセットを基に、文章の一部を対応する合成音声に置き換えたインタリーブデータを生成し、LLMをspeech-to-speechに応用した研究 合成音声は実際には事前学習されたNACのトークン列として生成することで生成に要するコストを削減 モデルは応答テキストを生成してから応答音声を生成するモードと、直接応答音声を生成するモードの2つをサポートし、両者で高い応答性能を達成 インターリーブなしで学習する場合には性能が大きく低下することから、インターリーブがテキスト・音声の対応を学習する上で重要であることを確認\n"
+  },
+  {
     "title": "SAC: Neural Speech Codec with Semantic-Acoustic Dual-Stream Quantization",
     "category": "NAC",
     "date": "2025-10-25",
