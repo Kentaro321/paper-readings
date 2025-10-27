@@ -1,3 +1,12 @@
+- title: "Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models"
+  category: "Multimodal (T/S)"
+  date: "2025-10-27"
+  link: "https://arxiv.org/abs/2507.08128"
+  note: >
+    モデルやデータセットが全て公開された、Whisper Encoder + Adapter + Qwen-2.5-7B型の汎用音声言語モデルAudio Flamingo 3を提案
+    AudioSkills-XL (800万件のAQA)、LongAudio-XL (125万件の長尺AQA)、AF-Think (25万件のCoTAQA)、AF-Chat (7.5万件の複数ターンAQA) の4つのデータセットで5段階学習
+    音の理解・推論タスクにおいてQwen2.5-OmniやGemini 2.5 Proと同等以上の性能を達成
+
 - title: "Scaling Speech-Text Pre-training with Synthetic Interleaved Data"
   category: "Multimodal (T/S)"
   date: "2025-10-26"
