@@ -1,3 +1,12 @@
+- title: "Understanding the Repeat Curse in Large Language Models from a Feature Perspective"
+  category: "LLM"
+  date: "2025-10-29"
+  link: "https://aclanthology.org/2025.findings-acl.406.pdf"
+  note: >
+    LLMにおける反復を特徴レベルで分析し制御するためのDuplicatus Charmと呼ばれる枠組みを提案
+    Sparse AutoEncoderを用いた特徴抽出と活性化制御により、反復を生じさせる層や特徴を特定
+    GPT-2 small, Gemma-2-2B, Llama-3.1-8Bを用いた実験では、上記の特徴を抑制することで、perplexityの劣化なく反復を抑制できることを確認
+
 - title: "Slot Filling as a Reasoning Task for SpeechLLMs"
   category: "Multimodal (T/S)"
   date: "2025-10-28"
