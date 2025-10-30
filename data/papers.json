@@ -1,5 +1,12 @@
 [
   {
+    "title": "Slot Filling as a Reasoning Task for SpeechLLMs",
+    "category": "Multimodal (T/S)",
+    "date": "2025-10-28",
+    "link": "https://arxiv.org/abs/2510.19326",
+    "note": "与えられた音声から特定の情報を抽出するslot fillingタスクにSpeech LLMを適用した研究 モデルはWhisper Encoder + Adapter + LLM (LoRA)型で、reasoningあり・なしの両方で実験しF値を計測 Reasoningなしの場合、Qwen3 4Bのようなハイブリッドモデルの性能が最も高く、Deepseek R1 Distill Llama 3.1 8Bのようなreasoningモデルは性能が低かった Reasoningありの場合にはQwen3系列の性能が劣化し、Llama 3.1 8B Baseのような追加学習なしモデルの性能が向上 Reasoningあり・なしをミックスしてQwen3 4Bを学習すると最終的な性能が最も改善\n"
+  },
+  {
     "title": "Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models",
     "category": "Multimodal (T/S)",
     "date": "2025-10-27",

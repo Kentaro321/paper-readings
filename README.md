@@ -13,7 +13,7 @@ Track and visualize your paper reading with auto-updated charts.
 | Category | Count |
 |---|---|
 | LLM | 41 |
-| Multimodal (T/S) | 35 |
+| Multimodal (T/S) | 36 |
 | TTS | 24 |
 | NAC | 14 |
 | ML | 7 |
@@ -32,10 +32,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **159** |
+| **Total** | **160** |
 
 **Recently read**
 
+- [Slot Filling as a Reasoning Task for SpeechLLMs](https://arxiv.org/abs/2510.19326) — *Multimodal (T/S)* (2025-10-28)
 - [Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models](https://arxiv.org/abs/2507.08128) — *Multimodal (T/S)* (2025-10-27)
 - [Scaling Speech-Text Pre-training with Synthetic Interleaved Data](https://arxiv.org/abs/2411.17607) — *Multimodal (T/S)* (2025-10-26)
 - [SAC: Neural Speech Codec with Semantic-Acoustic Dual-Stream Quantization](https://www.arxiv.org/abs/2510.16841) — *NAC* (2025-10-25)
@@ -45,7 +46,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [On the Language and Gender Biases in PSTN, VoIP and Neural Audio Codecs](https://www.isca-archive.org/interspeech_2025/altwlkany25_interspeech.pdf) — *Speech* (2025-10-21)
 - [Understanding the Modality Gap: An Empirical Study on the Speech-Text Alignment Mechanism of Large Speech Language Models](https://arxiv.org/abs/2510.12116) — *Multimodal (T/S)* (2025-10-20)
 - [LongCat-Audio-Codec: An Audio Tokenizer and Detokenizer Solution Designed for Speech Large Language Models](https://github.com/meituan-longcat/LongCat-Audio-Codec/blob/main/tech_report.pdf) — *NAC* (2025-10-19)
-- [SpeechLLM-as-Judges: Towards General and Interpretable Speech Quality Evaluation](https://arxiv.org/abs/2510.14664) — *Multimodal (T/S)* (2025-10-18)
 <!--CHART_END-->
 
 ## How to add a new paper
