@@ -1,3 +1,23 @@
+- title: "Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation"
+  category: "LLM"
+  date: "2025-10-31"
+  link: "https://arxiv.org/abs/2401.08417"
+  note: >
+    7-13B程度のLLMを用いた機械翻訳は、従来のEncoder-Decoder型のSoTAやGPT-4のようなモデルに劣っていた
+    本研究では新たな嗜好最適化手法であるContrastive Preference Optimization (CPO) を提案し、わずか2万件の対訳データを用いた0.1%のパラメータ更新で翻訳精度を大幅に改善
+    CPOは人手、GPT-4、ALMA-13B-LoRAから得た3つの翻訳結果をKIWI-XXL, XCOMETで参照なしにスコアリングして優劣を決定し、中間のサンプルを除いた2つの翻訳結果の組を用いて学習
+    DPOにおける参照モデルを保持しなければならないという欠点を克服するため、目的関数を参照モデル非依存な形に変更し、代わりに良い方のサンプルに関するNLLを最小化する項を追加
+
+- title: "Can Speech LLMs Think while Listening?"
+  category: "Multimodal (T/S)"
+  date: "2025-10-30"
+  link: "https://arxiv.org/abs/2510.07497"
+  note: >
+    Moshi型の音声対話モデルを微調整し、ユーザーの発話中にテキストで内部的にreasoningを行うことで応答精度を改善した研究
+    Moshiではinner monologueチャネルはシステム発話のテキストのみを含んでいたが、本研究ではtext monologueとして、ユーザー発話をストリーミングで音声認識しつつ、PAD部分にreasoningを挟む形で学習
+    学習データ作成時にはQuestion Completenessを元にreasoningを開始する位置を定め、さらに応答の正確性・reasoningの簡潔さを向上するためDPOで追加学習
+    合成音声版のreasoningベンチマークを用いた評価ではオリジナルのMoshiを2~3倍上回る性能を達成し、さらにDPOによって応答精度を損なわずに遅延を削減できることを示した
+
 - title: "Understanding the Repeat Curse in Large Language Models from a Feature Perspective"
   category: "LLM"
   date: "2025-10-29"
