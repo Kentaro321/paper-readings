@@ -1,3 +1,13 @@
+- title: "Aligning Spoken Dialogue Models from User Interactions"
+  category: "Multimodal (T/S)"
+  date: "2025-11-01"
+  link: "https://arxiv.org/abs/2506.21463"
+  note: >
+    Moshiのようなfull-duplex型音声対話モデルを嗜好最適化するためのデータセット作成、学習手法等を提案
+    モデルはテキスト・音声の両方を出力するが、嗜好最適化においてはテキストのみの確率分布を扱う方が精度が向上することを確認
+    データセットとしてはプライバシー保護のために合成音声による音声対話を利用し、誤った応答をした箇所や適切なタイミングで応答できなかった箇所をLLMで修正して嗜好データを作成
+    実験ではオリジナルのMoshiよりもQAの精度、および安全性の観点で高いスコアを達成したが、長時間の対話においては一貫した改善が見られなかった
+
 - title: "Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation"
   category: "LLM"
   date: "2025-10-31"
