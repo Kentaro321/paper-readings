@@ -1,3 +1,23 @@
+- title: "Efficient and Direct Duplex Modeling for Speech-to-Speech Language Model"
+  category: "Multimodal (T/S)"
+  date: "2025-11-04"
+  link: "https://www.isca-archive.org/interspeech_2025/hu25f_interspeech.pdf"
+  note: >
+    3万時間弱のデータと既存のSpeech Encoder, LLMを活用し効率的に学習されたfull-duplex音声対話モデルを提案
+    ユーザーの音声は事前学習されたstreaming speech encoderによる埋め込み、システムの音声はNanoCodecの音声トークン (12.5Hz x 4コードブック) で表現され、LLMはシステムのテキスト、音声トークンを並列に予測
+    Moshiと比較して高い応答品質、音質を達成しただけでなく、合成データの活用によりユーザーによるbarge-inの検出においても精度を改善
+    また、システムの音声のみを音声トークンで表現しているため、NanoCodecを目標話者の約2万発話で微調整することでシステムの音質や話者類似性をさらに改善可能
+
+- title: "POWSM: A Phonetic Open Whisper-Style Speech Foundation Model"
+  category: "ASR"
+  date: "2025-11-03"
+  link: "https://www.arxiv.org/abs/2510.24992"
+  note: >
+    音声認識、音素認識、および音声条件付き音素↔書記素変換を統一的に扱う音声基盤モデルPOWSMを提案
+    モデルはOWSM v3.1に従いE-branchformer EncoderとTransformer Decoderからなる350Mパラメータのエンコーダ・デコーダであり、hybrid CTC-Attention lossを用いて学習
+    IPAPack++を用いて学習した結果、音素認識ではin-domainの平均PFERでZIPAを上回る性能、音声認識でも同規模のASRモデル (OWLS 0.5B) と並ぶ性能を達成
+    OOD、少リソース言語にも強いが、Decoderによる言語モデル的な挙動を抑えるためにCTC lossの重みを大きくする必要があることを確認
+
 - title: "Aligning Spoken Dialogue Models from User Interactions"
   category: "Multimodal (T/S)"
   date: "2025-11-01"
