@@ -13,7 +13,7 @@ Track and visualize your paper reading with auto-updated charts.
 | Category | Count |
 |---|---|
 | LLM | 43 |
-| Multimodal (T/S) | 39 |
+| Multimodal (T/S) | 40 |
 | TTS | 24 |
 | NAC | 14 |
 | ML | 7 |
@@ -32,10 +32,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **166** |
+| **Total** | **167** |
 
 **Recently read**
 
+- [FLEXI: Benchmarking Full-duplex Human-LLM Speech Interaction](https://arxiv.org/abs/2509.22243) — *Multimodal (T/S)* (2025-11-05)
 - [Efficient and Direct Duplex Modeling for Speech-to-Speech Language Model](https://www.isca-archive.org/interspeech_2025/hu25f_interspeech.pdf) — *Multimodal (T/S)* (2025-11-04)
 - [POWSM: A Phonetic Open Whisper-Style Speech Foundation Model](https://www.arxiv.org/abs/2510.24992) — *ASR* (2025-11-03)
 - [Aligning Spoken Dialogue Models from User Interactions](https://arxiv.org/abs/2506.21463) — *Multimodal (T/S)* (2025-11-01)
@@ -45,7 +46,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Slot Filling as a Reasoning Task for SpeechLLMs](https://arxiv.org/abs/2510.19326) — *Multimodal (T/S)* (2025-10-28)
 - [Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models](https://arxiv.org/abs/2507.08128) — *Multimodal (T/S)* (2025-10-27)
 - [Scaling Speech-Text Pre-training with Synthetic Interleaved Data](https://arxiv.org/abs/2411.17607) — *Multimodal (T/S)* (2025-10-26)
-- [SAC: Neural Speech Codec with Semantic-Acoustic Dual-Stream Quantization](https://www.arxiv.org/abs/2510.16841) — *NAC* (2025-10-25)
 <!--CHART_END-->
 
 ## How to add a new paper

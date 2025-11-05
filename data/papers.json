@@ -1,5 +1,12 @@
 [
   {
+    "title": "FLEXI: Benchmarking Full-duplex Human-LLM Speech Interaction",
+    "category": "Multimodal (T/S)",
+    "date": "2025-11-05",
+    "link": "https://arxiv.org/abs/2509.22243",
+    "note": "full-duplex音声対話システムの評価のため、1. ターンテイキング、2. ポーズ処理、3. ユーザー遮り、4. システム遮り、5. ユーザー相槌、6. システム相槌 の6つに着目したベンチマークを提案 オープンソースのMoshi, Freeze-Omni, Vita1.5、クローズモデルのGemini-2.5-flash-liveを比較した実験では、Geminiが3を中心として全体的に高性能であることを確認 従来重視されてこなかった4, 6の項目ではいずれのモデルも低いスコアであり、緊急時にモデル側からユーザー発話を遮ることや、モデル側からも相槌を打つことは音声対話システムの今後の課題である\n"
+  },
+  {
     "title": "Efficient and Direct Duplex Modeling for Speech-to-Speech Language Model",
     "category": "Multimodal (T/S)",
     "date": "2025-11-04",
