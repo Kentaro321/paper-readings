@@ -1,3 +1,13 @@
+- title: "VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction"
+  category: "Multimodal (T/S/I/V)"
+  date: "2025-11-06"
+  link: "https://arxiv.org/abs/2501.01957"
+  note: >
+    音声および動画像を入力として音声を出力するマルチモーダルLLM、VITA-1.5を提案
+    VITA-1.0で外部ASR / TTSに頼っていた音声処理部分をそれぞれSpeech Encoder+Adapter / NAR+AR Speech Decoderに置き換えたことで、遅延を4秒→1.5秒へと大幅改善
+    さらに、動画像入力→音声入力→音声動画像入力→音声出力 と段階的に学習することにより、画像理解能力の低下を最小限に抑えつつ、マルチモーダルベンチマーク上の平均性能を改善
+    GPT-4oのような商用モデルに迫る性能を達成し、今後の展望として個人向け最適化や長期記憶が挙げられている
+
 - title: "FLEXI: Benchmarking Full-duplex Human-LLM Speech Interaction"
   category: "Multimodal (T/S)"
   date: "2025-11-05"
