@@ -21,7 +21,7 @@ Track and visualize your paper reading with auto-updated charts.
 | ASR | 6 |
 | Multimodal (T/I) | 6 |
 | Dataset (Speech) | 5 |
-| Multimodal (T/S/I/V) | 3 |
+| Multimodal (T/S/I/V) | 4 |
 | ST | 2 |
 | VC | 2 |
 | Audio | 1 |
@@ -32,10 +32,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **167** |
+| **Total** | **168** |
 
 **Recently read**
 
+- [VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction](https://arxiv.org/abs/2501.01957) — *Multimodal (T/S/I/V)* (2025-11-06)
 - [FLEXI: Benchmarking Full-duplex Human-LLM Speech Interaction](https://arxiv.org/abs/2509.22243) — *Multimodal (T/S)* (2025-11-05)
 - [Efficient and Direct Duplex Modeling for Speech-to-Speech Language Model](https://www.isca-archive.org/interspeech_2025/hu25f_interspeech.pdf) — *Multimodal (T/S)* (2025-11-04)
 - [POWSM: A Phonetic Open Whisper-Style Speech Foundation Model](https://www.arxiv.org/abs/2510.24992) — *ASR* (2025-11-03)
@@ -45,7 +46,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Understanding the Repeat Curse in Large Language Models from a Feature Perspective](https://aclanthology.org/2025.findings-acl.406.pdf) — *LLM* (2025-10-29)
 - [Slot Filling as a Reasoning Task for SpeechLLMs](https://arxiv.org/abs/2510.19326) — *Multimodal (T/S)* (2025-10-28)
 - [Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models](https://arxiv.org/abs/2507.08128) — *Multimodal (T/S)* (2025-10-27)
-- [Scaling Speech-Text Pre-training with Synthetic Interleaved Data](https://arxiv.org/abs/2411.17607) — *Multimodal (T/S)* (2025-10-26)
 <!--CHART_END-->
 
 ## How to add a new paper
