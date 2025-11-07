@@ -1,3 +1,13 @@
+- title: "FillerSpeech: Towards Human-Like Text-to-Speech Synthesis with Filler Insertion and Filler Style Control"
+  category: "TTS"
+  date: "2025-11-07"
+  link: "https://aclanthology.org/2025.emnlp-main.1730.pdf"
+  note: >
+    入力テキストに対し、LLMを用いて位置、種類、ピッチ、継続長を予測してフィラーを挿入し、フィラーの制御が可能なNAR TTSでフィラーが挿入された音声を合成する手法、FillerSpeechを提案
+    LLMはVicuna 7Bをベースに4Mパラメータ程度をLoRAチューニングしたものを利用し、QwenやLlama系列よりも高いフィラー予測性能を達成
+    データセットはLibriHeavyを元に4460話者2116時間のフィラーを含む音声を抽出し、MFAで強制アラインメントを取得、Parselmouthでピッチ抽出を行いアノテーションを実施
+    実験ではベースラインのMatcha-TTSと比較して、特にフィラーに関して高い自然性を達成したが、テキストエンコーダにピッチ等の音響的情報が入力されることによるWERの劣化も見られた
+
 - title: "VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction"
   category: "Multimodal (T/S/I/V)"
   date: "2025-11-06"
