@@ -1,5 +1,12 @@
 [
   {
+    "title": "MULTI-Bench: A Multi-Turn Interactive Benchmark for Assessing Emotional Intelligence ability of Spoken Dialogue Models",
+    "category": "Speech",
+    "date": "2025-11-08",
+    "link": "https://arxiv.org/abs/2511.00850",
+    "note": "マルチターン音声対話において、音声言語モデルがユーザーの発話の感情やパラ言語情報を認識できるかに加え、ユーザーの内部的な感情や意図を推定できるかを評価するため、LLMを用いてユーザーの感情の推移と動的な応答をシミュレートする評価手法を提案 データはタスク（感情認識、パラ言語認識、スタイル推論、感情推論、インタラクティブ対話）ごとに異なるデータセットから収集した約3,200件の対話サンプルを使用 GLM 4 Voice, Qwen 2.5 Omni, Kimi Audio, Step Audio AQAA, Step Audio 2, GPT-4oの6つのモデルを比較した実験では、GPT-4oの性能が全体的に高く、次点でStep Audio 2が高い結果となった\n"
+  },
+  {
     "title": "FillerSpeech: Towards Human-Like Text-to-Speech Synthesis with Filler Insertion and Filler Style Control",
     "category": "TTS",
     "date": "2025-11-07",

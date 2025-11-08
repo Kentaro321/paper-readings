@@ -16,8 +16,8 @@ Track and visualize your paper reading with auto-updated charts.
 | Multimodal (T/S) | 40 |
 | TTS | 25 |
 | NAC | 14 |
+| Speech | 8 |
 | ML | 7 |
-| Speech | 7 |
 | ASR | 6 |
 | Multimodal (T/I) | 6 |
 | Dataset (Speech) | 5 |
@@ -32,10 +32,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **169** |
+| **Total** | **170** |
 
 **Recently read**
 
+- [MULTI-Bench: A Multi-Turn Interactive Benchmark for Assessing Emotional Intelligence ability of Spoken Dialogue Models](https://arxiv.org/abs/2511.00850) — *Speech* (2025-11-08)
 - [FillerSpeech: Towards Human-Like Text-to-Speech Synthesis with Filler Insertion and Filler Style Control](https://aclanthology.org/2025.emnlp-main.1730.pdf) — *TTS* (2025-11-07)
 - [VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction](https://arxiv.org/abs/2501.01957) — *Multimodal (T/S/I/V)* (2025-11-06)
 - [FLEXI: Benchmarking Full-duplex Human-LLM Speech Interaction](https://arxiv.org/abs/2509.22243) — *Multimodal (T/S)* (2025-11-05)
@@ -45,7 +46,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation](https://arxiv.org/abs/2401.08417) — *LLM* (2025-10-31)
 - [Can Speech LLMs Think while Listening?](https://arxiv.org/abs/2510.07497) — *Multimodal (T/S)* (2025-10-30)
 - [Understanding the Repeat Curse in Large Language Models from a Feature Perspective](https://aclanthology.org/2025.findings-acl.406.pdf) — *LLM* (2025-10-29)
-- [Slot Filling as a Reasoning Task for SpeechLLMs](https://arxiv.org/abs/2510.19326) — *Multimodal (T/S)* (2025-10-28)
 <!--CHART_END-->
 
 ## How to add a new paper
