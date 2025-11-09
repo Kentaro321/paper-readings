@@ -22,20 +22,21 @@ Track and visualize your paper reading with auto-updated charts.
 | Multimodal (T/I) | 6 |
 | Dataset (Speech) | 5 |
 | Multimodal (T/S/I/V) | 4 |
+| Multimodal (T/S/I) | 2 |
 | ST | 2 |
 | VC | 2 |
 | Audio | 1 |
 | Image | 1 |
-| Multimodal (T/S/I) | 1 |
 | Multimodal Generation | 1 |
 | NV | 1 |
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **170** |
+| **Total** | **171** |
 
 **Recently read**
 
+- [OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-Time Self-Aware Emotional Speech Synthesis](https://arxiv.org/abs/2501.04561) — *Multimodal (T/S/I)* (2025-11-09)
 - [MULTI-Bench: A Multi-Turn Interactive Benchmark for Assessing Emotional Intelligence ability of Spoken Dialogue Models](https://arxiv.org/abs/2511.00850) — *Speech* (2025-11-08)
 - [FillerSpeech: Towards Human-Like Text-to-Speech Synthesis with Filler Insertion and Filler Style Control](https://aclanthology.org/2025.emnlp-main.1730.pdf) — *TTS* (2025-11-07)
 - [VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction](https://arxiv.org/abs/2501.01957) — *Multimodal (T/S/I/V)* (2025-11-06)
@@ -45,7 +46,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Aligning Spoken Dialogue Models from User Interactions](https://arxiv.org/abs/2506.21463) — *Multimodal (T/S)* (2025-11-01)
 - [Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation](https://arxiv.org/abs/2401.08417) — *LLM* (2025-10-31)
 - [Can Speech LLMs Think while Listening?](https://arxiv.org/abs/2510.07497) — *Multimodal (T/S)* (2025-10-30)
-- [Understanding the Repeat Curse in Large Language Models from a Feature Perspective](https://aclanthology.org/2025.findings-acl.406.pdf) — *LLM* (2025-10-29)
 <!--CHART_END-->
 
 ## How to add a new paper

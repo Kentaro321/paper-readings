@@ -1,5 +1,12 @@
 [
   {
+    "title": "OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-Time Self-Aware Emotional Speech Synthesis",
+    "category": "Multimodal (T/S/I)",
+    "date": "2025-11-09",
+    "link": "https://arxiv.org/abs/2501.04561",
+    "note": "モデル重みだけでなく、データセットや学習方法までオープンなテキスト・音声・画像対応のオムニモーダルLLM、OpemOmniを提案 モデルは (1) LLMを固定してSpeech Encoder/Adapterを学習 (2) LLMを固定してImage Encoder/Adapterを学習 (3) 画像指示学習データセットでImage Encoder/LLMを同時学習 (4) Speech Decoderを学習 のように段階的に学習 さらに、Speech Decoderは文脈に応じた感情で読まれた音声を正例、通常の読み上げ音声を負例としてDPOを行い、適切な感情での読み上げを実現 実験では同じくオープンソースのオムニモーダルLLMであるVITA-1.5などと比較してより高いモーダル理解性能を達成し、音声認識においてもオムニモーダルLLMの中では高い精度を達成\n"
+  },
+  {
     "title": "MULTI-Bench: A Multi-Turn Interactive Benchmark for Assessing Emotional Intelligence ability of Spoken Dialogue Models",
     "category": "Speech",
     "date": "2025-11-08",
