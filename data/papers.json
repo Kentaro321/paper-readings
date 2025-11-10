@@ -1,5 +1,12 @@
 [
   {
+    "title": "Safety Alignment Should be Made More Than Just a Few Tokens Deep",
+    "category": "LLM",
+    "date": "2025-11-10",
+    "link": "https://openreview.net/pdf?id=6Mxhg9PtDE",
+    "note": "安全性向上のための微調整（アラインメント）がなされたLLMであっても、応答の冒頭に肯定的なプレフィックスを強制することで有害な応答を引き出すことができ、これを「浅い安全性アラインメント」として解決を試みた論文 初めに著者らは (1) ベースモデルであっても\"I apologize\"のようなプレフィックスを与えることで有害な応答を大幅に抑制できることや、安全/有害な応答の差は最初の数トークンに現れることを確かめ、応答の冒頭の重要性を示した 続いて「深い安全性アラインメント」の実現のため、(1) 冒頭1~100トークンを有害な応答で構成したのち、安全な応答に戻るデータ拡張ベースの手法 (2) 追加微調整時に、冒頭数トークンの分布がアラインメント済みモデルと離れすぎないような制約を与える目的関数ベースの手法 の2つを提案 Llama-2-7B-Chat, Gemma-1.1-7B-itを用いた実験では、両手法ともにモデルの応答性能を損なわずにより頑健なアラインメントを実現できることを確認\n"
+  },
+  {
     "title": "OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-Time Self-Aware Emotional Speech Synthesis",
     "category": "Multimodal (T/S/I)",
     "date": "2025-11-09",
