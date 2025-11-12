@@ -1,3 +1,13 @@
+- title: "Learning Dynamics of LLM Finetuning"
+  category: "LLM"
+  date: "2025-11-12"
+  link: "https://openreview.net/pdf?id=tPNHOoZFl9"
+  note: >
+    LLMをある入出力のサンプルで微調整した際に、その入力及び他の入力に対してどのように出力が変化するかのダイナミクスを理論的・実験的に解析した研究
+    まず、empirical NTKに基づく理論解析により、ある入力に対応する出力の確率分布は、学習に用いたサンプル入力との類似度に応じて変化することを示した
+    また、SFTは学習サンプルの出力に対する出力確率を上げてそれ以外の出力に対する出力確率を少しずつ押し下げるが、DPOは負例（とその周りの出力）に対して大きな押し下げが生じることで、確率が元々高確率だった出力に集中するsqueezing effectが発生
+    pythia, Qwen1.5シリーズを用いた実験でこれらの理論の裏付けを行い、さらにDPOのsqueezing effectを軽減する上で「SFT時にDPOの負例でも学習しておく」という非直感的な手法の有効性を実証
+
 - title: "Safety Alignment Should be Made More Than Just a Few Tokens Deep"
   category: "LLM"
   date: "2025-11-10"
