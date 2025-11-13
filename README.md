@@ -17,8 +17,8 @@ Track and visualize your paper reading with auto-updated charts.
 | TTS | 25 |
 | NAC | 14 |
 | Speech | 8 |
+| ASR | 7 |
 | ML | 7 |
-| ASR | 6 |
 | Multimodal (T/I) | 6 |
 | Dataset (Speech) | 5 |
 | Multimodal (T/S/I/V) | 4 |
@@ -32,10 +32,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **173** |
+| **Total** | **174** |
 
 **Recently read**
 
+- [Omnilingual ASR: Open-Source Multilingual Speech Recognition for 1600+ Languages](https://ai.meta.com/research/publications/omnilingual-asr-open-source-multilingual-speech-recognition-for-1600-languages/) — *ASR* (2025-11-13)
 - [Learning Dynamics of LLM Finetuning](https://openreview.net/pdf?id=tPNHOoZFl9) — *LLM* (2025-11-12)
 - [Safety Alignment Should be Made More Than Just a Few Tokens Deep](https://openreview.net/pdf?id=6Mxhg9PtDE) — *LLM* (2025-11-10)
 - [OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-Time Self-Aware Emotional Speech Synthesis](https://arxiv.org/abs/2501.04561) — *Multimodal (T/S/I)* (2025-11-09)
@@ -45,7 +46,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [FLEXI: Benchmarking Full-duplex Human-LLM Speech Interaction](https://arxiv.org/abs/2509.22243) — *Multimodal (T/S)* (2025-11-05)
 - [Efficient and Direct Duplex Modeling for Speech-to-Speech Language Model](https://www.isca-archive.org/interspeech_2025/hu25f_interspeech.pdf) — *Multimodal (T/S)* (2025-11-04)
 - [POWSM: A Phonetic Open Whisper-Style Speech Foundation Model](https://www.arxiv.org/abs/2510.24992) — *ASR* (2025-11-03)
-- [Aligning Spoken Dialogue Models from User Interactions](https://arxiv.org/abs/2506.21463) — *Multimodal (T/S)* (2025-11-01)
 <!--CHART_END-->
 
 ## How to add a new paper
