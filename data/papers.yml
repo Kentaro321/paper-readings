@@ -1,3 +1,13 @@
+- title: "Omnilingual ASR: Open-Source Multilingual Speech Recognition for 1600+ Languages"
+  category: "ASR"
+  date: "2025-11-13"
+  link: "https://ai.meta.com/research/publications/omnilingual-asr-open-source-multilingual-speech-recognition-for-1600-languages/"
+  note: >
+    1600以上の言語に対応し、さらに未対応言語もICLで認識可能なASR、Omnilingual ASRを構築
+    多数の言語をカバーするため、複数のオープンソースASRデータセットを用いただけでなく、348の低資源語の音声を10話者 x 1時間ずつ実際に収集し、Omnilingual ASR Corpusとして公開
+    モデルはwav2vec 2.0 encoderとLLM decoderから成り、特にencoder側を300Mから7Bまでスケーリングして4.3M時間の音声 + 120K時間のASRデータで学習することで精度を大きく改善
+    MMS-Lab-66, FLEURS, CV22などの多言語ベンチマークでは、300M encoderでもWhisper large-v3を大きく上回る精度を達成
+
 - title: "Learning Dynamics of LLM Finetuning"
   category: "LLM"
   date: "2025-11-12"
