@@ -1,5 +1,12 @@
 [
   {
+    "title": "Not All Tokens Are What You Need for Pretraining",
+    "category": "LLM",
+    "date": "2025-11-14",
+    "link": "https://openreview.net/pdf?id=0NMzBwqaAJ",
+    "note": "LLMの学習時、すべてのトークンではなく、学習に有益な一部のトークンに関してのみ損失を計算することで、性能を改善できることを示した研究 学習に用いるトークンは、事前学習された参照モデルと現在のモデルの損失の差が大きい（参照モデルはうまく予測できるが、現在のモデルはできない）6~7割のトークンに限定 1B/7BのLLMを上記の方法で事前学習した実験では、数学および一般ドメインのタスクで一貫して性能を改善\n"
+  },
+  {
     "title": "Omnilingual ASR: Open-Source Multilingual Speech Recognition for 1600+ Languages",
     "category": "ASR",
     "date": "2025-11-13",
