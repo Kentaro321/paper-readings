@@ -1,5 +1,12 @@
 [
   {
+    "title": "Faster Cascades via Speculative Decoding",
+    "category": "LLM",
+    "date": "2025-11-15",
+    "link": "https://openreview.net/pdf?id=vo9t20wsmd",
+    "note": "大小2つのLLMを活用して推論の精度と速度を両立する方法に、カスケード（小で確信度が低い場合のみ大に移譲）と投機的デコーディング（小で予測後に大で検証）の2手法がある 前者は移譲するかどうかを決定する閾値を調整することで品質-速度のトレードオフを制御でき、後者は大の品質で高速化できるため、両者の利点を持ち合わせた手法としてspeculative cascadeを提案 T5やGemmaを用いた実験では、特にtoken-specific interleavings（各トークンに対して小を採用するか大に移譲するかを判断する方式）で既存のカスケード・投機的デコーディングを上回る品質-速度トレードオフを達成\n"
+  },
+  {
     "title": "Not All Tokens Are What You Need for Pretraining",
     "category": "LLM",
     "date": "2025-11-14",
