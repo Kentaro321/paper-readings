@@ -1,3 +1,12 @@
+- title: "FaiST: A Benchmark Dataset for Fairness in Speech Technology"
+  category: "Dataset (Speech)"
+  date: "2025-11-16"
+  link: "https://www.isca-archive.org/interspeech_2025/jahan25_interspeech.pdf"
+  note: >
+    会話音声から自身または対話相手の人種・民族・出身国などについて触れている発話を手がかりに、これらのラベルが付与された音声データを収集したコーパスFaiSTを提案
+    白人のアメリカ人のみVoxCelebからデータを収集しWikipedia等に基づいてラベリング、それ以外の人種については上記の方法 + 人手の検証によりラベリングを行った
+    ASRに基づく実験ではDrop-in-Devianceテストにより「人種ラベルがWERに有意な影響を持つか = 人種バイアスがあるか」を検証し、18モデルすべてにバイアスがあることを確認した
+
 - title: "Faster Cascades via Speculative Decoding"
   category: "LLM"
   date: "2025-11-15"
