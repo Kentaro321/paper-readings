@@ -19,8 +19,8 @@ Track and visualize your paper reading with auto-updated charts.
 | Speech | 8 |
 | ASR | 7 |
 | ML | 7 |
+| Dataset (Speech) | 6 |
 | Multimodal (T/I) | 6 |
-| Dataset (Speech) | 5 |
 | Multimodal (T/S/I/V) | 4 |
 | Multimodal (T/S/I) | 2 |
 | ST | 2 |
@@ -32,10 +32,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **176** |
+| **Total** | **177** |
 
 **Recently read**
 
+- [FaiST: A Benchmark Dataset for Fairness in Speech Technology](https://www.isca-archive.org/interspeech_2025/jahan25_interspeech.pdf) — *Dataset (Speech)* (2025-11-16)
 - [Faster Cascades via Speculative Decoding](https://openreview.net/pdf?id=vo9t20wsmd) — *LLM* (2025-11-15)
 - [Not All Tokens Are What You Need for Pretraining](https://openreview.net/pdf?id=0NMzBwqaAJ) — *LLM* (2025-11-14)
 - [Omnilingual ASR: Open-Source Multilingual Speech Recognition for 1600+ Languages](https://ai.meta.com/research/publications/omnilingual-asr-open-source-multilingual-speech-recognition-for-1600-languages/) — *ASR* (2025-11-13)
@@ -45,7 +46,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [MULTI-Bench: A Multi-Turn Interactive Benchmark for Assessing Emotional Intelligence ability of Spoken Dialogue Models](https://arxiv.org/abs/2511.00850) — *Speech* (2025-11-08)
 - [FillerSpeech: Towards Human-Like Text-to-Speech Synthesis with Filler Insertion and Filler Style Control](https://aclanthology.org/2025.emnlp-main.1730.pdf) — *TTS* (2025-11-07)
 - [VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction](https://arxiv.org/abs/2501.01957) — *Multimodal (T/S/I/V)* (2025-11-06)
-- [FLEXI: Benchmarking Full-duplex Human-LLM Speech Interaction](https://arxiv.org/abs/2509.22243) — *Multimodal (T/S)* (2025-11-05)
 <!--CHART_END-->
 
 ## How to add a new paper
