@@ -1,3 +1,14 @@
+- title: "Weight-sparse transformers have interpretable circuits"
+  category: "LLM"
+  date: "2025-11-17"
+  link: "https://cdn.openai.com/pdf/41df8f28-d4ef-43e9-aed2-823f9393e470/circuit-sparsity-paper.pdf"
+  note: >
+    LLM中に存在する解釈可能な回路の特定のため、最大で重みの99.9%をゼロ化したスパースなGPT-2をPythonコードのデータセットでスクラッチから学習・分析した研究
+    モデルはL0ノルム（非ゼロ要素の個数）が目標値となるような制約下で学習され、学習後シンプルなタスク（コンテキストから次のトークンが'か"かを当てる等）を通じてタスク毎に利用されている回路を特定
+    一般的な傾向として、スパースなLLMは密なLLMよりも小さな回路で同等の損失値を達成できることや、パラメータ数の多いモデルを同規模のスパース性で学習することで損失値・回路規模の両方を改善できることを確認
+    さらに、学習済みの密なLLMの解釈のため、スパースなLLMとの橋渡しをするオートエンコーダーの学習も行い、実際にスパースなLLMで得た知見に基づき密なLLMの挙動への介入も行った
+    ただし、現状のGPUは密な行列計算に最適化されており、今回のような非構造的スパース性を導入すると100~1000倍の計算資源を要することが課題として挙げられている
+
 - title: "FaiST: A Benchmark Dataset for Fairness in Speech Technology"
   category: "Dataset (Speech)"
   date: "2025-11-16"
