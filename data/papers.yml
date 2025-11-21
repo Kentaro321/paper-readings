@@ -1,3 +1,12 @@
+- title: "SAM 3D: 3Dfy Anything in Images"
+  category: "Image"
+  date: "2025-11-21"
+  link: "https://ai.meta.com/research/publications/sam-3d-3dfy-anything-in-images/"
+  note: >
+    単一画像から画像中の3D物体の形状や地形、テクスチャ、レイアウト等を再構成できるモデルSAM 3Dを提案
+    モデルは画像と物体マスクを受け取ってDINO v2で埋め込み、1.2BのMixture of Transformerで粗い形状とレイアウトを予測、続いて0.6BのSparse Latent Flow Transformerで細部とテクスチャを予測し、VAEのデコーダでメッシュまたは3D Gaussian Splatを復元
+    事前学習は単一物体を様々な方向からレンダリングして得たデータを用いて3D再構成の基礎能力を獲得、中間学習ではマスク追従や遮蔽への頑健性を強化し、事後学習ではSFT/DPOを通じて合成データと実画像のギャップを埋める
+
 - title: "CASTELLA: Long Audio Dataset with Captions and Temporal Boundaries"
   category: "Dataset (Audio)"
   date: "2025-11-20"
