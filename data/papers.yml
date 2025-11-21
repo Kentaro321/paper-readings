@@ -1,3 +1,12 @@
+- title: "CASTELLA: Long Audio Dataset with Captions and Temporal Boundaries"
+  category: "Dataset (Audio)"
+  date: "2025-11-20"
+  link: "https://arxiv.org/abs/2511.15131"
+  note: >
+    1~5分ほどの音データに対して、global/localなキャプションを人手で付与したデータセットCASTELLAを公開
+    音データはAudioCapsにも含まれるYouTube動画から抽出され、アノテーションは日本語で行なったものをllm-jp-3.1-13b-instruct4またはGPT-4.1で英語に翻訳
+    Audio Moment Retrievalの実験では、既存の大規模合成データセットClotho-Momentで事前学習→CASTELLAで微調整することで精度を改善できること、5秒以下の短い区間の検出に課題があることを確認
+
 - title: "ParaS2S: Benchmarking and Aligning Spoken Language Models for Paralinguistic-aware Speech-to-Speech Interaction"
   category: "Multimodal (T/S)"
   date: "2025-11-18"
