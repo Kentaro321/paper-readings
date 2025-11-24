@@ -1,3 +1,13 @@
+- title: "SUNAC: Source-aware Unified Neural Audio Codec"
+  category: "NAC"
+  date: "2025-11-25"
+  link: "https://arxiv.org/abs/2511.16126"
+  note: >
+    混合音源から学習可能なプロンプトを用いて特定の音源だけをエンコードし、量子化・デコードすることでその音源だけを再構成可能なNAC、SUNACを提案
+    既存手法のSDCodecは音声・音楽・効果音という固定の3種類の音源を仮定して同様の音源分離付きNACを実現したが、本手法は同種の音源間（音声1+音声2など）の分離も実現
+    モデルはDACをベースにTransformerを挿入した構造で、SI-SDRを基にpermutationを特定し、対応する音源間および混合音源間でDAC lossをとって学習
+    実験ではTUSSによる音源分離とDACによる分析再合成のカスケードシステムに近い性能を少ない計算量で達成
+
 - title: "Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models"
   category: "LLM"
   date: "2025-11-24"
