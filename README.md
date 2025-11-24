@@ -15,7 +15,7 @@ Track and visualize your paper reading with auto-updated charts.
 | LLM | 49 |
 | Multimodal (T/S) | 41 |
 | TTS | 25 |
-| NAC | 14 |
+| NAC | 15 |
 | Speech | 8 |
 | ASR | 7 |
 | ML | 7 |
@@ -33,10 +33,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **182** |
+| **Total** | **183** |
 
 **Recently read**
 
+- [SUNAC: Source-aware Unified Neural Audio Codec](https://arxiv.org/abs/2511.16126) — *NAC* (2025-11-25)
 - [Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models](https://arxiv.org/abs/2511.15304) — *LLM* (2025-11-24)
 - [SAM 3D: 3Dfy Anything in Images](https://ai.meta.com/research/publications/sam-3d-3dfy-anything-in-images/) — *Image* (2025-11-21)
 - [CASTELLA: Long Audio Dataset with Captions and Temporal Boundaries](https://arxiv.org/abs/2511.15131) — *Dataset (Audio)* (2025-11-20)
@@ -46,7 +47,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Faster Cascades via Speculative Decoding](https://openreview.net/pdf?id=vo9t20wsmd) — *LLM* (2025-11-15)
 - [Not All Tokens Are What You Need for Pretraining](https://openreview.net/pdf?id=0NMzBwqaAJ) — *LLM* (2025-11-14)
 - [Omnilingual ASR: Open-Source Multilingual Speech Recognition for 1600+ Languages](https://ai.meta.com/research/publications/omnilingual-asr-open-source-multilingual-speech-recognition-for-1600-languages/) — *ASR* (2025-11-13)
-- [Learning Dynamics of LLM Finetuning](https://openreview.net/pdf?id=tPNHOoZFl9) — *LLM* (2025-11-12)
 <!--CHART_END-->
 
 ## How to add a new paper
