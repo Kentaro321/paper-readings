@@ -1,3 +1,12 @@
+- title: "Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models"
+  category: "LLM"
+  date: "2025-11-24"
+  link: "https://arxiv.org/abs/2511.15304"
+  note: >
+    有害な応答を生成させるようなLLMのプロンプトを詩の形式にすることによって、高確率に安全性フィルターをかいくぐり有害応答を引き出せることを検証した研究
+    9個のプロバイダーによる25個のLLM APIを用いた実験では、詩形式のプロンプトが攻撃成功確率を一貫して向上させること、プロバイダーごとに成功確率に大きな差がある（DeepSeek, Google, Qwenは脆弱、x-AI, OpenAI, Anthropicは頑健）ことを確認
+    また、オープンモデル/クローズモデルの差は小さく、モデルサイズが小さい方が今回の攻撃形式に頑健であることも分かった
+
 - title: "SAM 3D: 3Dfy Anything in Images"
   category: "Image"
   date: "2025-11-21"
