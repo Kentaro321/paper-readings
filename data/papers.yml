@@ -1,3 +1,13 @@
+- title: "Auden-Voice: General-Purpose Voice Encoder for Speech and Language Understanding"
+  category: "Speech"
+  date: "2025-11-26"
+  link: "https://arxiv.org/abs/2511.15145"
+  note: >
+    音声言語モデルのための、話者性とパラ言語情報（年齢・性別・感情等）の両方を埋め込めるエンコーダーとしてAuden-Voiceを提案
+    モデルは50Hz~6.25Hzまでの異なる時間解像度で駆動する複数のZipformerとそれらを統合するDownsample-Fusion層から成り、25Hzの特徴量系列を出力
+    線形プロービング、出力特徴量を用いたゼロショット話者認識・ダイアライゼーション、音声テキスト検索等を通じて初期化の有無や学習手法による性能差を評価
+    ASRによるモデルの初期化が有効であること、話者識別とパラ言語情報予測のマルチタスク学習が効果的であることを確認し、またCLAPによる追加学習が今回のスケールでは効果的でないことも確かめた
+
 - title: "SUNAC: Source-aware Unified Neural Audio Codec"
   category: "NAC"
   date: "2025-11-25"
