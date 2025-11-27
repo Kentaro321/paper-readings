@@ -12,7 +12,7 @@ Track and visualize your paper reading with auto-updated charts.
 
 | Category | Count |
 |---|---|
-| LLM | 49 |
+| LLM | 50 |
 | Multimodal (T/S) | 41 |
 | TTS | 25 |
 | NAC | 15 |
@@ -33,10 +33,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **184** |
+| **Total** | **185** |
 
 **Recently read**
 
+- [Infini-gram mini: Exact n-gram Search at the Internet Scale with FM-Index](https://aclanthology.org/2025.emnlp-main.1268.pdf) — *LLM* (2025-11-27)
 - [Auden-Voice: General-Purpose Voice Encoder for Speech and Language Understanding](https://arxiv.org/abs/2511.15145) — *Speech* (2025-11-26)
 - [SUNAC: Source-aware Unified Neural Audio Codec](https://arxiv.org/abs/2511.16126) — *NAC* (2025-11-25)
 - [Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models](https://arxiv.org/abs/2511.15304) — *LLM* (2025-11-24)
@@ -46,7 +47,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Weight-sparse transformers have interpretable circuits](https://cdn.openai.com/pdf/41df8f28-d4ef-43e9-aed2-823f9393e470/circuit-sparsity-paper.pdf) — *LLM* (2025-11-17)
 - [FaiST: A Benchmark Dataset for Fairness in Speech Technology](https://www.isca-archive.org/interspeech_2025/jahan25_interspeech.pdf) — *Dataset (Speech)* (2025-11-16)
 - [Faster Cascades via Speculative Decoding](https://openreview.net/pdf?id=vo9t20wsmd) — *LLM* (2025-11-15)
-- [Not All Tokens Are What You Need for Pretraining](https://openreview.net/pdf?id=0NMzBwqaAJ) — *LLM* (2025-11-14)
 <!--CHART_END-->
 
 ## How to add a new paper

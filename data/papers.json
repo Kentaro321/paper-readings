@@ -1,5 +1,12 @@
 [
   {
+    "title": "Infini-gram mini: Exact n-gram Search at the Internet Scale with FM-Index",
+    "category": "LLM",
+    "date": "2025-11-27",
+    "link": "https://aclanthology.org/2025.emnlp-main.1268.pdf",
+    "note": "テキストを圧縮したまま高速な部分文字列検索を実現するFM-indexを活用し、PB単位テキストコーパスの全文検索インデックスInfini-gram miniを提案 Pile, DCLM-baseline, Common Crawl系統の事前学習データセット83TB分を半分以下の容量に圧縮してインデックス化し、各種評価用ベンチマークのリークの度合いを調査 MMLUやARC, AIMEなどの広く用いられているベンチマークに3~4割ほどのリークが発見され、特にQAデータセットの場合、ベンチマーク内の形式のQAがそのまま事前学習データに含まれるケースが多かった 任意の文字列についてリーク判定が可能なhuggingface demoや、新たなデータセットに対するリーク度合いを判定するbulletinなどを併せて公開\n"
+  },
+  {
     "title": "Auden-Voice: General-Purpose Voice Encoder for Speech and Language Understanding",
     "category": "Speech",
     "date": "2025-11-26",
