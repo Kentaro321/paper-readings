@@ -1,3 +1,12 @@
+- title: "Why Diffusion Models Don’t Memorize: The Role of Implicit Dynamical Regularization in Training"
+  category: "ML"
+  date: "2025-11-28"
+  link: "https://openreview.net/pdf?id=BSZqpqgqM0"
+  note: >
+    拡散モデルで学習データの丸暗記が起こりにくい背景を実験的・理論的に解析した研究
+    DDPMを32x32のグレースケール画像128~32,768枚で学習した小規模な実験では、(1) モデルは学習早期に汎化フェーズに達した後、学習データ量に比例する学習ステップを経て記憶フェーズに入ること (2) パラメータ数に依存した一定の学習データ量を超えると記憶フェーズには入らないことを発見
+    さらに、Random Feature Network（2層のNNで、1層目を固定して2層目のみ学習することで理論解析を可能にしたモデル）を用いてスコア関数を予測する理論解析では、記憶フェーズの始まりが行列の小さな固有値と関係付けられることを示し、DDPMを用いた実験の結果を裏付けた
+
 - title: "Infini-gram mini: Exact n-gram Search at the Internet Scale with FM-Index"
   category: "LLM"
   date: "2025-11-27"
