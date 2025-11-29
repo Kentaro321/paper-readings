@@ -1,5 +1,12 @@
 [
   {
+    "title": "Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)",
+    "category": "LLM",
+    "date": "2025-11-29",
+    "link": "https://openreview.net/pdf?id=saDOrrnNTz",
+    "note": "オープンクエスチョンに対する異なるLLMの回答が似通ってしまう現象について、2.6万件の多様なオープンクエスチョンから成るデータセットInfinity-Chatを作成して調査した研究 25個の異なるLLMを用いて応答生成を行った実験では、同一LLMの応答の埋め込みの類似度は0.8を超え、異なるLLM間の類似度も0.7以上と、応答の多様性に課題があることが示された また、LLMによる15個の応答をサンプリングして25人が1-5で評価した実験では、人間の評価値にかなりのばらつきがあり、そのような応答に対する報酬モデルやLM judgeは人間による評価値との一致度が低いことが明らかになった\n"
+  },
+  {
     "title": "Why Diffusion Models Don’t Memorize: The Role of Implicit Dynamical Regularization in Training",
     "category": "ML",
     "date": "2025-11-28",
