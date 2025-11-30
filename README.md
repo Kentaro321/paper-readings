@@ -12,7 +12,7 @@ Track and visualize your paper reading with auto-updated charts.
 
 | Category | Count |
 |---|---|
-| LLM | 51 |
+| LLM | 52 |
 | Multimodal (T/S) | 41 |
 | TTS | 25 |
 | NAC | 15 |
@@ -33,10 +33,11 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **187** |
+| **Total** | **188** |
 
 **Recently read**
 
+- [Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?](https://openreview.net/pdf?id=4OsgYD7em5) — *LLM* (2025-11-30)
 - [Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)](https://openreview.net/pdf?id=saDOrrnNTz) — *LLM* (2025-11-29)
 - [Why Diffusion Models Don’t Memorize: The Role of Implicit Dynamical Regularization in Training](https://openreview.net/pdf?id=BSZqpqgqM0) — *ML* (2025-11-28)
 - [Infini-gram mini: Exact n-gram Search at the Internet Scale with FM-Index](https://aclanthology.org/2025.emnlp-main.1268.pdf) — *LLM* (2025-11-27)
@@ -46,7 +47,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [SAM 3D: 3Dfy Anything in Images](https://ai.meta.com/research/publications/sam-3d-3dfy-anything-in-images/) — *Image* (2025-11-21)
 - [CASTELLA: Long Audio Dataset with Captions and Temporal Boundaries](https://arxiv.org/abs/2511.15131) — *Dataset (Audio)* (2025-11-20)
 - [ParaS2S: Benchmarking and Aligning Spoken Language Models for Paralinguistic-aware Speech-to-Speech Interaction](https://arxiv.org/abs/2511.08723) — *Multimodal (T/S)* (2025-11-18)
-- [Weight-sparse transformers have interpretable circuits](https://cdn.openai.com/pdf/41df8f28-d4ef-43e9-aed2-823f9393e470/circuit-sparsity-paper.pdf) — *LLM* (2025-11-17)
 <!--CHART_END-->
 
 ## How to add a new paper
