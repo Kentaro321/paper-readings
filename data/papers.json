@@ -1,5 +1,12 @@
 [
   {
+    "title": "1000 Layer Networks for Self-Supervised RL: Scaling Depth Can Enable New Goal-Reaching Capabilities",
+    "category": "RL",
+    "date": "2025-12-01",
+    "link": "https://openreview.net/forum?id=s0JVsx3bx1",
+    "note": "対照強化学習において、従来は4層程度の浅い残差NNが用いられていたが、層数を最大1024まで大きく増加させることで性能を大きく改善できることを示した研究 層数を増加させた際の性能の改善は連続的なものではなく、ある層数以上で急激に改善する形であり、タスクによってその閾値となる層数も異なることが確認された 定性的にも、層数を増やすことで歩行や飛び越えといった複雑な動作が可能になったり、迷路に対して経路を考慮した報酬の割り当てが可能になったりと不連続な変化が生じるとのこと\n"
+  },
+  {
     "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
     "category": "LLM",
     "date": "2025-11-30",

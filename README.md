@@ -30,13 +30,15 @@ Track and visualize your paper reading with auto-updated charts.
 | Dataset (Audio) | 1 |
 | Multimodal Generation | 1 |
 | NV | 1 |
+| RL | 1 |
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **188** |
+| **Total** | **189** |
 
 **Recently read**
 
+- [1000 Layer Networks for Self-Supervised RL: Scaling Depth Can Enable New Goal-Reaching Capabilities](https://openreview.net/forum?id=s0JVsx3bx1) — *RL* (2025-12-01)
 - [Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?](https://openreview.net/pdf?id=4OsgYD7em5) — *LLM* (2025-11-30)
 - [Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)](https://openreview.net/pdf?id=saDOrrnNTz) — *LLM* (2025-11-29)
 - [Why Diffusion Models Don’t Memorize: The Role of Implicit Dynamical Regularization in Training](https://openreview.net/pdf?id=BSZqpqgqM0) — *ML* (2025-11-28)
@@ -46,7 +48,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models](https://arxiv.org/abs/2511.15304) — *LLM* (2025-11-24)
 - [SAM 3D: 3Dfy Anything in Images](https://ai.meta.com/research/publications/sam-3d-3dfy-anything-in-images/) — *Image* (2025-11-21)
 - [CASTELLA: Long Audio Dataset with Captions and Temporal Boundaries](https://arxiv.org/abs/2511.15131) — *Dataset (Audio)* (2025-11-20)
-- [ParaS2S: Benchmarking and Aligning Spoken Language Models for Paralinguistic-aware Speech-to-Speech Interaction](https://arxiv.org/abs/2511.08723) — *Multimodal (T/S)* (2025-11-18)
 <!--CHART_END-->
 
 ## How to add a new paper
