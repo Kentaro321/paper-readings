@@ -1,3 +1,23 @@
+- title: "FocalCodec: Low-Bitrate Speech Coding via Focal Modulation Networks"
+  category: "NAC"
+  date: "2025-12-05"
+  link: "https://openreview.net/pdf?id=7Z3wQSu3mH"
+  note: >
+    効率的な情報圧縮を行う新たなFocal Downscalingモジュールと、画像領域で提案されたBinary Spherical Quantization (BSQ) を組み合わせ、従来以上の低ビットレートで音声を符号化するFocalCodecを提案
+    WavLM-largeの初めの6層からなるEncoderの後段に時間・特徴量軸双方で圧縮を行うCompressorを配置し、大域的・局所的双方の情報を集約可能なFocal Modulationを適用
+    Quantizerを構成するBSQは各次元を2値化する量子化器で、各フレームの特徴量を13次元の潜在特徴量に起因する2^13=8192エントリのコードブックで表現
+    16kHz音声の分析再合成ではdWER (再構成音声と実音声のWERの差分) や話者類似性、コードブック利用率で改善が見られ、音響的・言語的な情報をいずれも保持できていることを確認
+
+- title: "A Scalable Pipeline for Enabling Non-Verbal Speech Generation and Understanding"
+  category: "TTS"
+  date: "2025-12-03"
+  link: "https://arxiv.org/abs/2508.05385"
+  note: >
+    大規模な音声コーパスから、非言語的な発声 (Non-verbal Vocalizations: NVs) を含む音声とその書き起こしを収集するためのパイプラインを提案し、TTS, SUに応用した研究
+    提案パイプラインではEmiliaパイプラインに従って得た単語単位時間情報付き音声データに対し、フレーム単位のNV検出器を適用しNV区間を特定、書き起こしにNVタグを挿入してペアデータを構築
+    上記パイプラインを用いて用いて3.3万時間の音声から131時間3.8万サンプルのNVコーパスNonVerbalSpeech-38Kを構築、公開
+    F5-TTSを用いたTTSの実験では、既存のNVコーパスを用いて微調整した場合と比較して特にデータセットの大部分を占める中国語で改善が見られ、Qwen2-Audioを用いたSUの実験でもWER周りの改善を確認
+
 - title: "1000 Layer Networks for Self-Supervised RL: Scaling Depth Can Enable New Goal-Reaching Capabilities"
   category: "RL"
   date: "2025-12-01"
