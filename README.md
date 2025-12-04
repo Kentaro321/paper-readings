@@ -14,8 +14,8 @@ Track and visualize your paper reading with auto-updated charts.
 |---|---|
 | LLM | 52 |
 | Multimodal (T/S) | 41 |
-| TTS | 25 |
-| NAC | 15 |
+| TTS | 26 |
+| NAC | 16 |
 | Speech | 9 |
 | ML | 8 |
 | ASR | 7 |
@@ -34,10 +34,12 @@ Track and visualize your paper reading with auto-updated charts.
 | Text Embedding | 1 |
 | THG | 1 |
 | TTI | 1 |
-| **Total** | **189** |
+| **Total** | **191** |
 
 **Recently read**
 
+- [FocalCodec: Low-Bitrate Speech Coding via Focal Modulation Networks](https://openreview.net/pdf?id=7Z3wQSu3mH) — *NAC* (2025-12-05)
+- [A Scalable Pipeline for Enabling Non-Verbal Speech Generation and Understanding](https://arxiv.org/abs/2508.05385) — *TTS* (2025-12-03)
 - [1000 Layer Networks for Self-Supervised RL: Scaling Depth Can Enable New Goal-Reaching Capabilities](https://openreview.net/forum?id=s0JVsx3bx1) — *RL* (2025-12-01)
 - [Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?](https://openreview.net/pdf?id=4OsgYD7em5) — *LLM* (2025-11-30)
 - [Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)](https://openreview.net/pdf?id=saDOrrnNTz) — *LLM* (2025-11-29)
@@ -46,8 +48,6 @@ Track and visualize your paper reading with auto-updated charts.
 - [Auden-Voice: General-Purpose Voice Encoder for Speech and Language Understanding](https://arxiv.org/abs/2511.15145) — *Speech* (2025-11-26)
 - [SUNAC: Source-aware Unified Neural Audio Codec](https://arxiv.org/abs/2511.16126) — *NAC* (2025-11-25)
 - [Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models](https://arxiv.org/abs/2511.15304) — *LLM* (2025-11-24)
-- [SAM 3D: 3Dfy Anything in Images](https://ai.meta.com/research/publications/sam-3d-3dfy-anything-in-images/) — *Image* (2025-11-21)
-- [CASTELLA: Long Audio Dataset with Captions and Temporal Boundaries](https://arxiv.org/abs/2511.15131) — *Dataset (Audio)* (2025-11-20)
 <!--CHART_END-->
 
 ## How to add a new paper
